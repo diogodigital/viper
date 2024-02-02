@@ -1,66 +1,72 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<p align="center"><a href="https://viperpro.casino/" target="_blank"><img src="https://uploaddeimagens.com.br/images/004/730/257/full/logo-viper.png?1706895516" width="400" alt="Viper Logo"></a></p>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
 
-## About Laravel
+## Sobre a Viper
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+O Viper é uma plataforma de cassino online desenvolvida utilizando Laravel e Filamentphp. A plataforma oferece uma variedade de funcionalidades, incluindo modelos de remuneração CPA e Revshare, além de integrar os principais provedores de jogos do mercado.
+O cassino tem recursos como:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- Autenticação com Google.
+- Sistema de Afiliados com RevShare e CPA.
+- Integração com Games Slotegrator.
+- Integração com Games Salsa.
+- Integração com Games Fivers, método Seamless
+- Sistema de Notificação.
+- Painel de Controle.
+- Gateway de Pagamento BsPay.
+- Gateway de Pagamento Suitpay.
+- Customização dos Banners e Slide.
+- Painel da Fivers.
+- e outros.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Instalação
 
-## Learning Laravel
+A instalação é bastante simples, seguindo os padrões de projetos do Laravel. Você apenas necessita de um servidor com os [requisitos 
+exigidos para executar um projeto Laravel 10](https://laravel.com/docs/7.x#server-requirements). Abaixo, disponibilizamos alguns vídeos que orientam sobre a configuração da hospedagem VPS para o projeto.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+#### Esse Vídeo vai ensinar como configurar o Cloudflare e o domínio.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+[![Watch the video](https://i9.ytimg.com/vi_webp/OinYqRuF1T4/mq1.webp?sqp=CJzU9K0G&rs=AOn4CLCWQ3E9oPJ26pCkI3JlQZ9JuLRsGw)](https://youtu.be/OinYqRuF1T4)
 
-## Laravel Sponsors
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+#### Esse Vídeo vai ensinar a vocês como configurar uma VPS na hostinger para o projeto.
 
-### Premium Partners
+[![Watch the video](https://i9.ytimg.com/vi_webp/OinYqRuF1T4/mq1.webp?sqp=CJzU9K0G&rs=AOn4CLCWQ3E9oPJ26pCkI3JlQZ9JuLRsGw)](https://youtu.be/9lgv1XSpErE)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
 
-## Contributing
+1. Você precisa definir a URL do seu site no .env, sem a barra
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+```.env
+    APP_URL=seusiteaqui.com
+```
 
-## Code of Conduct
+2. Você também precisa por as credenciais do seu banco de dados.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+```.env
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=nomedodb
+    DB_USERNAME=root
+    DB_PASSWORD=
+```
 
-## Security Vulnerabilities
+3. Tem uma pasta chamada sql, com um arquivo viper.sql, você precisa carregar ele no seu phpMyAdmin
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### Equipe
 
-## License
+- **[Victor Salatiel (Criador)](https://www.instagram.com/victormsalatiel/)**
+- **[Geosimar G (Contribuinte)](https://www.linkedin.com/in/geosimargomes/)**
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+Esta é uma versão simplificada do nosso projeto; contudo, dispomos de outras versões mais avançadas e abrangentes.
+[Siga nossa página para tutoriais e dicas de Igaming](https://www.facebook.com/groups/870751784800439).
+
+
+
+
+
+
+
+
