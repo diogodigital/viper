@@ -1,0 +1,714 @@
+<div id="game-shell" class="game-shell"> 
+        <div id="game-overlay">
+            <div id="game-header-holder"
+                style="z-index: 99; pointer-events: none; position: absolute; height: 640px; width: 360px; visibility: hidden;">
+                <div id="game-title" class="game-title"
+                    style="visibility: hidden; justify-content: flex-start; width: 360px; height: 18px; font-size: 11.5px;">
+                    <div style="padding-left: 12px; display: flex; align-items: center;">Fortune Mouse</div>
+                </div>
+                <div id="time-stamp" class="time_stamp"
+                    style="justify-content: flex-end; height: 18px; font-size: 11.5px; visibility: hidden; width: 360px;">
+                    <div style="padding-right: 12px; display: flex; align-items: center;">11:07:01</div>
+                </div>
+            </div>
+            <div classname="game-rules-container"
+                style="overflow: hidden; text-align: center; color: rgb(136, 136, 136); height: 640px; width: 360px; z-index: 0;">
+                <div class="rules" style="width: 100%; height: 100%;">
+                    <div id="rules-container"
+                        style="transform: translateY(0%); width: 100%; height: 100%; background-color: rgb(48, 48, 60); display: inline-flex; flex-direction: column-reverse;">
+                        <div style="overflow: hidden; height: 100%; transform: translateZ(0px);">
+                            <div class="rcs-custom-scroll ">
+                                <div class="rcs-outer-container">
+                                    <div class="rcs-inner-container" style="margin-right: -20px;">
+                                        <div style="overflow-y: scroll; margin-right: 20px;">
+                                            <div class="rulesContent"
+                                                style="height: 577px; width: 100%; transform: translateZ(0px); color: rgb(204, 204, 204);">
+                                                <div id="rules-segment_game_0" class="rules-segment"
+                                                    style="padding-top: 20px; padding-bottom: 20px;">
+                                                    <div class="rules-title"
+                                                        style="font-size: 14px; line-height: 145%; padding: 0px 20px 8px; color: rgb(255, 255, 255);">
+                                                        Fortune Mouse</div>
+                                                    <div class="rules-text-container"
+                                                        style="font-size: 12px; height: auto; display: flex; flex-direction: row; width: auto; padding-top: 10px; margin-left: 24px; margin-right: 20px; position: relative;">
+                                                        <div class="bullet-indent"
+                                                            style="height: 4px; min-width: 4px; width: 4px; margin-top: 8px; margin-right: 8px; background-color: rgba(213, 212, 217, 0.8);">
+                                                        </div>
+                                                        <div class="text-with-bullet"
+                                                            style="text-align: left; line-height: normal;">Fortune Mouse
+                                                            is a 3-reel, 3-row video slot featuring respins until win.
+                                                        </div>
+                                                    </div>
+                                                    <div class="rules-text-container"
+                                                        style="font-size: 12px; height: auto; display: flex; flex-direction: row; width: auto; padding-top: 10px; margin-left: 24px; margin-right: 20px; position: relative;">
+                                                        <div class="bullet-indent"
+                                                            style="height: 4px; min-width: 4px; width: 4px; margin-top: 8px; margin-right: 8px; background-color: rgba(213, 212, 217, 0.8);">
+                                                        </div>
+                                                        <div class="text-with-bullet"
+                                                            style="text-align: left; line-height: normal;">The game is
+                                                            played with 5 bet lines (fixed), bet level of 1 to 10 and
+                                                            bet size of 0,08K to 40,00K.</div>
+                                                    </div>
+                                                    <div class="rules-text-container"
+                                                        style="font-size: 12px; height: auto; display: flex; flex-direction: row; width: auto; padding-top: 10px; margin-left: 24px; margin-right: 20px; position: relative;">
+                                                        <div class="bullet-indent"
+                                                            style="height: 4px; min-width: 4px; width: 4px; margin-top: 8px; margin-right: 8px; background-color: rgba(213, 212, 217, 0.8);">
+                                                        </div>
+                                                        <div class="text-with-bullet"
+                                                            style="text-align: left; line-height: normal;">The in-game
+                                                            currency is Rp.</div>
+                                                    </div>
+                                                    <div class="rules-text-container"
+                                                        style="font-size: 12px; height: auto; display: flex; flex-direction: row; width: auto; padding-top: 10px; margin-left: 24px; margin-right: 20px; position: relative;">
+                                                        <div class="bullet-indent"
+                                                            style="height: 4px; min-width: 4px; width: 4px; margin-top: 8px; margin-right: 8px; background-color: rgba(213, 212, 217, 0.8);">
+                                                        </div>
+                                                        <div class="text-with-bullet"
+                                                            style="text-align: left; line-height: normal;">The Bet Size
+                                                            is set using the&nbsp;"Bet Size" selector.</div>
+                                                    </div>
+                                                    <div class="rules-text-container"
+                                                        style="font-size: 12px; height: auto; display: flex; flex-direction: row; width: auto; padding-top: 10px; margin-left: 24px; margin-right: 20px; position: relative;">
+                                                        <div class="bullet-indent"
+                                                            style="height: 4px; min-width: 4px; width: 4px; margin-top: 8px; margin-right: 8px; background-color: rgba(213, 212, 217, 0.8);">
+                                                        </div>
+                                                        <div class="text-with-bullet"
+                                                            style="text-align: left; line-height: normal;">The Bet Level
+                                                            is set using the&nbsp;"Bet Level"&nbsp;selector.</div>
+                                                    </div>
+                                                    <div class="rules-text-container"
+                                                        style="font-size: 12px; height: auto; display: flex; flex-direction: row; width: auto; padding-top: 10px; margin-left: 24px; margin-right: 20px; position: relative;">
+                                                        <div class="bullet-indent"
+                                                            style="height: 4px; min-width: 4px; width: 4px; margin-top: 8px; margin-right: 8px; background-color: rgba(213, 212, 217, 0.8);">
+                                                        </div>
+                                                        <div class="text-with-bullet"
+                                                            style="text-align: left; line-height: normal;">The Bet
+                                                            Amount is set using the "Bet Amount" selector.</div>
+                                                    </div>
+                                                    <div class="rules-text-container"
+                                                        style="font-size: 12px; height: auto; display: flex; flex-direction: row; width: auto; padding-top: 10px; margin-left: 24px; margin-right: 20px; position: relative;">
+                                                        <div class="bullet-indent"
+                                                            style="height: 4px; min-width: 4px; width: 4px; margin-top: 8px; margin-right: 8px; background-color: rgba(213, 212, 217, 0.8);">
+                                                        </div>
+                                                        <div class="text-with-bullet"
+                                                            style="text-align: left; line-height: normal;">"Cash Wallet"
+                                                            displays the cash available for wager.</div>
+                                                    </div>
+                                                    <div class="rules-text-container"
+                                                        style="font-size: 12px; height: auto; display: flex; flex-direction: row; width: auto; padding-top: 10px; margin-left: 24px; margin-right: 20px; position: relative;">
+                                                        <div class="bullet-indent"
+                                                            style="height: 4px; min-width: 4px; width: 4px; margin-top: 8px; margin-right: 8px; background-color: rgba(213, 212, 217, 0.8);">
+                                                        </div>
+                                                        <div class="text-with-bullet"
+                                                            style="text-align: left; line-height: normal;">"Auto
+                                                            Spin"&nbsp;automatically plays the game for a selected
+                                                            number of rounds.</div>
+                                                    </div>
+                                                    <div class="rules-text-container"
+                                                        style="font-size: 12px; height: auto; display: flex; flex-direction: row; width: auto; padding-top: 10px; margin-left: 24px; margin-right: 20px; position: relative;">
+                                                        <div class="bullet-indent"
+                                                            style="height: 4px; min-width: 4px; width: 4px; margin-top: 8px; margin-right: 8px; background-color: rgba(213, 212, 217, 0.8);">
+                                                        </div>
+                                                        <div class="text-with-bullet"
+                                                            style="text-align: left; line-height: normal;">Winning
+                                                            combinations and payouts are made according to the
+                                                            "Paytable".</div>
+                                                    </div>
+                                                    <div class="rules-text-container"
+                                                        style="font-size: 12px; height: auto; display: flex; flex-direction: row; width: auto; padding-top: 10px; margin-left: 24px; margin-right: 20px; position: relative;">
+                                                        <div class="bullet-indent"
+                                                            style="height: 4px; min-width: 4px; width: 4px; margin-top: 8px; margin-right: 8px; background-color: rgba(213, 212, 217, 0.8);">
+                                                        </div>
+                                                        <div class="text-with-bullet"
+                                                            style="text-align: left; line-height: normal;">A bet way win
+                                                            in cash is equal to the value shown in the "Paytable"
+                                                            multiplied by the bet size and bet level.</div>
+                                                    </div>
+                                                    <div class="rules-text-container"
+                                                        style="font-size: 12px; height: auto; display: flex; flex-direction: row; width: auto; padding-top: 10px; margin-left: 24px; margin-right: 20px; position: relative;">
+                                                        <div class="bullet-indent"
+                                                            style="height: 4px; min-width: 4px; width: 4px; margin-top: 8px; margin-right: 8px; background-color: rgba(213, 212, 217, 0.8);">
+                                                        </div>
+                                                        <div class="text-with-bullet"
+                                                            style="text-align: left; line-height: normal;">Only the
+                                                            highest win per bet line is paid.</div>
+                                                    </div>
+                                                    <div class="rules-text-container"
+                                                        style="font-size: 12px; height: auto; display: flex; flex-direction: row; width: auto; padding-top: 10px; margin-left: 24px; margin-right: 20px; position: relative;">
+                                                        <div class="bullet-indent"
+                                                            style="height: 4px; min-width: 4px; width: 4px; margin-top: 8px; margin-right: 8px; background-color: rgba(213, 212, 217, 0.8);">
+                                                        </div>
+                                                        <div class="text-with-bullet"
+                                                            style="text-align: left; line-height: normal;">Bet lines win
+                                                            if the winning symbols are in succession from the leftmost
+                                                            reel to the right.</div>
+                                                    </div>
+                                                    <div class="rules-text-container"
+                                                        style="font-size: 12px; height: auto; display: flex; flex-direction: row; width: auto; padding-top: 10px; margin-left: 24px; margin-right: 20px; position: relative;">
+                                                        <div class="bullet-indent"
+                                                            style="height: 4px; min-width: 4px; width: 4px; margin-top: 8px; margin-right: 8px; background-color: rgba(213, 212, 217, 0.8);">
+                                                        </div>
+                                                        <div class="text-with-bullet"
+                                                            style="text-align: left; line-height: normal;">Simultaneous
+                                                            wins on different bet lines are added.</div>
+                                                    </div>
+                                                    <div class="rules-text-container"
+                                                        style="font-size: 12px; height: auto; display: flex; flex-direction: row; width: auto; padding-top: 10px; margin-left: 24px; margin-right: 20px; position: relative;">
+                                                        <div class="bullet-indent"
+                                                            style="height: 4px; min-width: 4px; width: 4px; margin-top: 8px; margin-right: 8px; background-color: rgba(213, 212, 217, 0.8);">
+                                                        </div>
+                                                        <div class="text-with-bullet"
+                                                            style="text-align: left; line-height: normal;">All wins
+                                                            shown in cash.</div>
+                                                    </div>
+                                                    <div class="rules-text-container"
+                                                        style="font-size: 12px; height: auto; display: flex; flex-direction: row; width: auto; padding-top: 10px; margin-left: 24px; margin-right: 20px; position: relative;">
+                                                        <div class="bullet-indent"
+                                                            style="height: 4px; min-width: 4px; width: 4px; margin-top: 8px; margin-right: 8px; background-color: rgba(213, 212, 217, 0.8);">
+                                                        </div>
+                                                        <div class="text-with-bullet"
+                                                            style="text-align: left; line-height: normal;">Wild symbol
+                                                            substitutes for all symbols.</div>
+                                                    </div>
+                                                </div>
+                                                <div class="rules-seperator"
+                                                    style="width: 100%; height: 1px; background-color: rgb(40, 40, 52);">
+                                                </div>
+                                                <div id="rules-segment_game_1" class="rules-segment"
+                                                    style="padding-top: 20px; padding-bottom: 20px;">
+                                                    <div class="rules-title"
+                                                        style="font-size: 14px; line-height: 145%; padding: 0px 20px 8px; color: rgb(255, 255, 255);">
+                                                        Fortune Mouse Feature</div>
+                                                    <div class="rules-text-container"
+                                                        style="font-size: 12px; height: auto; display: flex; flex-direction: row; width: auto; padding-top: 10px; margin-left: 24px; margin-right: 20px; position: relative;">
+                                                        <div class="bullet-indent"
+                                                            style="height: 4px; min-width: 4px; width: 4px; margin-top: 8px; margin-right: 8px; background-color: rgba(213, 212, 217, 0.8);">
+                                                        </div>
+                                                        <div class="text-with-bullet"
+                                                            style="text-align: left; line-height: normal;">During any
+                                                            spin, 3 Wild symbols may be added to the middle reel while
+                                                            the reels are spinning.</div>
+                                                    </div>
+                                                    <div class="rules-text-container"
+                                                        style="font-size: 12px; height: auto; display: flex; flex-direction: row; width: auto; padding-top: 10px; margin-left: 24px; margin-right: 20px; position: relative;">
+                                                        <div class="bullet-indent"
+                                                            style="height: 4px; min-width: 4px; width: 4px; margin-top: 8px; margin-right: 8px; background-color: rgba(213, 212, 217, 0.8);">
+                                                        </div>
+                                                        <div class="text-with-bullet"
+                                                            style="text-align: left; line-height: normal;">The first and
+                                                            third reel will respin until there is a win.</div>
+                                                    </div>
+                                                </div>
+                                                <div class="rules-seperator"
+                                                    style="width: 100%; height: 1px; background-color: rgb(40, 40, 52);">
+                                                </div>
+                                                <div id="rules-segment_game_2" class="rules-segment"
+                                                    style="padding-top: 20px; padding-bottom: 20px;">
+                                                    <div class="rules-title"
+                                                        style="font-size: 14px; line-height: 145%; padding: 0px 20px 8px; color: rgb(255, 255, 255);">
+                                                        Maximum Win</div>
+                                                    <div class="rules-text-container"
+                                                        style="font-size: 12px; height: auto; display: flex; flex-direction: row; width: auto; padding-top: 10px; margin-left: 24px; margin-right: 20px; position: relative;">
+                                                        <div class="bullet-indent"
+                                                            style="height: 4px; min-width: 4px; width: 4px; margin-top: 8px; margin-right: 8px; background-color: rgba(213, 212, 217, 0.8);">
+                                                        </div>
+                                                        <div class="text-with-bullet"
+                                                            style="text-align: left; line-height: normal;">When Wild
+                                                            symbols occupy all of the reels, 1000x of the total bet
+                                                            amount is awarded.</div>
+                                                    </div>
+                                                </div>
+                                                <div class="rules-seperator"
+                                                    style="width: 100%; height: 1px; background-color: rgb(40, 40, 52);">
+                                                </div>
+                                                <div id="rules-segment_shared_1" class="rules-segment"
+                                                    style="padding-top: 20px; padding-bottom: 20px;">
+                                                    <div class="rules-title"
+                                                        style="font-size: 14px; line-height: 145%; padding: 0px 20px 8px; color: rgb(255, 255, 255);">
+                                                        Main Game</div>
+                                                    <div class="rules-text-container"
+                                                        style="font-size: 12px; height: auto; display: flex; flex-direction: row; width: auto; padding-top: 10px; margin-left: 24px; margin-right: 20px; position: relative;">
+                                                        <div class="rules_img btn_start"
+                                                            style="margin-right: 20px; transform: scale(1) translate(0px, 0px); background-position: -0.444444px -0.444444px; background-size: 65.7778px 32.8889px; min-width: 32px; min-height: 32px; width: 32px; height: 32px;">
+                                                        </div>
+                                                        <div
+                                                            style="display: flex; flex-direction: column; flex: 1 1 0%;">
+                                                            <div
+                                                                style="text-align: left; line-height: 16px; margin-left: 12px;">
+                                                                Spin</div>
+                                                            <div
+                                                                style="display: flex; flex-direction: row; padding-top: 2px;">
+                                                                <div class="bullet_indent"
+                                                                    style="height: 4px; min-width: 4px; width: 4px; margin-top: 8px; margin-right: 8px; background-color: rgba(213, 212, 217, 0.8);">
+                                                                </div>
+                                                                <div class="text-with-bullet"
+                                                                    style="text-align: left; line-height: normal;">Tap
+                                                                    to start spin at the current Base Bet, Bet Size and
+                                                                    Bet Level.</div>
+                                                            </div>
+                                                            <div
+                                                                style="display: flex; flex-direction: row; padding-top: 2px;">
+                                                                <div class="bullet_indent"
+                                                                    style="height: 4px; min-width: 4px; width: 4px; margin-top: 8px; margin-right: 8px; background-color: rgba(213, 212, 217, 0.8);">
+                                                                </div>
+                                                                <div class="text-with-bullet"
+                                                                    style="text-align: left; line-height: normal;">Tap
+                                                                    the button or the game area during a spin to stop
+                                                                    the reels.</div>
+                                                            </div>
+                                                            <div
+                                                                style="display: flex; flex-direction: row; padding-top: 2px;">
+                                                                <div class="bullet_indent"
+                                                                    style="height: 4px; min-width: 4px; width: 4px; margin-top: 8px; margin-right: 8px; background-color: rgba(213, 212, 217, 0.8);">
+                                                                </div>
+                                                                <div class="text-with-bullet"
+                                                                    style="text-align: left; line-height: normal;">Press
+                                                                    the &lt;Space&gt; key to start spin at the current
+                                                                    Base Bet, Bet Size and Bet Level. (applicable to PC
+                                                                    version only)</div>
+                                                            </div>
+                                                            <div
+                                                                style="display: flex; flex-direction: row; padding-top: 2px;">
+                                                                <div class="bullet_indent"
+                                                                    style="height: 4px; min-width: 4px; width: 4px; margin-top: 8px; margin-right: 8px; background-color: rgba(213, 212, 217, 0.8);">
+                                                                </div>
+                                                                <div class="text-with-bullet"
+                                                                    style="text-align: left; line-height: normal;">Press
+                                                                    and Hold &lt;Space&gt; key will continue game spins
+                                                                    until it is released. (applicable to PC version
+                                                                    only)</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="rules-text-container"
+                                                        style="font-size: 12px; height: auto; display: flex; flex-direction: row; width: auto; padding-top: 10px; margin-left: 24px; margin-right: 20px; position: relative;">
+                                                        <div class="rules_img btn_stop"
+                                                            style="margin-right: 20px; transform: scale(1) translate(0px, 0px); background-position: -33.3333px -0.444444px; background-size: 65.7778px 32.8889px; min-width: 32px; min-height: 32px; width: 32px; height: 32px;">
+                                                        </div>
+                                                        <div
+                                                            style="display: flex; flex-direction: column; flex: 1 1 0%;">
+                                                            <div
+                                                                style="text-align: left; line-height: 16px; margin-left: 12px;">
+                                                                Stop</div>
+                                                            <div
+                                                                style="display: flex; flex-direction: row; padding-top: 2px;">
+                                                                <div class="bullet_indent"
+                                                                    style="height: 4px; min-width: 4px; width: 4px; margin-top: 8px; margin-right: 8px; background-color: rgba(213, 212, 217, 0.8);">
+                                                                </div>
+                                                                <div class="text-with-bullet"
+                                                                    style="text-align: left; line-height: normal;">Tap
+                                                                    to stop Auto Spin. The number on the button
+                                                                    indicates the remaining number of spins for Auto
+                                                                    Spin.</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="rules-text-container"
+                                                        style="font-size: 12px; height: auto; display: flex; flex-direction: row; width: auto; padding-top: 10px; margin-left: 24px; margin-right: 20px; position: relative;">
+                                                        <div class="game-rules-tinted-sprite game-rules-btn_minus"
+                                                            style="margin-right: 20px; opacity: 1; transform: scale(1) translate(0px, 0px); background-position: -0.296296px -32.8889px; background-size: 125.037px 148.741px; min-width: 32px; min-height: 32px; width: 32px; height: 32px;">
+                                                        </div>
+                                                        <div
+                                                            style="display: flex; flex-direction: column; flex: 1 1 0%;">
+                                                            <div
+                                                                style="text-align: left; line-height: 16px; margin-left: 12px;">
+                                                                Minus</div>
+                                                            <div
+                                                                style="display: flex; flex-direction: row; padding-top: 2px;">
+                                                                <div class="bullet_indent"
+                                                                    style="height: 4px; min-width: 4px; width: 4px; margin-top: 8px; margin-right: 8px; background-color: rgba(213, 212, 217, 0.8);">
+                                                                </div>
+                                                                <div class="text-with-bullet"
+                                                                    style="text-align: left; line-height: normal;">Tap
+                                                                    to reduce the Bet Amount.</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="rules-text-container"
+                                                        style="font-size: 12px; height: auto; display: flex; flex-direction: row; width: auto; padding-top: 10px; margin-left: 24px; margin-right: 20px; position: relative;">
+                                                        <div class="game-rules-tinted-sprite game-rules-btn_add"
+                                                            style="margin-right: 20px; opacity: 1; transform: scale(1) translate(0px, 0px); background-position: -0.296296px -0.296296px; background-size: 125.037px 148.741px; min-width: 32px; min-height: 32px; width: 32px; height: 32px;">
+                                                        </div>
+                                                        <div
+                                                            style="display: flex; flex-direction: column; flex: 1 1 0%;">
+                                                            <div
+                                                                style="text-align: left; line-height: 16px; margin-left: 12px;">
+                                                                Plus</div>
+                                                            <div
+                                                                style="display: flex; flex-direction: row; padding-top: 2px;">
+                                                                <div class="bullet_indent"
+                                                                    style="height: 4px; min-width: 4px; width: 4px; margin-top: 8px; margin-right: 8px; background-color: rgba(213, 212, 217, 0.8);">
+                                                                </div>
+                                                                <div class="text-with-bullet"
+                                                                    style="text-align: left; line-height: normal;">Tap
+                                                                    to increase the Bet Amount.</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="rules-text-container"
+                                                        style="font-size: 12px; height: auto; display: flex; flex-direction: row; width: auto; padding-top: 10px; margin-left: 24px; margin-right: 20px; position: relative;">
+                                                        <div class="game-rules-tinted-sprite game-rules-ic_wallet_open"
+                                                            style="margin-right: 20px; opacity: 1; transform: scale(1) translate(0px, 0px); background-position: -99.7333px -235.2px; background-size: 225.067px 267.733px; min-width: 32px; min-height: 32px; width: 32px; height: 32px;">
+                                                        </div>
+                                                        <div
+                                                            style="display: flex; flex-direction: column; flex: 1 1 0%;">
+                                                            <div
+                                                                style="text-align: left; line-height: 16px; margin-left: 12px;">
+                                                                Wallet Balance</div>
+                                                            <div
+                                                                style="display: flex; flex-direction: row; padding-top: 2px;">
+                                                                <div class="bullet_indent"
+                                                                    style="height: 4px; min-width: 4px; width: 4px; margin-top: 8px; margin-right: 8px; background-color: rgba(213, 212, 217, 0.8);">
+                                                                </div>
+                                                                <div class="text-with-bullet"
+                                                                    style="text-align: left; line-height: normal;">Tap
+                                                                    to display the balance of available wallets.</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="rules-text-container"
+                                                        style="font-size: 12px; height: auto; display: flex; flex-direction: row; width: auto; padding-top: 10px; margin-left: 24px; margin-right: 20px; position: relative;">
+                                                        <div class="game-rules-tinted-sprite game-rules-ic_chip"
+                                                            style="margin-right: 20px; opacity: 1; transform: scale(1) translate(0px, 0px); background-position: -176.533px -122.133px; background-size: 225.067px 267.733px; min-width: 32px; min-height: 32px; width: 32px; height: 32px;">
+                                                        </div>
+                                                        <div
+                                                            style="display: flex; flex-direction: column; flex: 1 1 0%;">
+                                                            <div
+                                                                style="text-align: left; line-height: 16px; margin-left: 12px;">
+                                                                Bet Amount</div>
+                                                            <div
+                                                                style="display: flex; flex-direction: row; padding-top: 2px;">
+                                                                <div class="bullet_indent"
+                                                                    style="height: 4px; min-width: 4px; width: 4px; margin-top: 8px; margin-right: 8px; background-color: rgba(213, 212, 217, 0.8);">
+                                                                </div>
+                                                                <div class="text-with-bullet"
+                                                                    style="text-align: left; line-height: normal;">Tap
+                                                                    to display the Bet Options.</div>
+                                                            </div>
+                                                            <div
+                                                                style="display: flex; flex-direction: row; padding-top: 2px;">
+                                                                <div class="bullet_indent"
+                                                                    style="height: 4px; min-width: 4px; width: 4px; margin-top: 8px; margin-right: 8px; background-color: rgba(213, 212, 217, 0.8);">
+                                                                </div>
+                                                                <div class="text-with-bullet"
+                                                                    style="text-align: left; line-height: normal;">Bet
+                                                                    Size: Scroll to select the Bet Size.</div>
+                                                            </div>
+                                                            <div
+                                                                style="display: flex; flex-direction: row; padding-top: 2px;">
+                                                                <div class="bullet_indent"
+                                                                    style="height: 4px; min-width: 4px; width: 4px; margin-top: 8px; margin-right: 8px; background-color: rgba(213, 212, 217, 0.8);">
+                                                                </div>
+                                                                <div class="text-with-bullet"
+                                                                    style="text-align: left; line-height: normal;">Bet
+                                                                    Level: Scroll to select the Bet Level.</div>
+                                                            </div>
+                                                            <div
+                                                                style="display: flex; flex-direction: row; padding-top: 2px;">
+                                                                <div class="bullet_indent"
+                                                                    style="height: 4px; min-width: 4px; width: 4px; margin-top: 8px; margin-right: 8px; background-color: rgba(213, 212, 217, 0.8);">
+                                                                </div>
+                                                                <div class="text-with-bullet"
+                                                                    style="text-align: left; line-height: normal;">Bet
+                                                                    Amount: Scroll to select the Bet Amount.</div>
+                                                            </div>
+                                                            <div
+                                                                style="display: flex; flex-direction: row; padding-top: 2px;">
+                                                                <div class="bullet_indent"
+                                                                    style="height: 4px; min-width: 4px; width: 4px; margin-top: 8px; margin-right: 8px; background-color: rgba(213, 212, 217, 0.8);">
+                                                                </div>
+                                                                <div class="text-with-bullet"
+                                                                    style="text-align: left; line-height: normal;">Max
+                                                                    Bet: Tap to set Bet Size and Bet Level to maximum
+                                                                    value.</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="rules-text-container"
+                                                        style="font-size: 12px; height: auto; display: flex; flex-direction: row; width: auto; padding-top: 10px; margin-left: 24px; margin-right: 20px; position: relative;">
+                                                        <div class="game-rules-tinted-sprite game-rules-ic_win"
+                                                            style="margin-right: 20px; opacity: 1; transform: scale(1) translate(0px, 0px); background-position: -132.8px -235.2px; background-size: 225.067px 267.733px; min-width: 32px; min-height: 32px; width: 32px; height: 32px;">
+                                                        </div>
+                                                        <div
+                                                            style="display: flex; flex-direction: column; flex: 1 1 0%;">
+                                                            <div
+                                                                style="text-align: left; line-height: 16px; margin-left: 12px;">
+                                                                Win Amount</div>
+                                                            <div
+                                                                style="display: flex; flex-direction: row; padding-top: 2px;">
+                                                                <div class="bullet_indent"
+                                                                    style="height: 4px; min-width: 4px; width: 4px; margin-top: 8px; margin-right: 8px; background-color: rgba(213, 212, 217, 0.8);">
+                                                                </div>
+                                                                <div class="text-with-bullet"
+                                                                    style="text-align: left; line-height: normal;">Tap
+                                                                    to display the Game History.</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="rules-text-container"
+                                                        style="font-size: 12px; height: auto; display: flex; flex-direction: row; width: auto; padding-top: 10px; margin-left: 24px; margin-right: 20px; position: relative;">
+                                                        <div class="game-rules-tinted-sprite game-rules-center_autoplay"
+                                                            style="margin-right: 20px; opacity: 1; transform: scale(1) translate(0px, 0px); background-position: -0.296296px -65.4815px; background-size: 125.037px 148.741px; min-width: 32px; min-height: 32px; width: 32px; height: 32px;">
+                                                        </div>
+                                                        <div class="game-rules-tinted-sprite game-rules-txt_auto"
+                                                            style="margin-right: 20px; opacity: 1; transform: scale(1) translate(0px, 0px); background-position: -65.4815px -65.4815px; background-size: 125.037px 148.741px; min-width: 32px; min-height: 32px; width: 32px; height: 32px;">
+                                                        </div>
+                                                        <div
+                                                            style="display: flex; flex-direction: column; flex: 1 1 0%;">
+                                                            <div
+                                                                style="text-align: left; line-height: 16px; margin-left: 12px;">
+                                                                Auto Spin</div>
+                                                            <div
+                                                                style="display: flex; flex-direction: row; padding-top: 2px;">
+                                                                <div class="bullet_indent"
+                                                                    style="height: 4px; min-width: 4px; width: 4px; margin-top: 8px; margin-right: 8px; background-color: rgba(213, 212, 217, 0.8);">
+                                                                </div>
+                                                                <div class="text-with-bullet"
+                                                                    style="text-align: left; line-height: normal;">Auto
+                                                                    Spin automatically plays the game for a selected
+                                                                    number of spins.</div>
+                                                            </div>
+                                                            <div
+                                                                style="display: flex; flex-direction: row; padding-top: 2px;">
+                                                                <div class="bullet_indent"
+                                                                    style="height: 4px; min-width: 4px; width: 4px; margin-top: 8px; margin-right: 8px; background-color: rgba(213, 212, 217, 0.8);">
+                                                                </div>
+                                                                <div class="text-with-bullet"
+                                                                    style="text-align: left; line-height: normal;">Tap
+                                                                    on the values to select number of Auto Spins.</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="rules-text-container"
+                                                        style="font-size: 12px; height: auto; display: flex; flex-direction: row; width: auto; padding-top: 10px; margin-left: 24px; margin-right: 20px; position: relative;">
+                                                        <div class="game-rules-tinted-sprite game-rules-center_turbo_on"
+                                                            style="margin-right: 20px; opacity: 1; transform: scale(1) translate(0px, 0px); background-position: -0.296296px -98.0741px; background-size: 125.037px 148.741px; min-width: 32px; min-height: 32px; width: 32px; height: 32px;">
+                                                        </div>
+                                                        <div class="game-rules-tinted-sprite game-rules-txt_turbo_on"
+                                                            style="margin-right: 20px; opacity: 1; transform: scale(1) translate(0px, 0px); background-position: -65.4815px -98.0741px; background-size: 125.037px 148.741px; min-width: 32px; min-height: 32px; width: 32px; height: 32px;">
+                                                        </div>
+                                                        <div
+                                                            style="display: flex; flex-direction: column; flex: 1 1 0%;">
+                                                            <div
+                                                                style="text-align: left; line-height: 16px; margin-left: 12px;">
+                                                                Turbo Spin</div>
+                                                            <div
+                                                                style="display: flex; flex-direction: row; padding-top: 2px;">
+                                                                <div class="bullet_indent"
+                                                                    style="height: 4px; min-width: 4px; width: 4px; margin-top: 8px; margin-right: 8px; background-color: rgba(213, 212, 217, 0.8);">
+                                                                </div>
+                                                                <div class="text-with-bullet"
+                                                                    style="text-align: left; line-height: normal;">Tap
+                                                                    to enable or disable the Turbo Spin to reduce the
+                                                                    duration of reel spins in the main game.</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="rules-text-container"
+                                                        style="font-size: 12px; height: auto; display: flex; flex-direction: row; width: auto; padding-top: 10px; margin-left: 24px; margin-right: 20px; position: relative;">
+                                                        <div class="game-rules-sprite game-rules-btn_menu"
+                                                            style="margin-right: 20px; opacity: 1; transform: scale(1) translate(0px, 0px); background-position: -117.689px -0.355556px; background-size: 150.044px 178.489px; min-width: 32px; min-height: 32px; width: 32px; height: 32px;">
+                                                        </div>
+                                                        <div
+                                                            style="display: flex; flex-direction: column; flex: 1 1 0%;">
+                                                            <div
+                                                                style="text-align: left; line-height: 16px; margin-left: 12px;">
+                                                                More Settings</div>
+                                                            <div
+                                                                style="display: flex; flex-direction: row; padding-top: 2px;">
+                                                                <div class="bullet_indent"
+                                                                    style="height: 4px; min-width: 4px; width: 4px; margin-top: 8px; margin-right: 8px; background-color: rgba(213, 212, 217, 0.8);">
+                                                                </div>
+                                                                <div class="text-with-bullet"
+                                                                    style="text-align: left; line-height: normal;">Tap
+                                                                    to access additional settings.</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="rules-text-container"
+                                                        style="font-size: 12px; height: auto; display: flex; flex-direction: row; width: auto; padding-top: 10px; margin-left: 24px; margin-right: 20px; position: relative;">
+                                                        <div class="game-rules-tinted-sprite game-rules-ic_soundon"
+                                                            style="margin-right: 20px; opacity: 1; transform: scale(1) translate(0px, 0px); background-position: -65.4815px -32.8889px; background-size: 125.037px 148.741px; min-width: 32px; min-height: 32px; width: 32px; height: 32px;">
+                                                        </div>
+                                                        <div
+                                                            style="display: flex; flex-direction: column; flex: 1 1 0%;">
+                                                            <div
+                                                                style="text-align: left; line-height: 16px; margin-left: 12px;">
+                                                                Sound</div>
+                                                            <div
+                                                                style="display: flex; flex-direction: row; padding-top: 2px;">
+                                                                <div class="bullet_indent"
+                                                                    style="height: 4px; min-width: 4px; width: 4px; margin-top: 8px; margin-right: 8px; background-color: rgba(213, 212, 217, 0.8);">
+                                                                </div>
+                                                                <div class="text-with-bullet"
+                                                                    style="text-align: left; line-height: normal;">Tap
+                                                                    to turn sound ON or OFF.</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="rules-text-container"
+                                                        style="font-size: 12px; height: auto; display: flex; flex-direction: row; width: auto; padding-top: 10px; margin-left: 24px; margin-right: 20px; position: relative;">
+                                                        <div class="game-rules-tinted-sprite game-rules-ic_paytable"
+                                                            style="margin-right: 20px; opacity: 1; transform: scale(1) translate(0px, 0px); background-position: -32.8889px -98.0741px; background-size: 125.037px 148.741px; min-width: 32px; min-height: 32px; width: 32px; height: 32px;">
+                                                        </div>
+                                                        <div
+                                                            style="display: flex; flex-direction: column; flex: 1 1 0%;">
+                                                            <div
+                                                                style="text-align: left; line-height: 16px; margin-left: 12px;">
+                                                                Paytable</div>
+                                                            <div
+                                                                style="display: flex; flex-direction: row; padding-top: 2px;">
+                                                                <div class="bullet_indent"
+                                                                    style="height: 4px; min-width: 4px; width: 4px; margin-top: 8px; margin-right: 8px; background-color: rgba(213, 212, 217, 0.8);">
+                                                                </div>
+                                                                <div class="text-with-bullet"
+                                                                    style="text-align: left; line-height: normal;">Shows
+                                                                    winning combinations and paytable.</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="rules-text-container"
+                                                        style="font-size: 12px; height: auto; display: flex; flex-direction: row; width: auto; padding-top: 10px; margin-left: 24px; margin-right: 20px; position: relative;">
+                                                        <div class="game-rules-tinted-sprite game-rules-ic_rule"
+                                                            style="margin-right: 20px; opacity: 1; transform: scale(1) translate(0px, 0px); background-position: -65.4815px -0.296296px; background-size: 125.037px 148.741px; min-width: 32px; min-height: 32px; width: 32px; height: 32px;">
+                                                        </div>
+                                                        <div
+                                                            style="display: flex; flex-direction: column; flex: 1 1 0%;">
+                                                            <div
+                                                                style="text-align: left; line-height: 16px; margin-left: 12px;">
+                                                                Rules</div>
+                                                            <div
+                                                                style="display: flex; flex-direction: row; padding-top: 2px;">
+                                                                <div class="bullet_indent"
+                                                                    style="height: 4px; min-width: 4px; width: 4px; margin-top: 8px; margin-right: 8px; background-color: rgba(213, 212, 217, 0.8);">
+                                                                </div>
+                                                                <div class="text-with-bullet"
+                                                                    style="text-align: left; line-height: normal;">Shows
+                                                                    the game rules and button functions.</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="rules-text-container"
+                                                        style="font-size: 12px; height: auto; display: flex; flex-direction: row; width: auto; padding-top: 10px; margin-left: 24px; margin-right: 20px; position: relative;">
+                                                        <div class="game-rules-tinted-sprite game-rules-ic_hist"
+                                                            style="margin-right: 20px; opacity: 1; transform: scale(1) translate(0px, 0px); background-position: -32.8889px -32.8889px; background-size: 125.037px 148.741px; min-width: 32px; min-height: 32px; width: 32px; height: 32px;">
+                                                        </div>
+                                                        <div
+                                                            style="display: flex; flex-direction: column; flex: 1 1 0%;">
+                                                            <div
+                                                                style="text-align: left; line-height: 16px; margin-left: 12px;">
+                                                                History</div>
+                                                            <div
+                                                                style="display: flex; flex-direction: row; padding-top: 2px;">
+                                                                <div class="bullet_indent"
+                                                                    style="height: 4px; min-width: 4px; width: 4px; margin-top: 8px; margin-right: 8px; background-color: rgba(213, 212, 217, 0.8);">
+                                                                </div>
+                                                                <div class="text-with-bullet"
+                                                                    style="text-align: left; line-height: normal;">Shows
+                                                                    details of the previous games played. Scroll down to
+                                                                    the end to load more records.</div>
+                                                            </div>
+                                                            <div
+                                                                style="display: flex; flex-direction: row; padding-top: 2px;">
+                                                                <div class="bullet_indent"
+                                                                    style="height: 4px; min-width: 4px; width: 4px; margin-top: 14px; margin-right: 8px; background-color: rgba(213, 212, 217, 0.8);">
+                                                                </div>
+                                                                <div class="text-with-bullet"
+                                                                    style="text-align: left; line-height: normal;">Tap
+                                                                    <div class="game-rules-sprite game-rules-ic_nav_calender"
+                                                                        style="background-position: -30.8333px -61.3889px; background-size: 117.222px 139.444px; min-width: 30px; min-height: 30px; width: 30px; height: 30px;">
+                                                                    </div>to select the dates of games to be shown in
+                                                                    History.</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="rules-text-container"
+                                                        style="font-size: 12px; height: auto; display: flex; flex-direction: row; width: auto; padding-top: 10px; margin-left: 24px; margin-right: 20px; position: relative;">
+                                                        <div class="game-rules-sprite game-rules-ic_close"
+                                                            style="margin-right: 20px; opacity: 1; transform: scale(1) translate(0px, 0px); background-position: -32.8889px -0.296296px; background-size: 125.037px 148.741px; min-width: 32px; min-height: 32px; width: 32px; height: 32px;">
+                                                        </div>
+                                                        <div
+                                                            style="display: flex; flex-direction: column; flex: 1 1 0%;">
+                                                            <div
+                                                                style="text-align: left; line-height: 16px; margin-left: 12px;">
+                                                                Close</div>
+                                                            <div
+                                                                style="display: flex; flex-direction: row; padding-top: 2px;">
+                                                                <div class="bullet_indent"
+                                                                    style="height: 4px; min-width: 4px; width: 4px; margin-top: 8px; margin-right: 8px; background-color: rgba(213, 212, 217, 0.8);">
+                                                                </div>
+                                                                <div class="text-with-bullet"
+                                                                    style="text-align: left; line-height: normal;">Tap
+                                                                    to return to the Main Game.</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="rules-seperator"
+                                                    style="width: 100%; height: 1px; background-color: rgb(40, 40, 52);">
+                                                </div>
+                                                <div id="rules-segment_shared_3" class="rules-segment"
+                                                    style="padding-top: 20px; padding-bottom: 20px;">
+                                                    <div class="rules-title"
+                                                        style="font-size: 14px; line-height: 145%; padding: 0px 20px 8px; color: rgb(255, 255, 255);">
+                                                        Additional Information</div>
+                                                    <div class="rules-text-container"
+                                                        style="font-size: 12px; height: auto; display: flex; flex-direction: row; width: auto; padding-top: 10px; margin-left: 24px; margin-right: 20px; position: relative;">
+                                                        <div class="text-with-bullet"
+                                                            style="text-align: left; line-height: normal;">The game will
+                                                            automatically return to its initial state after being idle
+                                                            for 90 days. Progress and status of any collection games,
+                                                            unfinished free games, and unfinished feature games etc will
+                                                            no longer be retained.</div>
+                                                    </div>
+                                                    <div class="rules-text-container"
+                                                        style="font-size: 12px; height: auto; display: flex; flex-direction: row; width: auto; padding-top: 10px; margin-left: 24px; margin-right: 20px; position: relative;">
+                                                        <div class="text-with-bullet"
+                                                            style="text-align: left; line-height: normal;">Malfunction
+                                                            voids all pays and plays.</div>
+                                                    </div>
+                                                    <div class="rules-text-container"
+                                                        style="font-size: 12px; height: auto; display: flex; flex-direction: row; width: auto; padding-top: 10px; margin-left: 24px; margin-right: 20px; position: relative;">
+                                                        <div class="text-with-bullet"
+                                                            style="text-align: left; line-height: normal;">In the event
+                                                            of disputes over game results, all game results that are
+                                                            shown in the game history page are absolute and final.</div>
+                                                    </div>
+                                                </div>
+                                                <div class="rules-seperator"
+                                                    style="width: 100%; height: 1px; background-color: rgb(40, 40, 52);">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="width: inherit;">
+                            <div
+                                style="display: flex; flex-direction: row; justify-content: space-between; align-items: center; padding: 10px 11px; height: 43px; background-color: rgb(40, 40, 52); color: rgb(185, 124, 52);">
+                                <div class="paytable-rules-button-container" style="width: 25px; height: 25px;"></div>
+                                <div
+                                    style="white-space: nowrap; text-overflow: ellipsis; overflow: hidden; max-width: 70%; text-align: center; font-size: 18px; padding-top: 0px;">
+                                    Game Rules</div>
+                                <div class="paytable-rules-button-container"
+                                    style="width: 25px; height: 25px; padding-top: 0px;">
+                                    <div class="paytable-rules-dismiss-button" tabindex="-1"
+                                        style="display: flex; flex-direction: column; place-content: center; width: inherit; height: inherit;">
+                                        <div class="cross-stroke left"
+                                            style="position: absolute; width: inherit; height: 1px; background-color: rgb(150, 150, 150); transition: all 0.3s ease 0s; transform: rotate(45deg);">
+                                        </div>
+                                        <div class="cross-stroke right"
+                                            style="position: absolute; width: inherit; height: 1px; background-color: rgb(150, 150, 150); transition: all 0.3s ease 0s; transform: rotate(135deg);">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                style="width: inherit; height: 2px; opacity: 0.25; background-image: linear-gradient(black, transparent);">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

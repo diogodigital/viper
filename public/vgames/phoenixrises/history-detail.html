@@ -1,0 +1,364 @@
+    <div id="game-shell" class="game-shell">
+
+        <div id="game-overlay">
+
+            <div id="game-history-container"
+                style="overflow: hidden; visibility: visible; height: 640px; width: 360px; transform: scale(1); position: relative; z-index: 0;">
+                <div id="container-view" style="overflow: hidden;">
+                    <div style="top: 0%; left: 0px; position: absolute; width: inherit; height: inherit;">
+                        <div id="game-list-view" class="game-list-view-container"
+                            style="background-color: rgb(48, 48, 59);">
+
+
+                            <div
+                                style="left: 0%; top: 0px; position: absolute; width: inherit; height: inherit; z-index: 3;">
+                                <div id="game-details-view-container"
+                                    style="background-color: rgb(48, 48, 59); color: rgba(255, 255, 255, 0.6); overflow: hidden; -webkit-font-smoothing: antialiased;">
+                                    <div id="game-detail-view-navbar-container" class=""
+                                        style="height: 62px; padding-top: 0px; background-color: rgb(36, 36, 46);">
+                                        <div style="position: absolute; z-index: 4; height: inherit; width: inherit;">
+                                            <div id="game-list-nav" style="background-color: rgb(36, 36, 46);">
+                                                <div id="game-list-nav-bar" class="game-list-nav-bar-vertical"
+                                                    style="height: calc(100% - 2px);">
+                                                    <div
+                                                        class="game-list-nav-image-container game-list-nav-image-container-slot back-report">
+                                                        <div id="game-list-nav-image-left" class="game-list-nav-image "
+                                                            style="transform: scale(0.7);">
+                                                            <div class="gh-arrow "
+                                                                style="transform: translate(0px, 0px); background-color: rgb(247, 186, 101);">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div id="game-list-nav-label-container"
+                                                        class="game-list-nav-label-container-vertical ">
+                                                        <div class="game-list-nav-row-container ">
+                                                            <div id="game-free-spin-nav-label-wrapper"
+                                                                style="width: 80px;">
+                                                                <div id="game-free-spin-nav-label" class="title-top"
+                                                                    style="color: rgb(247, 186, 101);">{LOG_TITLE}
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="game-list-nav-subtitle-label tile-sub"
+                                                            style="color: rgba(255, 255, 255, 0.4);">{Date} {Time}</div>
+                                                    </div>
+                                                    <div
+                                                        class="game-list-nav-image-container game-list-nav-image-container-slot">
+                                                        <div id="game-list-nav-image-right" class="game-list-nav-image"
+                                                            style="display: none;">
+                                                            <div class="exit-icon vertical">
+                                                                <div class="exit-icon-stroke exit-icon-stroke-one exit-icon-stroke-vertical"
+                                                                    style="background-color: rgba(255, 255, 255, 0.6);">
+                                                                </div>
+                                                                <div class="exit-icon-stroke exit-icon-stroke-two exit-icon-stroke-vertical"
+                                                                    style="background-color: rgba(255, 255, 255, 0.6);">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="game-list-nav-separator-vertical-slot"
+                                                    style="background-color: rgb(48, 48, 60);"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="game-detail-spring-wrapper" style="position: absolute; height: 578px;">
+                                        <div id="game-details-page-container" style="height: 578px;">
+                                            <div id="game-pages-window" style="position: relative;">
+                                                <!---START_SLIDE_ITEM---->
+                                                <div class="game-list-page"
+                                                    style="width: 100%; height: 578px; position: absolute; left: {LEFT};">
+                                                    <div class="reset">
+                                                        <div id="transaction-details-container"
+                                                            style="display: flex; width: inherit; height: 50px; margin: 0px auto; justify-content: center; align-items: center; background-color: rgb(36, 36, 46);">
+                                                            <div class="transction-detail-item"
+                                                                style="display: flex; flex-direction: column; align-items: center; width: 29%;">
+                                                                <div id="Transaction-item-value"
+                                                                    style="text-align: center; display: inline-table; color: rgba(255, 255, 255, 0.6); font-size: 11px; line-height: 12px;">
+                                                                    {Transaction}</div>
+                                                                <div id="Transaction-item-key"
+                                                                    style="text-align: center; font-size: 11px; color: rgb(247, 186, 101);">
+                                                                    Transaction</div>
+                                                            </div>
+                                                            <div class="transction-detail-item"
+                                                                style="display: flex; flex-direction: column; align-items: center; width: 21%;">
+                                                                <div id="Bet-item-value"
+                                                                    style="text-align: center; display: inline-table; color: rgba(255, 255, 255, 0.6); font-size: 11px; line-height: 24px;">
+                                                                    {TotalBet}</div>
+                                                                <div id="Bet-item-key"
+                                                                    style="text-align: center; font-size: 11px; color: rgb(247, 186, 101);">
+                                                                    Bet</div>
+                                                            </div>
+                                                            <div class="transction-detail-item"
+                                                                style="display: flex; flex-direction: column; align-items: center; width: 21%;">
+                                                                <div id="Profit-item-value"
+                                                                    style="text-align: center; display: inline-table; color: rgba(255, 255, 255, 0.6); font-size: 11px; line-height: 24px;">
+                                                                    {Profit}</div>
+                                                                <div id="Profit-item-key"
+                                                                    style="text-align: center; font-size: 11px; color: rgb(247, 186, 101);">
+                                                                    Profit</div>
+                                                            </div>
+                                                            <div class="transction-detail-item"
+                                                                style="display: flex; flex-direction: column; align-items: center; width: 29%;">
+                                                                <div id="Balance-item-value"
+                                                                    style="text-align: center; display: inline-table; color: rgba(255, 255, 255, 0.6); font-size: 11px; line-height: 24px;">
+                                                                    {Balance}</div>
+                                                                <div id="Balance-item-key"
+                                                                    style="text-align: center; font-size: 11px; color: rgb(247, 186, 101);">
+                                                                    Balance</div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="history regular"
+                                                            style="width: inherit; height: 528px;">
+                                                            <div class="rcs-custom-scroll " style="height: inherit;">
+                                                                <div class="rcs-outer-container" style="height: 100%;">
+
+                                                                    <div class="rcs-inner-container"
+                                                                        style="height: 100%; margin-right: -20px;">
+                                                                        <div
+                                                                            style="height: 100%; overflow-y: visible; margin-right: 20px;">
+                                                                            <div id="bet-details-container"
+                                                                                style="display: flex; flex-direction: column; align-items: center;">
+                                                                                <div id="bet-information-container"
+                                                                                    style="display: flex; width: inherit; height: 50px; margin: 0px auto 5px; justify-content: center; align-items: center; padding-left: 10px; padding-right: 10px;">
+                                                                                    <div id="rounds-label"
+                                                                                        style="font-size: 11px; text-align: center; word-break: break-word; color: rgb(247, 186, 101);">
+                                                                                        {ROUND_INFO}</div>
+                                                                                    <div id="separator"
+                                                                                        style="width: 2px; height: 12px; margin-left: 10px; margin-right: 10px; background-color: rgb(40, 40, 51);">
+                                                                                    </div>
+                                                                                    <div id="bet-size-label"
+                                                                                        style="font-size: 11px; text-align: center; word-break: break-word; color: rgba(255, 255, 255, 0.4);">
+                                                                                        Bet Size {SIZE}</div>
+                                                                                    <div id="separator"
+                                                                                        style="width: 2px; height: 12px; margin-left: 10px; margin-right: 10px; background-color: rgb(40, 40, 51);">
+                                                                                    </div>
+                                                                                    <div id="bet-level-label"
+                                                                                        style="font-size: 11px; text-align: center; word-break: break-word; color: rgba(255, 255, 255, 0.4);">
+                                                                                        Bet Level {LEVEL}</div>
+                                                                                </div>
+                                                                                <div id="bet-results-container"
+                                                                                    style="position: relative; margin: 0px auto;">
+                                                                                    <div id="slot-container"
+                                                                                        style="display: flex; align-items: center; position: relative; width: 300px; height: 220px;">
+                                                                                        <!---START_TEMPLATE_BODY---->
+                                                                                        <div id="slot-item-column-{COLUMN}"
+                                                                                            style="position: relative; height: 215px; width: 60px; display: flex; flex-direction: column;">
+                                                                                            <!---START_BODY_ITEM---->
+                                                                                            <div class="slot-item"
+                                                                                                style="width: 60px; height: 65px;">
+                                                                                                <span
+                                                                                                    class="-x-ICON-CSS- pr-dynamic-symbols-sprite s_Symbol_1 -xx-"
+                                                                                                    style="transform-origin: left top; transform: scale(0.5) translate(-25px, -15px);"></span>
+                                                                                            </div>
+                                                                                            <!---END_BODY_ITEM---->
+                                                                                            <!---START_SAMBLE_BLOCK---->
+                                                                                            <div class="slot-item"
+                                                                                                style="width: 60px; height: 65px;">
+                                                                                                <span
+                                                                                                    class="pr-symbols-sprite s_Symbol_8"
+                                                                                                    style="transform-origin: left top; transform: scale(0.5) translate(-25px, -15px);"></span>
+                                                                                            </div>
+                                                                                            <div class="slot-item"
+                                                                                                style="width: 60px; height: 65px;">
+                                                                                                <span
+                                                                                                    class="pr-symbols-sprite s_Symbol_5"
+                                                                                                    style="transform-origin: left top; transform: scale(0.5) translate(-25px, -15px);"></span>
+                                                                                            </div>
+                                                                                            <!---END_SAMBLE_BLOCK---->
+                                                                                        </div>
+                                                                                        <!---END_TEMPLATE_BODY---->
+                                                                                        <!---START_SAMBLE_BLOCK---->
+                                                                                        <div id="slot-item-column-1"
+                                                                                            style="position: relative; height: 215px; width: 60px; display: flex; flex-direction: column;">
+                                                                                            <div class="slot-item"
+                                                                                                style="width: 60px; height: 65px;">
+                                                                                                <span
+                                                                                                    class="pr-symbols-sprite s_Symbol_9"
+                                                                                                    style="transform-origin: left top; transform: scale(0.5) translate(-25px, -15px);"></span>
+                                                                                            </div>
+                                                                                            <div class="slot-item"
+                                                                                                style="width: 60px; height: 65px;">
+                                                                                                <span
+                                                                                                    class="pr-symbols-sprite s_Symbol_3"
+                                                                                                    style="transform-origin: left top; transform: scale(0.5) translate(-25px, -15px);"></span>
+                                                                                            </div>
+                                                                                            <div class="slot-item"
+                                                                                                style="width: 60px; height: 65px;">
+                                                                                                <span
+                                                                                                    class="pr-dynamic-symbols-sprite s_Symbol_1"
+                                                                                                    style="transform-origin: left top; transform: scale(0.5) translate(-25px, -15px);"></span>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div id="slot-item-column-2"
+                                                                                            style="position: relative; height: 215px; width: 60px; display: flex; flex-direction: column;">
+                                                                                            <div class="slot-item"
+                                                                                                style="width: 60px; height: 65px;">
+                                                                                                <span
+                                                                                                    class="pr-symbols-sprite s_Symbol_4"
+                                                                                                    style="transform-origin: left top; transform: scale(0.5) translate(-25px, -15px);"></span>
+                                                                                            </div>
+                                                                                            <div class="slot-item"
+                                                                                                style="width: 60px; height: 65px;">
+                                                                                                <span
+                                                                                                    class="pr-symbols-sprite s_Symbol_4"
+                                                                                                    style="transform-origin: left top; transform: scale(0.5) translate(-25px, -15px);"></span>
+                                                                                            </div>
+                                                                                            <div class="slot-item"
+                                                                                                style="width: 60px; height: 65px;">
+                                                                                                <span
+                                                                                                    class="pr-dynamic-symbols-sprite s_Symbol_1"
+                                                                                                    style="transform-origin: left top; transform: scale(0.5) translate(-25px, -15px);"></span>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div id="slot-item-column-3"
+                                                                                            style="position: relative; height: 215px; width: 60px; display: flex; flex-direction: column;">
+                                                                                            <div class="slot-item"
+                                                                                                style="width: 60px; height: 65px;">
+                                                                                                <span
+                                                                                                    class="pr-symbols-sprite s_Symbol_4"
+                                                                                                    style="transform-origin: left top; transform: scale(0.5) translate(-25px, -15px);"></span>
+                                                                                            </div>
+                                                                                            <div class="slot-item"
+                                                                                                style="width: 60px; height: 65px;">
+                                                                                                <span
+                                                                                                    class="pr-dynamic-symbols-sprite s_Symbol_1"
+                                                                                                    style="transform-origin: left top; transform: scale(0.5) translate(-25px, -15px);"></span>
+                                                                                            </div>
+                                                                                            <div class="slot-item"
+                                                                                                style="width: 60px; height: 65px;">
+                                                                                                <span
+                                                                                                    class="pr-symbols-sprite s_Symbol_8"
+                                                                                                    style="transform-origin: left top; transform: scale(0.5) translate(-25px, -15px);"></span>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div id="slot-item-column-4"
+                                                                                            style="position: relative; height: 215px; width: 60px; display: flex; flex-direction: column;">
+                                                                                            <div class="slot-item"
+                                                                                                style="width: 60px; height: 65px;">
+                                                                                                <span
+                                                                                                    class="pr-dynamic-symbols-sprite s_Symbol_1"
+                                                                                                    style="transform-origin: left top; transform: scale(0.5) translate(-25px, -15px);"></span>
+                                                                                            </div>
+                                                                                            <div class="slot-item"
+                                                                                                style="width: 60px; height: 65px;">
+                                                                                                <span
+                                                                                                    class="pr-symbols-sprite s_Symbol_5"
+                                                                                                    style="transform-origin: left top; transform: scale(0.5) translate(-25px, -15px);"></span>
+                                                                                            </div>
+                                                                                            <div class="slot-item"
+                                                                                                style="width: 60px; height: 65px;">
+                                                                                                <span
+                                                                                                    class="pr-symbols-sprite s_Symbol_7"
+                                                                                                    style="transform-origin: left top; transform: scale(0.5) translate(-25px, -15px);"></span>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <!---END_SAMBLE_BLOCK---->
+                                                                                    </div>
+
+                                                                                </div>
+                                                                                <div id="payout-title-container"
+                                                                                    style="display: flex; width: inherit; height: 32px; justify-content: center; align-items: center; margin: 0px auto;">
+                                                                                    <div class="line"
+                                                                                        style="width: 120px; background-color: rgb(40, 40, 51); height: 2px;">
+                                                                                    </div>
+                                                                                    <div id="payout-text"
+                                                                                        style="text-align: center; width: 72px; font-size: 11px; color: rgb(156, 155, 155);">
+                                                                                        Payout</div>
+                                                                                    <div class="line"
+                                                                                        style="width: 120px; background-color: rgb(40, 40, 51); height: 2px;">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div id="bet-payout-container"
+                                                                                    style="display: flex; flex-flow: column wrap; width: 270px; margin: auto;">
+                                                                                    <div id="win-multiplier-feature-container"
+                                                                                        style="display: flex; width: inherit; height: 48px; align-items: center;">
+                                                                                        <label
+                                                                                            style="flex: 1 1 auto; text-align: left; font-size: 14px; color: rgb(204, 204, 204);">{MULTIPLY_INFO}</label>
+                                                                                    </div>
+																					<!---START_PAYOUT_INFO---->
+                                                                                    <div
+                                                                                        style="width: 285px; height: 48px; align-self: start;">
+                                                                                        <div id="payline-container"
+                                                                                            style="display: flex; width: inherit; justify-content: space-between; align-items: center; height: 48px; margin: 0px auto;">
+                                                                                            <div
+                                                                                                style="width: 50px; height: 60px;">
+                                                                                                <span
+                                                                                                    class="pr-symbols-sprite s_-x-Symbol_4-xx-{SYMBOL_NAME}"
+                                                                                                    style="transform-origin: left top; transform: scale(0.35) translateX(-25px);"></span>
+                                                                                            </div>
+                                                                                            <div id="payline-desc-wrapper"
+                                                                                                style="display: flex; flex-direction: column; flex: 1 1 auto; text-align: left; font-size: 14px; color: rgb(204, 204, 204);">
+                                                                                                <label>{SYMBOL_TITLE}</label><label
+                                                                                                    style="font-size: 11px; color: rgb(156, 155, 155);">{SYMBOL_SUB}</label>
+                                                                                            </div>
+                                                                                            <div id="payline-labels"
+                                                                                                style="display: flex; flex-direction: column;">
+                                                                                                <div id="payline-win-value-label"
+                                                                                                    style="width: 100px; font-size: 14px; color: rgb(204, 204, 204); text-align: right;">
+                                                                                                    {PAYOUT_TOTAL}</div>
+                                                                                                <div id="payline-subvalue-label"
+                                                                                                    style="width: 100px; font-size: 11px; color: rgb(156, 155, 155); text-align: right;">
+                                                                                                    {PAYOUT_DESC}
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="gh_basic_sprite gh_ic_nav_info_s" tabindex="0" data-descr=""
+                                                                                            style="transform: translate(270px, -48.5px) scale(0.3333); opacity: 0.4;">
+																							
+                                                                                        </div>
+																						<div id="tooltip"
+                                                                                    style="position: relative; width: 300px; height: inherit; align-self: center; top: -53px;left:-2px;z-index:1">
+                                                                                    <div role="tooltip"
+                                                                                        style="left: 90%; border-width: 6px; border-style: solid; border-color: transparent transparent rgb(70, 70, 83); border-image: initial; height: 0px; width: 0px; position: absolute; pointer-events: none; bottom: 98%;">
+                                                                                    </div>
+                                                                                    <div id="tooltip-toast"
+                                                                                        style="background-color: rgb(70, 70, 83); color: rgb(255, 255, 255); border-radius: 6px; padding: 5px;">
+                                                                                        <div id="tooltip-title"
+                                                                                            style="color: rgb(128, 128, 128); font-size: 12px; text-align: left; padding: 0px 8px;">Bet Size x Bet Level x Symbol Payout Values x Way(s) x Multiplier
+                                                                                        </div>
+                                                                                        <div id="tooltip-desc"
+                                                                                            style="font-size: 12px; text-align: left; padding: 0px 8px;">{SIZE} x {LEVEL} x {PAYOUT} x {WAY} x {MULTIPLY}
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                    </div>
+																					<!---END_PAYOUT_INFO---->
+                                                                                </div>
+                                                                            </div>
+                                                                            <div id="game-detail-padding"
+                                                                                style="width: inherit; height: 86px;">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!---END_SLIDE_ITEM---->
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="game-details-left-arrow">
+                                        <div class="gh-angle-wrapper" style="transform: translateX(4px) scale(0.7);">
+                                            <div class="gh-angle-horizontal angle-left"
+                                                style="border-color: rgb(247, 186, 101);"></div>
+                                        </div>
+                                    </div>
+                                    <div id="game-details-right-arrow">
+                                        <div class="gh-angle-wrapper" style="transform: translateX(-4px) scale(0.7);">
+                                            <div class="gh-angle-horizontal angle-right"
+                                                style="border-color: rgb(247, 186, 101);"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>

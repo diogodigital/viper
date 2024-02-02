@@ -1,0 +1,379 @@
+bg_phoenix.png
+	size: 1666, 386
+	format: Alpha
+	filter: Linear, Linear
+	pma: true
+bg_body
+	bounds: 986, 158, 108, 226
+	offsets: 0, 0, 108, 259
+bg_head
+	bounds: 1475, 192, 60, 121
+bg_head_02
+	bounds: 1092, 2, 154, 67
+	rotate: 90
+bg_neck
+	bounds: 986, 78, 78, 104
+	rotate: 90
+bg_tail
+	bounds: 832, 77, 307, 152
+	rotate: 90
+bg_tail_01
+	bounds: 1161, 2, 118, 173
+	offsets: 3, 3, 124, 179
+bg_tail_02
+	bounds: 1281, 22, 72, 153
+	offsets: 4, 4, 80, 161
+bg_tail_03
+	bounds: 1355, 24, 58, 151
+	offsets: 3, 3, 64, 157
+bg_tail_04
+	bounds: 1540, 176, 137, 124
+	offsets: 3, 4, 143, 132
+	rotate: 90
+bg_tail_05
+	bounds: 1475, 315, 69, 178
+	offsets: 3, 3, 75, 184
+	rotate: 90
+bg_tail_06
+	bounds: 1415, 28, 147, 123
+	offsets: 4, 3, 155, 129
+	rotate: 90
+bg_wing_L
+	bounds: 2, 7, 377, 413
+	rotate: 90
+bg_wing_R
+	bounds: 417, 12, 413, 372
+fx_fire
+	bounds: 987, 12, 59, 64
+	offsets: 0, 1, 59, 67
+fx_light_body
+	bounds: 1540, 44, 54, 130
+fx_light_tail
+	bounds: 832, 2, 153, 73
+	offsets: 0, 1, 153, 74
+fx_light_wing_L
+	bounds: 1096, 177, 189, 207
+fx_light_wing_R
+	bounds: 1287, 177, 207, 186
+	rotate: 90
+s_w_peak
+	bounds: 1048, 58, 18, 29
+	rotate: 90
+
+bg_phoenix_2.png
+	size: 2002, 1803
+	format: Alpha
+	filter: Linear, Linear
+	pma: true
+fx/pheonix_vfx_a_screen_00
+	bounds: 1254, 1295, 212, 251
+	offsets: 10, 9, 230, 281
+fx/pheonix_vfx_a_screen_01
+	bounds: 842, 1020, 204, 256
+	offsets: 12, 11, 230, 281
+fx/pheonix_vfx_a_screen_02
+	bounds: 649, 469, 205, 255
+	offsets: 10, 12, 230, 281
+fx/pheonix_vfx_a_screen_03
+	bounds: 1462, 1550, 204, 251
+	offsets: 11, 12, 230, 281
+fx/pheonix_vfx_a_screen_04
+	bounds: 837, 1278, 211, 259
+	offsets: 6, 8, 230, 281
+fx/pheonix_vfx_a_screen_05
+	bounds: 1048, 1022, 209, 254
+	offsets: 8, 9, 230, 281
+fx/pheonix_vfx_a_screen_06
+	bounds: 1248, 1548, 212, 253
+	offsets: 6, 11, 230, 281
+fx/pheonix_vfx_a_screen_07
+	bounds: 856, 512, 211, 250
+	offsets: 8, 9, 230, 281
+fx/pheonix_vfx_a_screen_08
+	bounds: 855, 764, 214, 254
+	offsets: 6, 9, 230, 281
+fx/pheonix_vfx_a_screen_09
+	bounds: 1050, 1288, 202, 254
+	offsets: 12, 8, 230, 281
+fx/pheonix_vfx_a_screen_10
+	bounds: 849, 114, 199, 255
+	offsets: 20, 8, 230, 281
+fx/pheonix_vfx_a_screen_11
+	bounds: 842, 1543, 189, 258
+	offsets: 30, 8, 230, 281
+fx/pheonix_vfx_a_screen_12
+	bounds: 644, 1539, 196, 262
+	offsets: 25, 5, 230, 281
+fx/pheonix_vfx_a_screen_13
+	bounds: 636, 1246, 199, 264
+	offsets: 21, 6, 230, 281
+fx/pheonix_vfx_a_screen_14
+	bounds: 636, 984, 204, 260
+	offsets: 18, 7, 230, 281
+fx/pheonix_vfx_a_screen_15
+	bounds: 638, 95, 209, 267
+	offsets: 14, 5, 230, 281
+fx/pheonix_vfx_a_screen_16
+	bounds: 1033, 1544, 213, 257
+	offsets: 11, 7, 230, 281
+fx/pheonix_vfx_a_screen_17
+	bounds: 642, 726, 211, 256
+	offsets: 12, 10, 230, 281
+fx/pheonix_vfx_b_screen_00
+	bounds: 2, 1498, 303, 216
+	offsets: 27, 5, 330, 221
+	rotate: 90
+fx/pheonix_vfx_b_screen_01
+	bounds: 207, 17, 291, 218
+	offsets: 38, 0, 330, 221
+	rotate: 90
+fx/pheonix_vfx_b_screen_02
+	bounds: 427, 1512, 289, 215
+	offsets: 38, 0, 330, 221
+	rotate: 90
+fx/pheonix_vfx_b_screen_03
+	bounds: 432, 646, 285, 208
+	offsets: 40, 7, 330, 221
+	rotate: 90
+fx/pheonix_vfx_b_screen_04
+	bounds: 220, 611, 290, 210
+	offsets: 37, 9, 330, 221
+	rotate: 90
+fx/pheonix_vfx_b_screen_05
+	bounds: 435, 364, 280, 212
+	offsets: 45, 4, 330, 221
+	rotate: 90
+fx/pheonix_vfx_b_screen_06
+	bounds: 427, 933, 286, 207
+	offsets: 43, 8, 330, 221
+	rotate: 90
+fx/pheonix_vfx_b_screen_07
+	bounds: 427, 1221, 289, 207
+	offsets: 39, 6, 330, 221
+	rotate: 90
+fx/pheonix_vfx_b_screen_08
+	bounds: 427, 21, 290, 209
+	offsets: 37, 6, 330, 221
+	rotate: 90
+fx/pheonix_vfx_b_screen_09
+	bounds: 218, 313, 290, 215
+	offsets: 34, 6, 330, 221
+	rotate: 90
+fx/pheonix_vfx_b_screen_10
+	bounds: 2, 310, 293, 214
+	offsets: 33, 2, 330, 221
+	rotate: 90
+fx/pheonix_vfx_b_screen_11
+	bounds: 2, 1200, 296, 216
+	offsets: 30, 0, 330, 221
+	rotate: 90
+fx/pheonix_vfx_b_screen_12
+	bounds: 2, 605, 295, 216
+	offsets: 32, 0, 330, 221
+	rotate: 90
+fx/pheonix_vfx_b_screen_13
+	bounds: 220, 1506, 295, 205
+	offsets: 35, 7, 330, 221
+	rotate: 90
+fx/pheonix_vfx_b_screen_14
+	bounds: 2, 15, 293, 203
+	offsets: 35, 6, 330, 221
+	rotate: 90
+fx/pheonix_vfx_b_screen_15
+	bounds: 220, 1209, 295, 205
+	offsets: 32, 4, 330, 221
+	rotate: 90
+fx/pheonix_vfx_b_screen_16
+	bounds: 2, 902, 296, 206
+	offsets: 34, 3, 330, 221
+	rotate: 90
+fx/pheonix_vfx_b_screen_17
+	bounds: 210, 903, 295, 215
+	offsets: 35, 1, 330, 221
+	rotate: 90
+fx/pheonix_vfx_c_screen_00
+	bounds: 1005, 17, 95, 93
+	offsets: 3, 3, 102, 102
+	rotate: 90
+fx/pheonix_vfx_c_screen_01
+	bounds: 1528, 841, 92, 92
+	offsets: 4, 5, 102, 102
+fx/pheonix_vfx_c_screen_02
+	bounds: 826, 3, 89, 90
+	offsets: 7, 5, 102, 102
+fx/pheonix_vfx_c_screen_03
+	bounds: 1729, 327, 93, 88
+	offsets: 6, 6, 102, 102
+	rotate: 90
+fx/pheonix_vfx_c_screen_04
+	bounds: 1725, 422, 92, 94
+	offsets: 7, 2, 102, 102
+fx/pheonix_vfx_c_screen_05
+	bounds: 1434, 840, 93, 92
+	offsets: 6, 4, 102, 102
+	rotate: 90
+fx/pheonix_vfx_c_screen_06
+	bounds: 825, 371, 88, 96
+	offsets: 10, 3, 102, 102
+fx/pheonix_vfx_c_screen_07
+	bounds: 917, 16, 86, 96
+	offsets: 12, 3, 102, 102
+fx/pheonix_vfx_c_screen_08
+	bounds: 1729, 231, 87, 94
+	offsets: 12, 4, 102, 102
+fx/pheonix_vfx_c_screen_09
+	bounds: 649, 368, 86, 99
+	offsets: 13, 0, 102, 102
+fx/pheonix_vfx_c_screen_10
+	bounds: 728, 3, 90, 96
+	offsets: 9, 1, 102, 102
+	rotate: 90
+fx/pheonix_vfx_c_screen_11
+	bounds: 1818, 225, 89, 94
+	offsets: 10, 3, 102, 102
+fx/pheonix_vfx_c_screen_12
+	bounds: 737, 369, 86, 98
+	offsets: 12, 2, 102, 102
+fx/pheonix_vfx_c_screen_13
+	bounds: 1909, 138, 87, 93
+	offsets: 10, 3, 102, 102
+fx/pheonix_vfx_c_screen_14
+	bounds: 1259, 1025, 86, 92
+	offsets: 12, 3, 102, 102
+	rotate: 90
+fx/pheonix_vfx_c_screen_15
+	bounds: 1909, 233, 86, 89
+	offsets: 12, 5, 102, 102
+	rotate: 90
+fx/pheonix_vfx_c_screen_16
+	bounds: 1630, 422, 93, 94
+	offsets: 6, 3, 102, 102
+fx/pheonix_vfx_c_screen_17
+	bounds: 638, 2, 91, 88
+	offsets: 4, 4, 102, 102
+	rotate: 90
+fx/pheonix_vfx_d_screen_00
+	bounds: 1840, 1061, 152, 184
+	offsets: 4, 3, 157, 202
+fx/pheonix_vfx_d_screen_01
+	bounds: 1479, 416, 149, 199
+	offsets: 5, 3, 157, 202
+fx/pheonix_vfx_d_screen_02
+	bounds: 1630, 858, 148, 190
+	offsets: 9, 0, 157, 202
+	rotate: 90
+fx/pheonix_vfx_d_screen_03
+	bounds: 915, 371, 139, 192
+	offsets: 12, 0, 157, 202
+	rotate: 90
+fx/pheonix_vfx_d_screen_04
+	bounds: 1468, 1369, 150, 179
+	offsets: 5, 0, 157, 202
+fx/pheonix_vfx_d_screen_05
+	bounds: 1840, 1247, 153, 180
+	offsets: 4, 1, 157, 202
+fx/pheonix_vfx_d_screen_06
+	bounds: 1840, 1615, 154, 186
+	offsets: 3, 0, 157, 202
+fx/pheonix_vfx_d_screen_07
+	bounds: 1576, 216, 151, 198
+	offsets: 0, 4, 157, 202
+fx/pheonix_vfx_d_screen_08
+	bounds: 1840, 700, 152, 177
+	offsets: 5, 0, 157, 202
+fx/pheonix_vfx_d_screen_09
+	bounds: 1840, 518, 151, 180
+	offsets: 6, 0, 157, 202
+fx/pheonix_vfx_d_screen_10
+	bounds: 1840, 879, 152, 180
+	offsets: 5, 3, 157, 202
+fx/pheonix_vfx_d_screen_11
+	bounds: 1668, 1626, 146, 175
+	offsets: 6, 3, 157, 202
+fx/pheonix_vfx_d_screen_12
+	bounds: 1630, 711, 145, 184
+	offsets: 8, 0, 157, 202
+	rotate: 90
+fx/pheonix_vfx_d_screen_13
+	bounds: 1259, 1114, 145, 179
+	offsets: 10, 3, 157, 202
+fx/pheonix_vfx_d_screen_14
+	bounds: 1840, 1429, 154, 184
+	offsets: 3, 0, 157, 202
+fx/pheonix_vfx_d_screen_15
+	bounds: 1288, 8, 155, 184
+	offsets: 2, 0, 157, 202
+	rotate: 90
+fx/pheonix_vfx_d_screen_16
+	bounds: 1630, 525, 142, 184
+	offsets: 9, 0, 157, 202
+fx/pheonix_vfx_d_screen_17
+	bounds: 1100, 5, 157, 186
+	offsets: 0, 0, 157, 202
+	rotate: 90
+fx/pheonix_vfx_e_screen_00
+	bounds: 1223, 165, 204, 173
+	offsets: 3, 15, 207, 192
+	rotate: 90
+fx/pheonix_vfx_e_screen_01
+	bounds: 1071, 817, 203, 176
+	offsets: 3, 14, 207, 192
+	rotate: 90
+fx/pheonix_vfx_e_screen_02
+	bounds: 1305, 410, 201, 172
+	offsets: 2, 18, 207, 192
+	rotate: 90
+fx/pheonix_vfx_e_screen_03
+	bounds: 1398, 209, 199, 176
+	offsets: 6, 15, 207, 192
+	rotate: 90
+fx/pheonix_vfx_e_screen_04
+	bounds: 1426, 617, 200, 168
+	offsets: 4, 20, 207, 192
+	rotate: 90
+fx/pheonix_vfx_e_screen_05
+	bounds: 1050, 164, 205, 171
+	offsets: 1, 20, 207, 192
+	rotate: 90
+fx/pheonix_vfx_e_screen_06
+	bounds: 1246, 613, 202, 178
+	offsets: 2, 13, 207, 192
+	rotate: 90
+fx/pheonix_vfx_e_screen_07
+	bounds: 1630, 1373, 197, 175
+	offsets: 5, 12, 207, 192
+fx/pheonix_vfx_e_screen_08
+	bounds: 1657, 17, 197, 181
+	offsets: 7, 7, 207, 192
+	rotate: 90
+fx/pheonix_vfx_e_screen_09
+	bounds: 1434, 1113, 193, 180
+	offsets: 8, 8, 207, 192
+fx/pheonix_vfx_e_screen_10
+	bounds: 1819, 321, 195, 181
+	offsets: 7, 5, 207, 192
+	rotate: 90
+fx/pheonix_vfx_e_screen_11
+	bounds: 1630, 1189, 196, 182
+	offsets: 8, 5, 207, 192
+fx/pheonix_vfx_e_screen_12
+	bounds: 1474, 9, 198, 181
+	offsets: 3, 5, 207, 192
+	rotate: 90
+fx/pheonix_vfx_e_screen_13
+	bounds: 1434, 935, 191, 176
+	offsets: 7, 6, 207, 192
+fx/pheonix_vfx_e_screen_14
+	bounds: 1109, 371, 194, 184
+	offsets: 7, 6, 207, 192
+fx/pheonix_vfx_e_screen_15
+	bounds: 1630, 1008, 195, 179
+	offsets: 6, 9, 207, 192
+fx/pheonix_vfx_e_screen_16
+	bounds: 1249, 819, 201, 183
+	offsets: 3, 5, 207, 192
+	rotate: 90
+fx/pheonix_vfx_e_screen_17
+	bounds: 1069, 557, 205, 175
+	offsets: 2, 15, 207, 192
+	rotate: 90

@@ -1,0 +1,211 @@
+/*id="$CSS-Game-1"*/
+.payline_atlas {
+    display: inline-block;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: 241px 99px;
+    background-image: url(24.png)
+}
+
+.payline_1 {
+    background-position: 0px -1px
+}
+
+.payline_1,
+.payline_2 {
+    width: 48px;
+    min-width: 48px;
+    height: 48px;
+    min-height: 48px
+}
+
+.payline_2 {
+    background-position: -0px -51px
+}
+
+.payline_3 {
+    background-position: -48px -1px
+}
+
+.payline_3,
+.payline_4 {
+    width: 48px;
+    min-width: 48px;
+    height: 48px;
+    min-height: 48px
+}
+
+.payline_4 {
+    background-position: -48x -51px
+}
+
+.payline_5 {
+    width: 48px;
+    min-width: 48px;
+    height: 48px;
+    min-height: 48px;
+    background-position: -96px -1px
+}
+
+.payline_6 {
+    width: 48px;
+    min-width: 48px;
+    height: 48px;
+    min-height: 48px;
+    background-position: -96px -51px
+}
+
+.payline_7 {
+    width: 48px;
+    min-width: 48px;
+    height: 48px;
+    min-height: 48px;
+    background-position: -144px -1px
+}
+
+.payline_8 {
+    width: 48px;
+    min-width: 48px;
+    height: 48px;
+    min-height: 48px;
+    background-position: -144px -51px
+}
+
+.payline_9 {
+    width: 48px;
+    min-width: 48px;
+    height: 48px;
+    min-height: 48px;
+    background-position: -192px -1px
+}
+
+.payline_10 {
+    width: 48px;
+    min-width: 48px;
+    height: 48px;
+    min-height: 48px;
+    background-position: -192px -51px
+}
+
+/* id="$CSS-Game-2 */
+.s_Symbol_0 {
+    display: inline-block;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: 236px 213px;
+    background-image: url(21.png);
+    width: 226px;
+    min-width: 204px;
+    height: 219px;
+    min-height: 208px;
+    background-position: 12px 10px
+}
+
+/* id="$CSS-Game-3 */
+.symbol_atlas {
+    display: inline-block;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-image: url(22.png)
+}
+
+.s_Symbol_3 {
+    width: 235px;
+    min-width: 221px;
+    height: 225px;
+    min-height: 140px;
+    background-size: 459px 613px;
+    background-position: 26px 24px
+}
+
+.s_Symbol_2 {
+    width: 221px;
+    min-width: 221px;
+    height: 225px;
+    min-height: 140px;
+    background-size: 451px 629px;
+    background-position: -236px 18px
+}
+
+.s_Symbol_6 {
+    width: 225px;
+    min-width: 198px;
+    height: 244x;
+    min-height: 225px;
+    background-size: 470px 616px;
+    background-position: 11px -192px
+}
+
+.s_Symbol_4 {
+    width: 226px;
+    min-width: 226px;
+    height: 210px;
+    min-height: 170px;
+    background-size: 468px 599px;
+    background-position: -246px -382px
+}
+
+.s_Symbol_1 {
+    width: 227px;
+    min-width: 199px;
+    height: 216px;
+    min-height: 140px;
+    background-size: 444px 576px;
+    background-position: -225px -163px
+}
+
+.s_Symbol_5 {
+    width: 236px;
+    min-width: 191px;
+    height: 191x;
+    min-height: 228px;
+    background-size: 429px 717px;
+    background-position: 23px -491px
+}
+
+/* id="$CSS-Game-4" */
+.ui_reel_atlas {
+    display: inline-block;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: 730px 564px;
+    background-image: url(23.png)
+}
+
+.ui_freel {
+    background-position: -1px -49px
+}
+
+.ui_freel,
+.ui_reel {
+    width: 580px;
+    min-width: 558px;
+    height: 560px;
+    min-height: 468px
+}
+
+.ui_reel {
+    background-position: 10px -14px
+}
+
+.ui_reel_btm {
+    width: 580px;
+    min-width: 580px;
+    height: 46px;
+    min-height: 46px;
+    background-position: -1px 2px
+}
+
+
+[id=tooltip]{
+visibility: hidden;
+}
+
+div[data-descr]:focus + [id="tooltip"] {
+	visibility: visible;
+}
+
+
+
+
+

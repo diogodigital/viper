@@ -1,0 +1,101 @@
+/* $CSS-Game-1 */
+.pr-dynamic-symbols-sprite {
+    background-image: url(8045bcba-d010-4a9c-90ab-a5b49b57fb64.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    overflow: hidden
+}
+
+/* Special scater icon */
+.s_Symbol_1 { 
+    background-position: -1px -1px
+}
+
+.s_Symbol_1,
+.s_Symbol_0 {
+    height: 172px;
+    width: 172px
+}
+
+.s_Symbol_0 {
+    background-position: -175px -1px
+}
+
+/* $CSS-Game-2 */
+.pr-symbols-sprite {
+    background-image: url(2233bb19-adb8-4fc8-856a-3dbe88a462e3.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    overflow: hidden
+}
+
+.s_Symbol_2 {
+    background-position: -1px -1px
+}
+
+.s_Symbol_2,
+.s_Symbol_4 {
+    height: 172px;
+    width: 172px
+}
+
+.s_Symbol_4 {
+    background-position: -1px -175px
+}
+
+.s_Symbol_3 {
+    background-position: -1px -349px
+}
+
+.s_Symbol_3,
+.s_Symbol_5 {
+    height: 172px;
+    width: 172px
+}
+
+.s_Symbol_5 {
+    background-position: -175px -1px
+}
+
+.s_Symbol_6 {
+    background-position: -349px -1px
+}
+
+.s_Symbol_6,
+.s_Symbol_9 {
+    height: 172px;
+    width: 172px
+}
+
+.s_Symbol_9 {
+    background-position: -175px -175px
+}
+
+.s_Symbol_7 {
+    background-position: -175px -349px
+}
+
+.s_Symbol_7,
+.s_Symbol_8 {
+    height: 172px;
+    width: 172px
+}
+
+.s_Symbol_8 {
+    background-position: -349px -175px
+}
+
+/* Normal scater icon */
+/* .s_Symbol_1 {
+    background-position: -349px -349px;
+    height: 172px;
+    width: 172px
+} */
+
+[id=tooltip]{
+visibility: hidden;
+}
+
+div[data-descr]:focus + [id="tooltip"] {
+	visibility: visible;
+}

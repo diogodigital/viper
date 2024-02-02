@@ -1,0 +1,141 @@
+.fortunemouse_feat {
+    display:inline-block;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: 505px 462px;
+    background-image: url(2.png);
+    
+    width: 503px;
+    min-width: 503px;
+    height: 460px;
+    min-height: 460px;
+    background-position: -1px -1px;
+    
+}
+
+
+.s_wild_1x1 {
+    display:inline-block;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: 241px 283px;
+    background-image: url(1.png);
+    
+    width: 239px;
+    min-width: 239px;
+    height: 281px;
+    min-height: 281px;
+    background-position: -1px -1px;
+    
+}
+
+
+.paytable_payline {
+    display:inline-block;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: 250px 50px;
+    background-image: url(4.png);
+    
+}
+
+
+.payline_01 {
+    width: 48px;
+    min-width: 48px;
+    height: 48px;
+    min-height: 48px;
+    background-position: -1px -1px;
+}
+
+.payline_02 {
+    width: 48px;
+    min-width: 48px;
+    height: 48px;
+    min-height: 48px;
+    background-position: -51px -1px;
+}
+
+.payline_03 {
+    width: 48px;
+    min-width: 48px;
+    height: 48px;
+    min-height: 48px;
+    background-position: -101px -1px;
+}
+
+.payline_04 {
+    width: 48px;
+    min-width: 48px;
+    height: 48px;
+    min-height: 48px;
+    background-position: -151px -1px;
+}
+
+.payline_05 {
+    width: 48px;
+    min-width: 48px;
+    height: 48px;
+    min-height: 48px;
+    background-position: -201px -1px;
+}
+
+
+
+.paytable_symbol {
+    display:inline-block;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: 439px 605px;
+    background-image: url(3.png);
+    
+}
+
+
+.h_angpow_1x1 {
+    width: 209px;
+    min-width: 209px;
+    height: 218px;
+    min-height: 218px;
+    background-position: -229px -1px;
+}
+
+.h_coinpouch_1x1 {
+    width: 221px;
+    min-width: 221px;
+    height: 205px;
+    min-height: 205px;
+    background-position: -1px -229px;
+}
+
+.h_fcracker_1x1 {
+    width: 189px;
+    min-width: 189px;
+    height: 190px;
+    min-height: 190px;
+    background-position: -224px -407px;
+}
+
+.h_fu_1x1 {
+    width: 226px;
+    min-width: 226px;
+    height: 226px;
+    min-height: 226px;
+    background-position: -1px -1px;
+}
+
+.h_orange_1x1 {
+    width: 199px;
+    min-width: 199px;
+    height: 184px;
+    min-height: 184px;
+    background-position: -229px -221px;
+}
+
+.h_peanuts_1x1 {
+    width: 190px;
+    min-width: 190px;
+    height: 168px;
+    min-height: 168px;
+    background-position: -1px -436px;
+}

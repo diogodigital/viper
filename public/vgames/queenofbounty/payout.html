@@ -1,0 +1,660 @@
+<div id="game-shell" class="game-shell">
+    <div id="game-overlay">
+        <div id="game-header-holder"
+            style="z-index: 99; pointer-events: none; position: absolute; height: 640px; width: 360px; visibility: hidden;">
+            <div id="game-title" class="game-title"
+                style="visibility: hidden; justify-content: flex-start; width: 360px; height: 18px; font-size: 11.5px;">
+                <div style="padding-left: 12px; display: flex; align-items: center;">Treasures of Aztec</div>
+            </div>
+            <div id="time-stamp" class="time_stamp"
+                style="justify-content: flex-end; height: 18px; font-size: 11.5px; visibility: hidden; width: 360px;">
+                <div style="padding-right: 12px; display: flex; align-items: center;">10:02:56</div>
+            </div>
+        </div>
+        <div id="widget-manager-container"
+            style="height: 0px; width: 0px; position: absolute; visibility: hidden; z-index: 0;"></div>
+        <div id="paytable-container"
+            style="overflow: hidden; color: rgb(136, 136, 136); height: 640px; width: 360px; z-index: 0;">
+            <div class="paytable" style="width: 100%; height: 100%;">
+                <div id="paytable-container"
+                    style="transform: translateY(0%); width: 100%; height: 100%; background-color: rgb(48, 48, 60); display: inline-flex; flex-direction: column-reverse;">
+                    <div style="overflow: hidden; height: 100%; transform: translateZ(0px);">
+                        <div class="rcs-custom-scroll ">
+                            <div class="rcs-outer-container">
+                                <div class="rcs-inner-container" style="margin-right: -17px;">
+                                    <div style="overflow-y: scroll; margin-right: 0px;">
+                                        <div id="paytable-content" style="color: rgb(204, 204, 204); height: 577px;">
+                                            <div class="segment" id="symbol_payout" align="center"
+                                                style="display: inline-block; width: 100%; border-bottom: 1px solid rgb(40, 40, 52); margin-bottom: 12px; margin-top: 12px;">
+                                                <div class="paytable"
+                                                    style="font-size: 14px; color: rgb(255, 255, 255); font-weight: normal; margin-bottom: 16px; line-height: 145%; padding: 0px 20px;">
+                                                    Symbol Payout Values</div>
+                                                <div id="symbol_payout_table" class="inline_table"
+                                                    style="color: rgb(247, 186, 101); font-size: 11px; padding-top: 15px;">
+                                                    <table style="border-collapse: collapse;">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td align="center" colspan="2" rowspan="1"
+                                                                    style="padding-bottom: 10px; vertical-align: middle;">
+                                                                    <div
+                                                                        style="display: table; border-collapse: collapse; width: auto; height: fit-content;">
+                                                                        <div style="display: block;">
+                                                                            <div id="symbol_icon"
+                                                                                style="display: table-cell; vertical-align: middle; padding-right: 10px;">
+                                                                                <div align="center"
+                                                                                    style="width: 70px;">
+                                                                                    <div
+                                                                                        style="min-width: 64px; width: 64px; min-height: 64px; height: 64px;">
+                                                                                        <div class="paytable_special_symbols s_scatter"
+                                                                                            style="display: block; transform: scale(0.5); position: relative; right: 32px; bottom: 32px; min-width: 128px; width: 128px; min-height: 128px; height: 128px; background-position: -1px -1px;">
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div id="symbol_desc"
+                                                                                style="display: table-cell; width: fit-content; font-size: 12px; text-align: left; vertical-align: middle;">
+                                                                                <div
+                                                                                    style="display: inline-block; width: 100%;">
+                                                                                    <div
+                                                                                        style="width: 70px; overflow: visible; overflow-wrap: break-word; text-align: left;">
+                                                                                        Scatter symbol</div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center" colspan="1" rowspan="1"
+                                                                    style="padding-bottom: 10px; vertical-align: middle; padding-right: 30px;">
+                                                                    <div
+                                                                        style="display: table; border-collapse: collapse; width: 100%; height: fit-content;">
+                                                                        <div id="symbol_icon"
+                                                                            style="display: table-cell; vertical-align: middle; padding-right: 10px;">
+                                                                            <div align="center" style="width: 70px;">
+                                                                                <div
+                                                                                    style="min-width: 64px; width: 64px; min-height: 64px; height: 64px;">
+                                                                                    <div class="paytable_special_symbols s_wild"
+                                                                                        style="display: block; transform: scale(0.5); position: relative; right: 32px; bottom: 32px; min-width: 128px; width: 128px; min-height: 128px; height: 128px; background-position: -131px -1px;">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div id="symbol_desc"
+                                                                            style="display: table-cell; width: 100%; font-size: 12px; text-align: left; vertical-align: middle;">
+                                                                            <div
+                                                                                style="display: inline-block; width: 1px;">
+                                                                                <div
+                                                                                    style="width: 55px; overflow: visible; overflow-wrap: break-word; text-align: left;">
+                                                                                    Wild symbol</div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                                <td align="center" colspan="1" rowspan="1"
+                                                                    style="padding-bottom: 10px; vertical-align: middle;">
+                                                                    <div
+                                                                        style="display: table; border-collapse: collapse; width: 100%; height: fit-content;">
+                                                                        <div id="symbol_icon"
+                                                                            style="display: table-cell; vertical-align: middle; padding-right: 10px;">
+                                                                            <div align="center" style="width: 70px;">
+                                                                                <div
+                                                                                    style="min-width: 64px; width: 64px; min-height: 64px; height: 64px;">
+                                                                                    <div class="paytable_symbols h_red_mask"
+                                                                                        style="display: block; transform: scale(0.5); position: relative; right: 32px; bottom: 32px; min-width: 128px; width: 128px; min-height: 128px; height: 128px;">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div id="symbol_payout_data" align="left"
+                                                                            style="width: 100%; display: table-cell; vertical-align: middle;">
+                                                                            <table style="border-collapse: collapse;">
+                                                                                <tbody>
+                                                                                    <tr style="height: 16px;">
+                                                                                        <td
+                                                                                            style="padding-right: 20px; color: rgb(255, 255, 255);">
+                                                                                            5</td>
+                                                                                        <td>2500</td>
+                                                                                    </tr>
+                                                                                    <tr style="height: 16px;">
+                                                                                        <td
+                                                                                            style="padding-right: 20px; color: rgb(255, 255, 255);">
+                                                                                            4</td>
+                                                                                        <td>250</td>
+                                                                                    </tr>
+                                                                                    <tr style="height: 16px;">
+                                                                                        <td
+                                                                                            style="padding-right: 20px; color: rgb(255, 255, 255);">
+                                                                                            3</td>
+                                                                                        <td>50</td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center" colspan="1" rowspan="1"
+                                                                    style="padding-bottom: 10px; vertical-align: middle; padding-right: 30px;">
+                                                                    <div
+                                                                        style="display: table; border-collapse: collapse; width: 100%; height: fit-content;">
+                                                                        <div id="symbol_icon"
+                                                                            style="display: table-cell; vertical-align: middle; padding-right: 10px;">
+                                                                            <div align="center" style="width: 70px;">
+                                                                                <div
+                                                                                    style="min-width: 64px; width: 64px; min-height: 64px; height: 64px;">
+                                                                                    <div class="paytable_symbols h_brown_mask"
+                                                                                        style="display: block; transform: scale(0.5); position: relative; right: 32px; bottom: 32px; min-width: 128px; width: 128px; min-height: 128px; height: 128px;">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div id="symbol_payout_data" align="left"
+                                                                            style="width: 100%; display: table-cell; vertical-align: middle;">
+                                                                            <table style="border-collapse: collapse;">
+                                                                                <tbody>
+                                                                                    <tr style="height: 16px;">
+                                                                                        <td
+                                                                                            style="padding-right: 20px; color: rgb(255, 255, 255);">
+                                                                                            5</td>
+                                                                                        <td>1000</td>
+                                                                                    </tr>
+                                                                                    <tr style="height: 16px;">
+                                                                                        <td
+                                                                                            style="padding-right: 20px; color: rgb(255, 255, 255);">
+                                                                                            4</td>
+                                                                                        <td>100</td>
+                                                                                    </tr>
+                                                                                    <tr style="height: 16px;">
+                                                                                        <td
+                                                                                            style="padding-right: 20px; color: rgb(255, 255, 255);">
+                                                                                            3</td>
+                                                                                        <td>20</td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                                <td align="center" colspan="1" rowspan="1"
+                                                                    style="padding-bottom: 10px; vertical-align: middle;">
+                                                                    <div
+                                                                        style="display: table; border-collapse: collapse; width: 100%; height: fit-content;">
+                                                                        <div id="symbol_icon"
+                                                                            style="display: table-cell; vertical-align: middle; padding-right: 10px;">
+                                                                            <div align="center" style="width: 70px;">
+                                                                                <div
+                                                                                    style="min-width: 64px; width: 64px; min-height: 64px; height: 64px;">
+                                                                                    <div class="paytable_symbols h_redviolet"
+                                                                                        style="display: block; transform: scale(0.5); position: relative; right: 32px; bottom: 32px; min-width: 128px; width: 128px; min-height: 128px; height: 128px;">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div id="symbol_payout_data" align="left"
+                                                                            style="width: 100%; display: table-cell; vertical-align: middle;">
+                                                                            <table style="border-collapse: collapse;">
+                                                                                <tbody>
+                                                                                    <tr style="height: 0px;">
+                                                                                        <td
+                                                                                            style="padding-right: 20px; color: rgb(204, 204, 204);">
+                                                                                            5</td>
+                                                                                        <td>500</td>
+                                                                                    </tr>
+                                                                                    <tr style="height: 0px;">
+                                                                                        <td
+                                                                                            style="padding-right: 20px; color: rgb(204, 204, 204);">
+                                                                                            4</td>
+                                                                                        <td>50</td>
+                                                                                    </tr>
+                                                                                    <tr style="height: 0px;">
+                                                                                        <td
+                                                                                            style="padding-right: 20px; color: rgb(204, 204, 204);">
+                                                                                            3</td>
+                                                                                        <td>15</td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center" colspan="1" rowspan="1"
+                                                                    style="padding-bottom: 10px; vertical-align: middle; padding-right: 30px;">
+                                                                    <div
+                                                                        style="display: table; border-collapse: collapse; width: 100%; height: fit-content;">
+                                                                        <div id="symbol_icon"
+                                                                            style="display: table-cell; vertical-align: middle; padding-right: 10px;">
+                                                                            <div align="center" style="width: 70px;">
+                                                                                <div
+                                                                                    style="min-width: 64px; width: 64px; min-height: 64px; height: 64px;">
+                                                                                    <div class="paytable_symbols h_purple"
+                                                                                        style="display: block; transform: scale(0.5); position: relative; right: 32px; bottom: 32px; min-width: 128px; width: 128px; min-height: 128px; height: 128px;">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div id="symbol_payout_data" align="left"
+                                                                            style="width: 100%; display: table-cell; vertical-align: middle;">
+                                                                            <table style="border-collapse: collapse;">
+                                                                                <tbody>
+                                                                                    <tr style="height: 0px;">
+                                                                                        <td
+                                                                                            style="padding-right: 20px; color: rgb(204, 204, 204);">
+                                                                                            5</td>
+                                                                                        <td>200</td>
+                                                                                    </tr>
+                                                                                    <tr style="height: 0px;">
+                                                                                        <td
+                                                                                            style="padding-right: 20px; color: rgb(204, 204, 204);">
+                                                                                            4</td>
+                                                                                        <td>25</td>
+                                                                                    </tr>
+                                                                                    <tr style="height: 0px;">
+                                                                                        <td
+                                                                                            style="padding-right: 20px; color: rgb(204, 204, 204);">
+                                                                                            3</td>
+                                                                                        <td>10</td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                                <td align="center" colspan="1" rowspan="1"
+                                                                    style="padding-bottom: 10px; vertical-align: middle;">
+                                                                    <div
+                                                                        style="display: table; border-collapse: collapse; width: 100%; height: fit-content;">
+                                                                        <div id="symbol_icon"
+                                                                            style="display: table-cell; vertical-align: middle; padding-right: 10px;">
+                                                                            <div align="center" style="width: 70px;">
+                                                                                <div
+                                                                                    style="min-width: 64px; width: 64px; min-height: 64px; height: 64px;">
+                                                                                    <div class="paytable_symbols h_flower"
+                                                                                        style="display: block; transform: scale(0.5); position: relative; right: 32px; bottom: 32px; min-width: 128px; width: 128px; min-height: 128px; height: 128px;">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div id="symbol_payout_data" align="left"
+                                                                            style="width: 100%; display: table-cell; vertical-align: middle;">
+                                                                            <table style="border-collapse: collapse;">
+                                                                                <tbody>
+                                                                                    <tr style="height: 0px;">
+                                                                                        <td
+                                                                                            style="padding-right: 20px; color: rgb(204, 204, 204);">
+                                                                                            5</td>
+                                                                                        <td>100</td>
+                                                                                    </tr>
+                                                                                    <tr style="height: 0px;">
+                                                                                        <td
+                                                                                            style="padding-right: 20px; color: rgb(204, 204, 204);">
+                                                                                            4</td>
+                                                                                        <td>20</td>
+                                                                                    </tr>
+                                                                                    <tr style="height: 0px;">
+                                                                                        <td
+                                                                                            style="padding-right: 20px; color: rgb(204, 204, 204);">
+                                                                                            3</td>
+                                                                                        <td>5</td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center" colspan="1" rowspan="1"
+                                                                    style="padding-bottom: 10px; vertical-align: middle; padding-right: 30px;">
+                                                                    <div
+                                                                        style="display: table; border-collapse: collapse; width: 100%; height: fit-content;">
+                                                                        <div id="symbol_icon"
+                                                                            style="display: table-cell; vertical-align: middle; padding-right: 10px;">
+                                                                            <div align="center" style="width: 70px;">
+                                                                                <div
+                                                                                    style="min-width: 64px; width: 64px; min-height: 64px; height: 64px;">
+                                                                                    <div class="paytable_symbols h_grass"
+                                                                                        style="display: block; transform: scale(0.5); position: relative; right: 32px; bottom: 32px; min-width: 128px; width: 128px; min-height: 128px; height: 128px;">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div id="symbol_payout_data" align="left"
+                                                                            style="width: 100%; display: table-cell; vertical-align: middle;">
+                                                                            <table style="border-collapse: collapse;">
+                                                                                <tbody>
+                                                                                    <tr style="height: 0px;">
+                                                                                        <td
+                                                                                            style="padding-right: 20px; color: rgb(204, 204, 204);">
+                                                                                            5</td>
+                                                                                        <td>75</td>
+                                                                                    </tr>
+                                                                                    <tr style="height: 0px;">
+                                                                                        <td
+                                                                                            style="padding-right: 20px; color: rgb(204, 204, 204);">
+                                                                                            4</td>
+                                                                                        <td>15</td>
+                                                                                    </tr>
+                                                                                    <tr style="height: 0px;">
+                                                                                        <td
+                                                                                            style="padding-right: 20px; color: rgb(204, 204, 204);">
+                                                                                            3</td>
+                                                                                        <td>4</td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                                <td align="center" colspan="1" rowspan="1"
+                                                                    style="padding-bottom: 10px; vertical-align: middle;">
+                                                                    <div
+                                                                        style="display: table; border-collapse: collapse; width: 100%; height: fit-content;">
+                                                                        <div id="symbol_icon"
+                                                                            style="display: table-cell; vertical-align: middle; padding-right: 10px;">
+                                                                            <div align="center" style="width: 70px;">
+                                                                                <div
+                                                                                    style="min-width: 64px; width: 64px; min-height: 64px; height: 64px;">
+                                                                                    <div class="paytable_symbols l_a"
+                                                                                        style="display: block; transform: scale(0.5); position: relative; right: 32px; bottom: 32px; min-width: 128px; width: 128px; min-height: 128px; height: 128px;">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div id="symbol_payout_data" align="left"
+                                                                            style="width: 100%; display: table-cell; vertical-align: middle;">
+                                                                            <table style="border-collapse: collapse;">
+                                                                                <tbody>
+                                                                                    <tr style="height: 0px;">
+                                                                                        <td
+                                                                                            style="padding-right: 20px; color: rgb(204, 204, 204);">
+                                                                                            5</td>
+                                                                                        <td>50</td>
+                                                                                    </tr>
+                                                                                    <tr style="height: 0px;">
+                                                                                        <td
+                                                                                            style="padding-right: 20px; color: rgb(204, 204, 204);">
+                                                                                            4</td>
+                                                                                        <td>10</td>
+                                                                                    </tr>
+                                                                                    <tr style="height: 0px;">
+                                                                                        <td
+                                                                                            style="padding-right: 20px; color: rgb(204, 204, 204);">
+                                                                                            3</td>
+                                                                                        <td>3</td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div id="symbol_payout_desc" class="list"
+                                                    style="font-size: 12px; color: rgb(204, 204, 204); padding: 0px; margin: 20px 20px 20px 32px; line-height: normal; text-align: left; list-style-position: outside;">
+                                                   
+                                                    <div
+                                                        style="list-style: none; position: relative; margin-bottom: 12px;">
+                                                        <div
+                                                            style="position: absolute; top: 7px; left: -12px; width: 4px; height: 4px; background-color: rgb(204, 204, 204);">
+                                                        </div>Wild symbol substitutes for all symbols except Scatter
+                                                        symbol.
+                                                    </div>
+                                                    <div
+                                                        style="list-style: none; position: relative; margin-bottom: 0px;">
+                                                        <div
+                                                            style="position: absolute; top: 7px; left: -12px; width: 4px; height: 4px; background-color: rgb(204, 204, 204);">
+                                                        </div>Wild symbol appears on reels 2, 3, 4 and 5 only.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="segment" id="cb2_feature_multiplier" align="center"
+                                                style="display: inline-block; width: 100%; border-bottom: 1px solid rgb(40, 40, 52); margin-bottom: 12px;">
+                                                <div class="paytable"
+                                                    style="font-size: 14px; color: rgb(255, 255, 255); font-weight: normal; margin-bottom: 16px; line-height: 145%; padding: 0px 20px;">
+                                                    Multiplier</div>
+                                                <div id="cb2_feature_multiplier_a" class="image_segment">
+                                                    <table style="border-collapse: collapse;">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td align="center" colspan="1" rowspan="1"
+                                                                    style="padding-bottom: 0px; vertical-align: middle;">
+                                                                    <div>
+                                                                        <div
+                                                                            style="min-width: 300px; width: 300px; min-height: 220px; height: 220px;">
+                                                                            <div class="paytable_feature feat_multiplier"
+                                                                                style="display: block; transform: scale(1.2); position: relative; right: 150px; bottom: 110px; min-width: 600px; width: 600px; min-height: 440px; height: 440px; background-position: -198px 18px;">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div id="cb2_feature_multiplier_a_desc" class="list"
+                                                    style="font-size: 12px; color: rgb(204, 204, 204); padding: 0px; margin: 20px 20px 20px 32px; line-height: normal; text-align: left; list-style-position: outside;">
+                                                    <div
+                                                        style="list-style: none; position: relative; margin-bottom: 12px;">
+                                                        <div
+                                                            style="position: absolute; top: 7px; left: -12px; width: 4px; height: 4px; background-color: rgb(204, 204, 204);">
+                                                        </div>During any spin, all wins will be multiplied by the
+                                                        multiplier shown above the reels, starting with x1 in the first
+                                                        round.
+                                                    </div>
+                                                    <div
+                                                        style="list-style: none; position: relative; margin-bottom: 12px;">
+                                                        <div
+                                                            style="position: absolute; top: 7px; left: -12px; width: 4px; height: 4px; background-color: rgb(204, 204, 204);">
+                                                        </div>Any win in the first round will increase the second
+                                                        round's multiplier to x2.
+                                                    </div>
+                                                    <div
+                                                        style="list-style: none; position: relative; margin-bottom: 12px;">
+                                                        <div
+                                                            style="position: absolute; top: 7px; left: -12px; width: 4px; height: 4px; background-color: rgb(204, 204, 204);">
+                                                        </div>Any win in the second round will increase the third
+                                                        round's multiplier to x3.
+                                                    </div>
+                                                    <div
+                                                        style="list-style: none; position: relative; margin-bottom: 0px;">
+                                                        <div
+                                                            style="position: absolute; top: 7px; left: -12px; width: 4px; height: 4px; background-color: rgb(204, 204, 204);">
+                                                        </div>Any win in the third round will increase the fourth
+                                                        round's (and beyond) multiplier to x5.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="segment" id="cb2_feature_freespin" align="center"
+                                                style="display: inline-block; width: 100%; border-bottom: 1px solid rgb(40, 40, 52); margin-bottom: 12px;">
+                                                <div class="paytable"
+                                                    style="font-size: 14px; color: rgb(255, 255, 255); font-weight: normal; margin-bottom: 16px; line-height: 145%; padding: 0px 20px;">
+                                                    Free Spins Feature</div>
+                                                <div id="cb2_feature_freespin_a" class="image_segment">
+                                                    <table style="border-collapse: collapse;">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td align="center" colspan="1" rowspan="1"
+                                                                    style="padding-bottom: 0px; vertical-align: middle; padding-right: 20px;">
+                                                                    <div>
+                                                                        <div
+                                                                            style="min-width: 70px; width: 70px; min-height: 63.5px; height: 63.5px;">
+                                                                            <div class="paytable_special_symbols s_scatter"
+                                                                                style="display: block; transform: scale(0.5); position: relative; right: 35px; bottom: 31.75px; min-width: 140px; width: 140px; min-height: 127px; height: 127px; background-position: -1px -1px;">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                                <td align="center" colspan="1" rowspan="1"
+                                                                    style="padding-bottom: 0px; vertical-align: middle; padding-right: 20px;">
+                                                                    <div>
+                                                                        <div
+                                                                            style="min-width: 70px; width: 70px; min-height: 63.5px; height: 63.5px;">
+                                                                            <div class="paytable_special_symbols s_scatter"
+                                                                                style="display: block; transform: scale(0.5); position: relative; right: 35px; bottom: 31.75px; min-width: 140px; width: 140px; min-height: 127px; height: 127px; background-position: -1px -1px;">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                                <td align="center" colspan="1" rowspan="1"
+                                                                    style="padding-bottom: 0px; vertical-align: middle;">
+                                                                    <div>
+                                                                        <div
+                                                                            style="min-width: 70px; width: 70px; min-height: 63.5px; height: 63.5px;">
+                                                                            <div class="paytable_special_symbols s_scatter"
+                                                                                style="display: block; transform: scale(0.5); position: relative; right: 35px; bottom: 31.75px; min-width: 140px; width: 140px; min-height: 127px; height: 127px; background-position: -1px -1px;">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div id="cb2_feature_freespin_a_desc" class="list"
+                                                    style="font-size: 12px; color: rgb(204, 204, 204); padding: 0px; margin: 20px 20px 20px 32px; line-height: normal; text-align: left; list-style-position: outside;">
+                                                    <div
+                                                        style="list-style: none; position: relative; margin-bottom: 0px;">
+                                                        <div
+                                                            style="position: absolute; top: 7px; left: -12px; width: 4px; height: 4px; background-color: rgb(204, 204, 204);">
+                                                        </div>3 or more Scatter symbols appearing anywhere will trigger
+                                                        the Free Spins Feature.
+                                                    </div>
+                                                </div>
+                                                <div id="cb2_feature_freespin_b" class="image_segment">
+                                                    <table style="border-collapse: collapse;">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td align="center" colspan="1" rowspan="1"
+                                                                    style="padding-bottom: 0px; vertical-align: middle;">
+                                                                    <div>
+                                                                        <div
+                                                                            style="min-width: 300px; width: 300px; min-height: 250px; height: 250px;">
+                                                                            <div class="paytable_feature feat_freespins"
+                                                                                style="display: block; transform: scale(1.2); position: relative; right: 150px; bottom: 125px; min-width: 600px; width: 600px; min-height: 500px; height: 500px; background-position: 137px 146px;">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div id="cb2_feature_freespin_b_desc" class="list"
+                                                    style="font-size: 12px; color: rgb(204, 204, 204); padding: 0px; margin: 20px 20px 20px 32px; line-height: normal; text-align: left; list-style-position: outside;">
+                                                    <div
+                                                        style="list-style: none; position: relative; margin-bottom: 12px;">
+                                                        <div
+                                                            style="position: absolute; top: 7px; left: -12px; width: 4px; height: 4px; background-color: rgb(204, 204, 204);">
+                                                        </div>Players may choose to start the Free Spins Feature with:
+                                                        20 free spins with multipliers of x1/x2/x3/x5, 10 free spins
+                                                        with multipliers of x3/x6/x9/x20, or 5 free spins with
+                                                        multipliers of x6/x12/x18/x40.
+                                                    </div>
+                                                    <div
+                                                        style="list-style: none; position: relative; margin-bottom: 0px;">
+                                                        <div
+                                                            style="position: absolute; top: 7px; left: -12px; width: 4px; height: 4px; background-color: rgb(204, 204, 204);">
+                                                        </div>Free spins can be retriggered.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="segment" id="way_game_desc" align="center"
+                                                style="display: inline-block; width: 100%; margin-bottom: 60px;">
+                                                <div class="paytable"
+                                                    style="font-size: 14px; color: rgb(255, 255, 255); font-weight: normal; margin-bottom: 16px; line-height: 145%; padding: 0px 20px;">
+                                                    Winning Bet Lines</div>
+                                                
+                                                <div id="way_desc_image" class="image_segment"
+                                                    style="padding-bottom: 20px;">
+                                                    <td align="center" colspan="1" rowspan="1"
+                                                                    style="padding-bottom: 0px; vertical-align: middle;">
+                                                                    <div>
+                                                                        <div
+                                                                            style="min-width: 300px; width: 300px; min-height: 123px; height: 123px;">
+                                                                            <div class="paytable_ways"
+                                                                                style="display: block; transform: scale(0.55); position: relative; right: 175px; bottom: 61.5px; min-width: 640px; width: 600px; min-height: 246px; height: 246px; background-position: 7px -1px;">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                </div>
+                                                <div id="way_desc_02" class="list"
+                                                    style="font-size: 12px; color: rgb(204, 204, 204); padding: 0px; margin: 20px 20px 20px 32px; line-height: normal; text-align: left; list-style-position: outside;">
+                                                    <div
+                                                        style="list-style: none; position: relative; margin-bottom: 12px;">
+                                                        <div
+                                                            style="position: absolute; top: 7px; left: -12px; width: 4px; height: 4px; background-color: rgb(204, 204, 204);">
+                                                        </div>Only the highest win per bet line is paid.
+                                                    </div>
+                                                    <div
+                                                        style="list-style: none; position: relative; margin-bottom: 12px;">
+                                                        <div
+                                                            style="position: absolute; top: 7px; left: -12px; width: 4px; height: 4px; background-color: rgb(204, 204, 204);">
+                                                        </div>Bet lines win if the winning symbols are in succession
+                                                        from the leftmost reel to the right.
+                                                    </div>
+                                                    <div
+                                                        style="list-style: none; position: relative; margin-bottom: 12px;">
+                                                        <div
+                                                            style="position: absolute; top: 7px; left: -12px; width: 4px; height: 4px; background-color: rgb(204, 204, 204);">
+                                                        </div>After the payout of every round is made, all winning
+                                                        symbols will explode allowing the symbols above them to cascade
+                                                        down for a new round.
+                                                    </div>
+                                                    <div
+                                                        style="list-style: none; position: relative; margin-bottom: 12px;">
+                                                        <div
+                                                            style="position: absolute; top: 7px; left: -12px; width: 4px; height: 4px; background-color: rgb(204, 204, 204);">
+                                                        </div>Additional winning combination will be tallied in every
+                                                        round until no more winning combination can be tallied.
+                                                    </div>
+                                                    <div
+                                                        style="list-style: none; position: relative; margin-bottom: 0px;">
+                                                        <div
+                                                            style="position: absolute; top: 7px; left: -12px; width: 4px; height: 4px; background-color: rgb(204, 204, 204);">
+                                                        </div>All wins shown in cash.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="width: inherit;">
+                        <div
+                            style="display: flex; flex-direction: row; justify-content: space-between; align-items: center; padding: 10px 11px; height: 43px; background-color: rgb(40, 40, 52); color: rgb(247, 186, 101);">
+                            <div class="paytable-rules-button-container" style="width: 25px; height: 25px;"></div>
+                            <div
+                                style="white-space: nowrap; text-overflow: ellipsis; overflow: hidden; max-width: 70%; text-align: center; font-size: 18px; padding-top: 0px;">
+                                Paytable</div>
+                            <div class="paytable-rules-button-container"
+                                style="width: 25px; height: 25px; padding-top: 0px;">
+                                <div class="paytable-rules-dismiss-button" tabindex="-1"
+                                    style="display: flex; flex-direction: column; place-content: center; width: inherit; height: inherit;">
+                                    <div class="cross-stroke left"
+                                        style="position: absolute; width: inherit; height: 1px; background-color: rgb(150, 150, 150); transition: all 0.3s ease 0s; transform: rotate(45deg);">
+                                    </div>
+                                    <div class="cross-stroke right"
+                                        style="position: absolute; width: inherit; height: 1px; background-color: rgb(150, 150, 150); transition: all 0.3s ease 0s; transform: rotate(135deg);">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            style="width: inherit; height: 2px; opacity: 0.25; background-image: linear-gradient(black, transparent);">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

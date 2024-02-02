@@ -1,0 +1,538 @@
+<div id="game-shell" class="game-shell">
+        <div id="background-img"></div>
+        <div id="canvas-shadow"
+            style="visibility: visible; height: 769.556px; width: 432px; left: 743px; top: 0px; transform: rotate(0deg);">
+        </div>
+        <div id="Cocos2dGameContainer"
+            style="transform: rotate(0deg); width: 434px; height: 771px; margin: 0px; padding: 0px 743px;"><canvas
+                id="GameCanvas" tabindex="99" style="width: 434px; height: 771px; visibility: visible;"
+                class="gameCanvas" width="434" height="771"></canvas></div>
+        <div id="game-overlay" style="transform: scale(1.20556) rotate(0deg); left: 743px; top: 0px;">
+            <div id="game-header-holder"
+                style="z-index: 99; pointer-events: none; position: absolute; height: 640px; width: 360px; visibility: hidden;">
+                <div id="game-title" class="game-title"
+                    style="visibility: hidden; justify-content: flex-start; width: 360px; height: 18px; font-size: 11.5px;">
+                    <div style="padding-left: 12px; display: flex; align-items: center;">Fortune Mouse</div>
+                </div>
+                <div id="time-stamp" class="time_stamp"
+                    style="justify-content: flex-end; height: 18px; font-size: 11.5px; visibility: hidden; width: 360px;">
+                    <div style="padding-right: 12px; display: flex; align-items: center;">12:19:20</div>
+                </div>
+            </div>
+            <div id="widget-manager-container"
+                style="height: 0px; width: 0px; position: absolute; visibility: hidden; z-index: 0;">
+                <div class="wm_widget-container" style="transform: translate(360px, 398.103px); display: block;">
+                    <div class="wm_background-shadow" style="top: 0px; height: 33px;"></div>
+                    <div class="wm_widget-button">
+                        <div class="wm_button-image widget_icon_img btn_trophy  wm_small-scale-button"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="ui_block" tabindex="100"
+                style="animation: 0.15s ease-out 0s 1 normal forwards running ui_block_show; z-index: 0; width: 360px; height: 640px;">
+            </div>
+            <div id="game-history-container"
+                style="overflow: hidden; visibility: visible; height: 640px; width: 360px; transform: scale(1); position: relative; z-index: 0;">
+                <div id="container-view" style="overflow: hidden;">
+                    <div style="top: 0%; left: 0px; position: absolute; width: inherit; height: inherit;">
+                        <div id="game-list-view" class="game-list-view-container"
+                            style="background-color: rgb(48, 48, 59);">
+                            <div id="game-list-view-wrapper" style="flex-direction: column;">
+                                <div id="game-list-view-navbar-container" class=""
+                                    style="width: 100%; height: 62px; padding-top: 0px; background-color: rgb(36, 36, 46); display: none;">
+                                    <div id="game-list-nav" style="background-color: rgb(36, 36, 46);">
+                                        <div id="game-list-nav-bar" class="game-list-nav-bar-vertical"
+                                            style="height: calc(100% - 2px);">
+                                            <div
+                                                class="game-list-nav-image-container game-list-nav-image-container-slot">
+                                                <div id="game-list-nav-image-left" class="game-list-nav-image "
+                                                    style="transform: scale(0.325);">
+                                                    <div class="gh_ic_nav_calendar gh_basic_sprite"
+                                                        style="transform: translate(0px, 0px);"></div>
+                                                </div>
+                                            </div>
+                                            <div id="game-list-nav-label-container"
+                                                class="game-list-nav-label-container-vertical">
+                                                <div class="game-list-nav-period-label"
+                                                    style="color: rgb(255, 200, 36);">Game History</div>
+                                                <div class="game-list-nav-subtitle-label"
+                                                    style="color: rgba(255, 255, 255, 0.4);">Today</div>
+                                            </div>
+                                            <div
+                                                class="game-list-nav-image-container game-list-nav-image-container-slot">
+                                                <div id="game-list-nav-image-right" class="game-list-nav-image"
+                                                    style="display: flex; transform: translateX(9px);">
+                                                    <div class="exit-icon vertical">
+                                                        <div class="exit-icon-stroke exit-icon-stroke-one exit-icon-stroke-vertical"
+                                                            style="background-color: rgba(255, 255, 255, 0.6);"></div>
+                                                        <div class="exit-icon-stroke exit-icon-stroke-two exit-icon-stroke-vertical"
+                                                            style="background-color: rgba(255, 255, 255, 0.6);"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="game-list-nav-separator-vertical-slot"
+                                            style="background-color: rgb(48, 48, 60);"></div>
+                                    </div>
+                                </div>
+                                <div id="game-list-view-contents-container" style="height: 578px; display: none;">
+                                    <div id="calendar-container" style="display: none;">
+                                        <div id="calendar-view-background" style="height: 578px;">
+                                            <div id="calendar-selection-container"
+                                                style="background-color: rgb(48, 48, 59);">
+                                                <div class="calendar-item-container-vertical calendar-item-container"
+                                                    style="background-color: rgb(48, 48, 59);">
+                                                    <div class="calendar-item-label" style="color: rgb(255, 200, 36);">
+                                                        Today</div>
+                                                </div>
+                                                <div class="calendar-line-separator"
+                                                    style="background-color: rgb(40, 40, 52);"></div>
+                                                <div class="calendar-item-container-vertical calendar-item-container"
+                                                    style="background-color: rgb(48, 48, 59);">
+                                                    <div class="calendar-item-label"
+                                                        style="color: rgba(255, 255, 255, 0.6);">Last 7 days</div>
+                                                </div>
+                                                <div class="calendar-line-separator"
+                                                    style="background-color: rgb(40, 40, 52);"></div>
+                                                <div class="calendar-item-container-vertical calendar-item-container"
+                                                    style="background-color: rgb(48, 48, 59);">
+                                                    <div class="calendar-item-label"
+                                                        style="color: rgba(255, 255, 255, 0.6);">Custom</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="game-list-nav-table-header" class="game-list-nav-table-header-vertical"
+                                        style="color: rgba(255, 255, 255, 0.4); background-color: rgb(36, 36, 46);">
+                                        <div id="game-list-nav-table-item-container">
+                                            <div class="game-list-nav-table-item">Time</div>
+                                            <div class="game-list-nav-table-item">(GMT+7:00)</div>
+                                        </div>
+                                        <div class="game-list-nav-table-item"> Transaction</div>
+                                        <div class="game-list-nav-table-item">Bet(Rp)</div>
+                                        <div class="game-list-nav-table-item">Profit(Rp)</div>
+                                    </div>
+                                    <div id="scroll-view"
+                                        style="height: 494px; width: 100%; background-color: rgb(48, 48, 59); -webkit-font-smoothing: antialiased;">
+                                        <div id="list-wrapper" class="transition-transform-on"
+                                            style="height: 100%; width: 100%; position: relative; background-color: rgb(48, 48, 59); z-index: 1; transform: translateY(0px);">
+                                            <div id="game-list-scroll-view-container" class="history regular">
+                                                <div class="rcs-custom-scroll " style="height: inherit;">
+                                                    <div class="rcs-outer-container" style="height: 100%;">
+                                                        <div class="rcs-inner-container"
+                                                            style="height: 100%; margin-right: -17px;">
+                                                            <div
+                                                                style="height: 100%; overflow-y: visible; margin-right: 0px;">
+                                                                <div id="game-list-wrapper"
+                                                                    style="position: relative; height: 216px;">
+                                                                    <div class="game-list-item-container game-list-item-container-vertical"
+                                                                        style="color: rgba(255, 255, 255, 0.6); background: rgb(52, 52, 63);">
+                                                                        <div class="game-list-item-column-container"
+                                                                            style="color: rgba(255, 255, 255, 0.6);">
+                                                                            <div id="game-list-item">12:17:56</div>
+                                                                            <div id="game-list-item">05/11</div>
+                                                                        </div>
+                                                                        <div class="game-list-item-column-container">
+                                                                            <div class="game-list-item"
+                                                                                id="game-list-item-transaction-id-0"
+                                                                                style="color: rgba(255, 255, 255, 0.6); transition: color 0.5s ease 0s; display: inline-table;">
+                                                                                165652904 6760665088</div>
+                                                                        </div>
+                                                                        <div class="game-list-item"
+                                                                            style="text-align: right;">10,00K</div>
+                                                                        <div class="game-list-item"
+                                                                            style="color: rgba(255, 255, 255, 0.6); text-align: right;">
+                                                                            -10,00K</div>
+                                                                        <div id="game-list-item-arrow-image-container">
+                                                                            <div class="gh-angle-vertical angle-right"
+                                                                                style="border-color: rgba(255, 255, 255, 0.4);">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="game-list-item-container game-list-item-container-vertical"
+                                                                        style="color: rgba(255, 255, 255, 0.6); background: rgb(48, 48, 60);">
+                                                                        <div class="game-list-item-column-container"
+                                                                            style="color: rgba(255, 255, 255, 0.6);">
+                                                                            <div id="game-list-item">12:17:54</div>
+                                                                            <div id="game-list-item">05/11</div>
+                                                                        </div>
+                                                                        <div class="game-list-item-column-container">
+                                                                            <div class="game-list-item"
+                                                                                id="game-list-item-transaction-id-1"
+                                                                                style="color: rgba(255, 255, 255, 0.6); transition: color 0.5s ease 0s; display: inline-table;">
+                                                                                165652903 7373849600</div>
+                                                                        </div>
+                                                                        <div class="game-list-item"
+                                                                            style="text-align: right;">10,00K</div>
+                                                                        <div class="game-list-item"
+                                                                            style="color: rgba(255, 255, 255, 0.6); text-align: right;">
+                                                                            -10,00K</div>
+                                                                        <div id="game-list-item-arrow-image-container">
+                                                                            <div class="gh-angle-vertical angle-right"
+                                                                                style="border-color: rgba(255, 255, 255, 0.4);">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="game-list-item-container game-list-item-container-vertical"
+                                                                        style="color: rgba(255, 255, 255, 0.6); background: rgb(52, 52, 63);">
+                                                                        <div class="game-list-item-column-container"
+                                                                            style="color: rgba(255, 255, 255, 0.6);">
+                                                                            <div id="game-list-item">12:17:52</div>
+                                                                            <div id="game-list-item">05/11</div>
+                                                                        </div>
+                                                                        <div class="game-list-item-column-container">
+                                                                            <div class="game-list-item"
+                                                                                id="game-list-item-transaction-id-2"
+                                                                                style="color: rgba(255, 255, 255, 0.6); transition: color 0.5s ease 0s; display: inline-table;">
+                                                                                165652902 6569302016</div>
+                                                                        </div>
+                                                                        <div class="game-list-item"
+                                                                            style="text-align: right;">10,00K</div>
+                                                                        <div class="game-list-item"
+                                                                            style="color: rgba(255, 255, 255, 0.6); text-align: right;">
+                                                                            -10,00K</div>
+                                                                        <div id="game-list-item-arrow-image-container">
+                                                                            <div class="gh-angle-vertical angle-right"
+                                                                                style="border-color: rgba(255, 255, 255, 0.4);">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="game-list-item-container game-list-item-container-vertical"
+                                                                        style="color: rgba(255, 255, 255, 0.6); background: rgb(48, 48, 60);">
+                                                                        <div class="game-list-item-column-container"
+                                                                            style="color: rgba(255, 255, 255, 0.6);">
+                                                                            <div id="game-list-item">12:17:47</div>
+                                                                            <div id="game-list-item">05/11</div>
+                                                                        </div>
+                                                                        <div class="game-list-item-column-container">
+                                                                            <div class="game-list-item"
+                                                                                id="game-list-item-transaction-id-3"
+                                                                                style="color: rgba(255, 255, 255, 0.6); transition: color 0.5s ease 0s; display: inline-table;">
+                                                                                165652900 2460352512</div>
+                                                                        </div>
+                                                                        <div class="game-list-item"
+                                                                            style="text-align: right;">10,00K</div>
+                                                                        <div class="game-list-item"
+                                                                            style="color: rgba(255, 255, 255, 0.6); text-align: right;">
+                                                                            -10,00K</div>
+                                                                        <div id="game-list-item-arrow-image-container">
+                                                                            <div class="gh-angle-vertical angle-right"
+                                                                                style="border-color: rgba(255, 255, 255, 0.4);">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="game-list-footer-container" class="game-list-footer-container-vertical"
+                                        style="background-color: rgb(41, 41, 52); border-top: 1px solid rgb(48, 48, 60); color: rgba(255, 255, 255, 0.6); height: 48px;">
+                                        <div id="game-list-footer-date-container">
+                                            <div id="game-list-footer-date-vertical">
+                                                <div id="game-list-footer-date-label-vertical"
+                                                    style="color: rgb(255, 200, 36);">Today</div>
+                                            </div>
+                                            <div id="game-list-footer-record-vertical">4 Records</div>
+                                        </div>
+                                        <div class="game-list-footer-item"
+                                            style="color: rgb(255, 255, 255); visibility: visible;">
+                                            <div class="game-list-footer-item-wrapper">Rp40,00K</div>
+                                        </div>
+                                        <div class="game-list-footer-item"
+                                            style="color: rgb(255, 255, 255); visibility: visible;">
+                                            <div class="game-list-footer-item-wrapper" style="transform: scale(1);">
+                                                -Rp40,00K</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    style="left: 0%; top: 0px; position: absolute; width: inherit; height: inherit; z-index: 3;">
+                                    <div id="game-details-view-container"
+                                        style="background-color: rgb(48, 48, 59); color: rgba(255, 255, 255, 0.6); overflow: hidden; -webkit-font-smoothing: antialiased;">
+                                        <div id="game-detail-view-navbar-container" class=""
+                                            style="height: 62px; padding-top: 0px; background-color: rgb(36, 36, 46);">
+                                            <div
+                                                style="position: absolute; z-index: 4; height: inherit; width: inherit;">
+                                                <div id="game-list-nav" style="background-color: rgb(36, 36, 46);">
+                                                    <div id="game-list-nav-bar" class="game-list-nav-bar-vertical"
+                                                        style="height: calc(100% - 2px);">
+                                                        <div
+                                                            class="game-list-nav-image-container game-list-nav-image-container-slot">
+                                                            <div id="game-list-nav-image-left"
+                                                                class="game-list-nav-image "
+                                                                style="transform: scale(0.7);">
+                                                                <div class="gh-arrow "
+                                                                    style="transform: translate(0px, 0px); background-color: rgb(255, 200, 36);">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div id="game-list-nav-label-container"
+                                                            class="game-list-nav-label-container-vertical ">
+                                                            <div class="game-list-nav-row-container ">
+                                                                <div id="game-free-spin-nav-label-wrapper"
+                                                                    style="width: 84px;">
+                                                                    <div id="game-free-spin-nav-label"
+                                                                        style="color: rgb(255, 200, 36);">Normal Spin
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="game-list-nav-subtitle-label"
+                                                                style="color: rgba(255, 255, 255, 0.4);">2023/05/11
+                                                                12:17 (GMT+7:00)</div>
+                                                        </div>
+                                                        <div
+                                                            class="game-list-nav-image-container game-list-nav-image-container-slot">
+                                                            <div id="game-list-nav-image-right"
+                                                                class="game-list-nav-image" style="display: none;">
+                                                                <div class="exit-icon vertical">
+                                                                    <div class="exit-icon-stroke exit-icon-stroke-one exit-icon-stroke-vertical"
+                                                                        style="background-color: rgba(255, 255, 255, 0.6);">
+                                                                    </div>
+                                                                    <div class="exit-icon-stroke exit-icon-stroke-two exit-icon-stroke-vertical"
+                                                                        style="background-color: rgba(255, 255, 255, 0.6);">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="game-list-nav-separator-vertical-slot"
+                                                        style="background-color: rgb(48, 48, 60);"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="game-detail-spring-wrapper"
+                                            style="position: absolute; height: 578px; transform: translate3d(0px, 0px, 0px);">
+                                            <div id="game-details-page-container" style="height: 578px;">
+                                                <div id="game-pages-window" style="position: relative;">
+                                                    <div class="game-list-page"
+                                                        style="width: 100%; height: 578px; position: absolute; left: 0px;">
+                                                        <div class="reset">
+                                                            <div id="transaction-details-container"
+                                                                style="display: flex; width: inherit; height: 50px; margin: 0px auto; justify-content: center; align-items: center; background-color: rgb(36, 36, 46);">
+                                                                <div class="transaction-detail-item"
+                                                                    style="display: flex; flex-direction: column; align-items: center; width: 27%;">
+                                                                    <div id="detail-item-holder"
+                                                                        style="height: 23px; display: flex; justify-content: center; align-items: center;">
+                                                                        <div id="Transaction-item-value"
+                                                                            style="text-align: center; display: inline-table; color: rgba(255, 255, 255, 0.6); font-size: 11px; line-height: 12px;">
+                                                                            165652904 6760665088</div>
+                                                                    </div>
+                                                                    <div id="Transaction-item-key"
+                                                                        style="text-align: center; font-size: 11px; color: rgb(255, 200, 36);">
+                                                                        Transaction</div>
+                                                                </div>
+                                                                <div class="transaction-detail-item"
+                                                                    style="display: flex; flex-direction: column; align-items: center; width: 18%; margin-left: 10px;">
+                                                                    <div id="detail-item-holder"
+                                                                        style="height: 23px; display: flex; justify-content: center; align-items: center;">
+                                                                        <div id="Bet(Rp)-item-value"
+                                                                            style="text-align: center; display: inline-table; color: rgba(255, 255, 255, 0.6); font-size: 11px; line-height: 12px;">
+                                                                            10,00K</div>
+                                                                    </div>
+                                                                    <div id="Bet(Rp)-item-key"
+                                                                        style="text-align: center; font-size: 11px; color: rgb(255, 200, 36);">
+                                                                        Bet(Rp)</div>
+                                                                </div>
+                                                                <div class="transaction-detail-item"
+                                                                    style="display: flex; flex-direction: column; align-items: center; width: 20%; margin-left: 10px;">
+                                                                    <div id="detail-item-holder"
+                                                                        style="height: 23px; display: flex; justify-content: center; align-items: center;">
+                                                                        <div id="Profit(Rp)-item-value"
+                                                                            style="text-align: center; display: inline-table; color: rgba(255, 255, 255, 0.6); font-size: 11px; line-height: 12px;">
+                                                                            -10,00K</div>
+                                                                    </div>
+                                                                    <div id="Profit(Rp)-item-key"
+                                                                        style="text-align: center; font-size: 11px; color: rgb(255, 200, 36);">
+                                                                        Profit(Rp)</div>
+                                                                </div>
+                                                                <div class="transaction-detail-item"
+                                                                    style="display: flex; flex-direction: column; align-items: center; width: 27%; margin-left: 10px;">
+                                                                    <div id="detail-item-holder"
+                                                                        style="height: 23px; display: flex; justify-content: center; align-items: center;">
+                                                                        <div id="Balance(Rp)-item-value"
+                                                                            style="text-align: center; display: inline-table; color: rgba(255, 255, 255, 0.6); font-size: 11px; line-height: 12px;">
+                                                                            879,90K</div>
+                                                                    </div>
+                                                                    <div id="Balance(Rp)-item-key"
+                                                                        style="text-align: center; font-size: 11px; color: rgb(255, 200, 36);">
+                                                                        Balance(Rp)</div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="history regular"
+                                                                style="width: inherit; height: 528px;">
+                                                                <div class="rcs-custom-scroll "
+                                                                    style="height: inherit;">
+                                                                    <div class="rcs-outer-container"
+                                                                        style="height: 100%;">
+                                                                        <div class="rcs-inner-container"
+                                                                            style="height: 100%; margin-right: -17px;">
+                                                                            <div
+                                                                                style="height: 100%; overflow-y: visible; margin-right: 0px;">
+                                                                                <div id="bet-details-container"
+                                                                                    style="display: flex; flex-direction: column;">
+                                                                                    <div id="bet-information-container"
+                                                                                        style="display: flex; width: inherit; height: 50px; margin: 0px auto 5px; justify-content: center; align-items: center; padding-left: 10px; padding-right: 10px;">
+                                                                                        <div id="bet-size-label"
+                                                                                            style="font-size: 11px; text-align: center; word-break: break-word; color: rgba(255, 255, 255, 0.4);">
+                                                                                            Bet Size 1,00K</div>
+                                                                                        <div id="separator"
+                                                                                            style="width: 2px; height: 12px; margin-left: 10px; margin-right: 10px; background-color: rgb(40, 40, 51);">
+                                                                                        </div>
+                                                                                        <div id="bet-level-label"
+                                                                                            style="font-size: 11px; text-align: center; word-break: break-word; color: rgba(255, 255, 255, 0.4);">
+                                                                                            Bet Level 2</div>
+                                                                                    </div>
+                                                                                    <div id="background-container"
+                                                                                        style="position: relative; width: 270px; height: 260px; align-self: center; margin-top: 10px;">
+                                                                                        <div id="reel_background"
+                                                                                            style="position: absolute; display: flex; flex-direction: column; align-items: center; margin-top: -15px; margin-left: -10px;">
+                                                                                            <div id="background-item"
+                                                                                                style="width: 290px; height: 23px;">
+                                                                                                <span
+                                                                                                    class="ui_reel_btm ui_reel_atlas"
+                                                                                                    style="display: block; position: absolute; transform-origin: left top; transform: scale(0.5); z-index: 1;"></span>
+                                                                                            </div>
+                                                                                            <div id="background-item"
+                                                                                                style="width: 279px; height: 234px; margin-top: -5px; margin-bottom: -6px;">
+                                                                                                <span
+                                                                                                    class="ui_reel ui_reel_atlas"
+                                                                                                    style="display: block; position: absolute; transform-origin: left top; transform: scale(0.5);"></span>
+                                                                                            </div>
+                                                                                            <div id="background-item"
+                                                                                                style="width: 290px; height: 23px;">
+                                                                                                <span
+                                                                                                    class="ui_reel_btm ui_reel_atlas"
+                                                                                                    style="display: block; position: absolute; transform-origin: left top; transform: scale(0.5); z-index: 1;"></span>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div id="symbols-container"
+                                                                                            style="position: absolute; display: flex; justify-content: center; align-items: center; width: inherit; height: inherit;">
+                                                                                            <div id="slot-item-column"
+                                                                                                style="position: relative; height: 230px; width: 95px; display: flex; flex-direction: column; align-items: center; margin-top: -20px;">
+                                                                                                <div id="slot-item"
+                                                                                                    style="width: 85px; height: 78px;">
+                                                                                                    <span
+                                                                                                        class="h_angpow_1x1 symbol_atlas"
+                                                                                                        style="display: block; position: absolute; transform-origin: left top; transform: scale(0.38); margin-top: 0px; margin-left: 2px;"></span>
+                                                                                                </div>
+                                                                                                <div id="slot-item"
+                                                                                                    style="width: 85px; height: 78px;">
+                                                                                                    <span
+                                                                                                        class="h_coinpouch_1x1 symbol_atlas"
+                                                                                                        style="display: block; position: absolute; transform-origin: left top; transform: scale(0.38); margin-top: 2px; margin-left: 0px;"></span>
+                                                                                                </div>
+                                                                                                <div id="slot-item"
+                                                                                                    style="width: 85px; height: 78px;">
+                                                                                                    <span
+                                                                                                        class="h_fcracker_1x1 symbol_atlas"
+                                                                                                        style="display: block; position: absolute; transform-origin: left top; transform: scale(0.38); margin-top: 3px; margin-left: 6px;"></span>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div id="slot-item-column"
+                                                                                                style="position: relative; height: 230px; width: 95px; display: flex; flex-direction: column; align-items: center; margin-top: -20px;">
+                                                                                                <div id="slot-item"
+                                                                                                    style="width: 85px; height: 78px;">
+                                                                                                    <span
+                                                                                                        class="h_angpow_1x1 symbol_atlas"
+                                                                                                        style="display: block; position: absolute; transform-origin: left top; transform: scale(0.38); margin-top: 0px; margin-left: 2px;"></span>
+                                                                                                </div>
+                                                                                                <div id="slot-item"
+                                                                                                    style="width: 85px; height: 78px;">
+                                                                                                    <span
+                                                                                                        class="h_angpow_1x1 symbol_atlas"
+                                                                                                        style="display: block; position: absolute; transform-origin: left top; transform: scale(0.38); margin-top: 0px; margin-left: 2px;"></span>
+                                                                                                </div>
+                                                                                                <div id="slot-item"
+                                                                                                    style="width: 85px; height: 78px;">
+                                                                                                    <span
+                                                                                                        class="h_peanuts_1x1 symbol_atlas"
+                                                                                                        style="display: block; position: absolute; transform-origin: left top; transform: scale(0.38); margin-top: 6px; margin-left: 2px;"></span>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div id="slot-item-column"
+                                                                                                style="position: relative; height: 230px; width: 95px; display: flex; flex-direction: column; align-items: center; margin-top: -20px;">
+                                                                                                <div id="slot-item"
+                                                                                                    style="width: 85px; height: 78px;">
+                                                                                                    <span
+                                                                                                        class="h_coinpouch_1x1 symbol_atlas"
+                                                                                                        style="display: block; position: absolute; transform-origin: left top; transform: scale(0.38); margin-top: 2px; margin-left: 0px;"></span>
+                                                                                                </div>
+                                                                                                <div id="slot-item"
+                                                                                                    style="width: 85px; height: 78px;">
+                                                                                                    <span
+                                                                                                        class="h_peanuts_1x1 symbol_atlas"
+                                                                                                        style="display: block; position: absolute; transform-origin: left top; transform: scale(0.38); margin-top: 6px; margin-left: 2px;"></span>
+                                                                                                </div>
+                                                                                                <div id="slot-item"
+                                                                                                    style="width: 85px; height: 78px;">
+                                                                                                    <span
+                                                                                                        class="h_fu_1x1 symbol_atlas"
+                                                                                                        style="display: block; position: absolute; transform-origin: left top; transform: scale(0.38); margin-top: -3px; margin-left: -2px;"></span>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div id="payout-title-container"
+                                                                                        style="display: flex; width: inherit; height: 32px; justify-content: center; align-items: center; margin: 0px auto;">
+                                                                                        <div class="line"
+                                                                                            style="width: 120px; background-color: rgb(40, 40, 51); height: 2px;">
+                                                                                        </div>
+                                                                                        <div id="payout-text"
+                                                                                            style="text-align: center; width: 72px; font-size: 11px; color: rgb(156, 155, 155);">
+                                                                                            Payout</div>
+                                                                                        <div class="line"
+                                                                                            style="width: 120px; background-color: rgb(40, 40, 51); height: 2px;">
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div
+                                                                                        style="display: flex; flex-direction: column; justify-content: space-between; align-items: center; width: inherit; margin: auto;">
+                                                                                        <div id="no-winning-combination-container"
+                                                                                            style="display: flex; width: inherit; height: 48px; justify-content: center; align-items: center; margin: 0px auto;">
+                                                                                            <div id="no-winning-combination-text"
+                                                                                                style="font-size: 14px; color: rgb(204, 204, 204);">
+                                                                                                No Winning Combination
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div id="tooltip"
+                                                                                        style="position: relative; width: 300px; height: inherit; align-self: center; visibility: hidden; top: 0px;">
+                                                                                        <div
+                                                                                            style="left: 90%; border-width: 6px; border-style: solid; border-color: transparent transparent rgb(70, 70, 83); border-image: initial; height: 0px; width: 0px; position: absolute; pointer-events: none; bottom: 98%;">
+                                                                                        </div>
+                                                                                        <div id="tooltip-toast"
+                                                                                            style="background-color: rgb(70, 70, 83); color: rgb(255, 255, 255); border-radius: 6px; padding: 5px;">
+                                                                                            <div id="tooltip-title"
+                                                                                                style="color: rgb(128, 128, 128); font-size: 12px; text-align: left; padding: 0px 8px;">
+                                                                                            </div>
+                                                                                            <div id="tooltip-desc"
+                                                                                                style="font-size: 12px; text-align: left; padding: 0px 8px;">
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div id="game-detail-padding"
+                                                                                    style="width: inherit; height: 86px;">
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

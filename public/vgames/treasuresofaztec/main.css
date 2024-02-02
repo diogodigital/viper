@@ -1,0 +1,39 @@
+#game-shell {
+     transform: scale(calc(var(--construct-scale) *2.11) ); 
+   
+    transform-origin: left top;
+}
+
+.body-more {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.loadmore {
+    width: 30%;
+    color: rgba(255, 255, 255, 0.8);
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-color: rgb(36, 36, 46);
+    transition: .3s;
+    font-size: 10px;
+}
+
+#game-detail-spring-wrapper {
+    transition: transform .5s ease-in-out;
+}
+
+#game-details-left-arrow {
+    top: calc(50% - 85px); 
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#game-details-right-arrow {
+    top: calc(50% - 85px); 
+    background-color: rgba(0, 0, 0, 0.4);
+}

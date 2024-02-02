@@ -1,0 +1,198 @@
+mgeggg.png
+	size: 1809, 469
+	format: Alpha
+	filter: Linear, Linear
+	pma: true
+fx_cloud
+	bounds: 129, 9, 38, 29
+	offsets: 5, 3, 46, 37
+fx_glow
+	bounds: 1579, 134, 150, 128
+	rotate: 90
+fx_particles_00
+	bounds: 1634, 67, 62, 32
+	offsets: 5, 0, 68, 38
+fx_particles_01
+	bounds: 1709, 200, 61, 34
+	offsets: 5, 0, 68, 38
+fx_particles_02
+	bounds: 1709, 164, 61, 34
+	offsets: 5, 0, 68, 38
+fx_particles_03
+	bounds: 1536, 86, 61, 35
+	offsets: 6, 0, 68, 38
+	rotate: 90
+fx_particles_04
+	bounds: 373, 2, 61, 37
+	offsets: 6, 0, 68, 38
+fx_particles_05
+	bounds: 66, 2, 61, 36
+	offsets: 6, 2, 68, 38
+fx_particles_06
+	bounds: 1573, 23, 60, 33
+	offsets: 6, 4, 68, 38
+fx_particles_07
+	bounds: 1709, 129, 59, 33
+	offsets: 7, 5, 68, 38
+fx_particles_08
+	bounds: 1700, 93, 59, 34
+	offsets: 7, 4, 68, 38
+fx_particles_09
+	bounds: 1698, 57, 59, 34
+	offsets: 7, 1, 68, 38
+fx_particles_10
+	bounds: 1536, 24, 60, 35
+	offsets: 6, 1, 68, 38
+	rotate: 90
+fx_particles_11
+	bounds: 1772, 142, 59, 35
+	offsets: 7, 2, 68, 38
+	rotate: 90
+fx_particles_12
+	bounds: 1696, 22, 58, 33
+	offsets: 8, 2, 68, 38
+fx_particles_13
+	bounds: 1635, 30, 59, 35
+	offsets: 7, 1, 68, 38
+fx_particles_14
+	bounds: 375, 44, 62, 34
+	offsets: 6, 1, 68, 38
+fx_particles_15
+	bounds: 1573, 96, 59, 36
+	offsets: 7, 1, 68, 38
+fx_particles_16
+	bounds: 1573, 58, 59, 36
+	offsets: 7, 2, 68, 38
+fx_particles_17
+	bounds: 309, 2, 62, 37
+	offsets: 4, 0, 68, 38
+fx_particles_18
+	bounds: 309, 41, 64, 37
+	offsets: 2, 1, 68, 38
+fx_particles_19
+	bounds: 2, 2, 62, 36
+	offsets: 4, 2, 68, 38
+fx_particles_20
+	bounds: 1709, 236, 67, 29
+	offsets: 1, 9, 68, 38
+fx_particles_21
+	bounds: 1634, 101, 64, 31
+	offsets: 2, 7, 68, 38
+fx_particles_22
+	bounds: 1778, 203, 62, 29
+	offsets: 4, 9, 68, 38
+	rotate: 90
+fx_shine_00
+	bounds: 1190, 25, 123, 175
+	offsets: 7, 11, 143, 197
+	rotate: 90
+fx_win_fire_00
+	bounds: 481, 286, 135, 181
+	offsets: 10, 0, 155, 195
+fx_win_fire_01
+	bounds: 618, 286, 135, 181
+	offsets: 10, 0, 155, 195
+fx_win_fire_02
+	bounds: 755, 286, 135, 181
+	offsets: 10, 0, 155, 195
+fx_win_fire_03
+	bounds: 892, 286, 135, 181
+	offsets: 10, 0, 155, 195
+fx_win_fire_04
+	bounds: 322, 80, 134, 181
+	offsets: 11, 0, 155, 195
+fx_win_fire_05
+	bounds: 481, 150, 134, 181
+	offsets: 11, 0, 155, 195
+	rotate: 90
+fx_win_fire_06
+	bounds: 664, 150, 134, 181
+	offsets: 11, 0, 155, 195
+	rotate: 90
+fx_win_fire_07
+	bounds: 847, 150, 134, 181
+	offsets: 11, 0, 155, 195
+	rotate: 90
+fx_win_fire_08
+	bounds: 1030, 150, 134, 181
+	offsets: 11, 0, 155, 195
+	rotate: 90
+fx_win_fire_09
+	bounds: 1213, 150, 134, 181
+	offsets: 11, 0, 155, 195
+	rotate: 90
+fx_win_fire_10
+	bounds: 1029, 286, 135, 181
+	offsets: 10, 0, 155, 195
+fx_win_fire_11
+	bounds: 1166, 286, 135, 181
+	offsets: 10, 0, 155, 195
+fx_win_fire_12
+	bounds: 1303, 286, 135, 181
+	offsets: 10, 0, 155, 195
+fx_win_fire_13
+	bounds: 1440, 286, 135, 181
+	offsets: 10, 0, 155, 195
+fx_win_fire_14
+	bounds: 1577, 286, 135, 181
+	offsets: 10, 0, 155, 195
+fx_win_fire_15
+	bounds: 2, 40, 135, 181
+	offsets: 10, 0, 155, 195
+	rotate: 90
+fx_win_fire_16
+	bounds: 185, 80, 135, 181
+	offsets: 10, 0, 155, 195
+fx_win_fire_17
+	bounds: 1396, 149, 135, 181
+	offsets: 10, 0, 155, 195
+	rotate: 90
+fx_win_fire_18
+	bounds: 458, 13, 135, 181
+	offsets: 10, 0, 155, 195
+	rotate: 90
+fx_win_fire_19
+	bounds: 641, 13, 135, 181
+	offsets: 10, 0, 155, 195
+	rotate: 90
+fx_win_fire_20
+	bounds: 344, 285, 135, 182
+	offsets: 10, 0, 155, 195
+fx_win_fire_21
+	bounds: 824, 13, 135, 181
+	offsets: 10, 0, 155, 195
+	rotate: 90
+fx_win_fire_22
+	bounds: 1007, 13, 135, 181
+	offsets: 10, 0, 155, 195
+	rotate: 90
+mg_egg
+	bounds: 2, 177, 172, 290
+mg_egg_cover
+	bounds: 1367, 28, 167, 119
+mg_egg_embryo
+	bounds: 176, 263, 166, 204
+	offsets: 3, 0, 169, 206
+mg_egg_eye
+	bounds: 344, 267, 16, 31
+	offsets: 3, 3, 25, 39
+	rotate: 90
+mg_egg_glow
+	bounds: 1714, 389, 78, 93
+	offsets: 2, 2, 81, 97
+	rotate: 90
+mg_egg_glow_02
+	bounds: 1714, 267, 88, 120
+mg_egg_glow_03
+	bounds: 185, 2, 76, 122
+	offsets: 3, 3, 80, 125
+	rotate: 90
+
+mgeggg_2.png
+	size: 824, 1038
+	format: Alpha
+	filter: Linear, Linear
+	pma: true
+New folder/mgeggg
+	bounds: 2, 2, 820, 1034
+	offsets: 2, 2, 824, 1038

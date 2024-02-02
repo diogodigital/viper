@@ -1,0 +1,16 @@
+{
+    "c2dictionary": true,
+    "data": {
+        "goldmaskBlur": 1,
+        "redvioletBlur": 2,
+        "redmaskBlur": 3,
+        "purpleBlur": 4,
+        "flowerBlur": 5,
+        "grassBlur": 6,
+        "10Blur": 7,
+        "aBlur": 8,
+        "kBlur": 9,
+        "qBlur": 10,
+        "jBlur": 11
+    }
+}

@@ -1,0 +1,134 @@
+mg.png
+	size: 1600, 398
+	filter: Linear, Linear
+	pma: true
+arm_R_03
+	bounds: 2, 40, 110, 356
+body
+	bounds: 754, 191, 177, 205
+collar_L
+	bounds: 1277, 160, 75, 57
+	offsets: 0, 0, 75, 64
+collar_R
+	bounds: 82, 10, 28, 51
+	rotate: 90
+ear_L
+	bounds: 26, 6, 15, 32
+ear_R
+	bounds: 60, 8, 20, 30
+earing_L
+	bounds: 609, 141, 11, 22
+	rotate: 90
+earing_L02
+	bounds: 114, 61, 7, 19
+	rotate: 90
+earing_R
+	bounds: 633, 144, 8, 22
+	rotate: 90
+earing_R_02
+	bounds: 657, 144, 8, 21
+	rotate: 90
+eye
+	bounds: 2, 5, 33, 22
+	rotate: 90
+eyepatch
+	bounds: 1041, 147, 93, 67
+face
+	bounds: 1482, 85, 114, 129
+finger_R_x
+	bounds: 1136, 151, 64, 55
+	rotate: 90
+forarm_R_x
+	bounds: 1434, 216, 160, 106
+forarm_R_x2
+	bounds: 866, 6, 139, 189
+	rotate: 90
+forearm_L
+	bounds: 1205, 2, 75, 151
+forearm_R
+	bounds: 1025, 216, 101, 180
+	offsets: 0, 1, 101, 181
+gun_L
+	bounds: 592, 5, 134, 174
+	rotate: 90
+h_fx_gunshot
+	bounds: 395, 5, 84, 63
+	rotate: 90
+hair_01
+	bounds: 1376, 105, 37, 112
+hair_02
+	bounds: 768, 3, 96, 142
+	offsets: 1, 0, 97, 142
+hair_03
+	bounds: 754, 147, 42, 96
+	rotate: 90
+hair_04
+	bounds: 1434, 324, 72, 164
+	rotate: 90
+hair_05
+	bounds: 1128, 217, 118, 179
+hair_06
+	bounds: 1152, 19, 51, 130
+hand_L
+	bounds: 1248, 219, 92, 177
+hand_L_02
+	bounds: 933, 206, 90, 190
+hand_L_03
+	bounds: 1365, 10, 115, 93
+	offsets: 0, 0, 115, 99
+hat
+	bounds: 404, 141, 255, 203
+	offsets: 19, 1, 278, 204
+	rotate: 90
+hat_back_L
+	bounds: 1193, 155, 58, 60
+hat_back_R
+	bounds: 277, 4, 116, 85
+	offsets: 0, 0, 116, 94
+headban
+	bounds: 135, 3, 140, 86
+	offsets: 0, 0, 140, 87
+headband_01
+	bounds: 874, 152, 165, 37
+headband_02
+	bounds: 1342, 219, 177, 90
+	rotate: 90
+hip
+	bounds: 609, 154, 242, 143
+	offsets: 0, 103, 242, 246
+	rotate: 90
+lever
+	bounds: 114, 91, 305, 288
+	offsets: 0, 1, 305, 290
+	rotate: 90
+lips
+	bounds: 852, 147, 42, 20
+	rotate: 90
+neck
+	bounds: 1482, 4, 72, 79
+necklace
+	bounds: 1354, 162, 55, 20
+	offsets: 0, 15, 55, 35
+	rotate: 90
+necklace_pandent
+	bounds: 1556, 62, 25, 21
+nose
+	bounds: 404, 92, 28, 47
+pupil
+	bounds: 114, 70, 19, 19
+shoulder_L
+	bounds: 460, 2, 130, 137
+shoulder_R
+	bounds: 1282, 3, 81, 155
+shoulder_R_x
+	bounds: 1057, 6, 93, 139
+sleeve_L
+	bounds: 1253, 159, 58, 22
+	offsets: 0, 0, 59, 23
+	rotate: 90
+tangle
+	bounds: 43, 6, 15, 32
+teeth
+	bounds: 434, 98, 41, 23
+	offsets: 0, 0, 41, 30
+	rotate: 90

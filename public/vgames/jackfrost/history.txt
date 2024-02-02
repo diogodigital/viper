@@ -1,0 +1,159 @@
+/* id="$CSS-Game-5 */
+.cb2_symbol_sprite {
+    background-image: url(34.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    overflow: hidden
+}
+
+.s_Symbol_2,
+.compass {
+    height: 172px;
+    width: 241px;
+    background-position: 5px 12px
+}
+
+.s_Symbol_3 {
+    background-position: 5px -295px
+}
+
+.s_Symbol_3,
+.compass {
+    height: 167px;
+    width: 216px
+}
+
+.s_Symbol_4,
+.compass {
+    height: 182px;
+    width: 224px;
+    background-position: 5px -603px
+}
+
+.s_Symbol_5 {
+    background-position: 5px -450px
+}
+
+.s_Symbol_5,
+.s_Symbol_6 {
+    height: 182px;
+    width: 224px
+}
+
+.s_Symbol_6 {
+    background-position: 5px -1067px
+}
+
+.s_Symbol_7,
+.compass {
+    height: 200px;
+    width: 223px;
+    background-position: 5px -1373px
+}
+
+.s_Symbol_8,
+.pirate {
+    height: 180px;
+    width: 170px
+}
+
+.s_Symbol_8 {
+    background-position: 5px -1527px
+}
+
+.s_Symbol_9 {
+    background-position: 5px -1220px;
+    height: 170px;
+    width: 190px
+}
+
+.s_Symbol_10 {
+    background-position: 5px -757px;
+    height: 173px;
+    width: 170px
+}
+
+.s_Symbol_11 {
+    background-position: 5px -911px;
+    height: 175px;
+    width: 236px
+}
+
+.s_Symbol_12 {
+    background-position: 5px -142px;
+    height: 175px;
+    width: 236px
+}
+/* id="$CSS-Game-2 */
+.cb2_symbol_lang_sprite {
+    background-image: url(32.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    overflow: hidden
+}
+
+.s_Symbol_1 {
+    background-position: -149px 16px;
+	height: 164px;
+    width: 160px
+}
+
+.s_Symbol_0.l_4 {
+    background-position: 6px 29px;
+	background-size: 452px;
+	height: 622px;
+    width: 160px
+}
+
+.s_Symbol_0.l_1 {
+    background-position: -149px -293px;
+	height: 622px;
+    width: 160px
+}
+
+
+/*id="$CSS-Game-1"*/
+#bet-results-container::-webkit-scrollbar {
+    background: hsla(0, 0%, 100%, .14901960784313725);
+    width: 300px;
+    height: 8px;
+    border-radius: 10px
+}
+
+#bet-results-container::-webkit-scrollbar-thumb {
+    background: hsla(0, 0%, 100%, .7529411764705882);
+    border-radius: 10px
+}
+
+/* id="$CSS-Game-6" */
+.history_main_ui {
+    display: inline-block;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: 68px 976px;
+    background-image: url(36.png)
+}
+
+.history_main_ui.bns_pillar_left {
+    width: 66px;
+    min-width: 66px;
+    height: 486px;
+    min-height: 486px;
+    background-position: -1px -1px
+}
+
+.history_main_ui.ui_pillar_left {
+    width: 66px;
+    min-width: 66px;
+    height: 486px;
+    min-height: 486px;
+    background-position: -1px -489px
+}
+
+[id=tooltip]{
+visibility: hidden;
+}
+
+div[data-descr]:focus + [id="tooltip"] {
+	visibility: visible;
+}

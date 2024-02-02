@@ -1,0 +1,52 @@
+totalwin.png
+	size: 1840, 1284
+	filter: Linear, Linear
+	pma: true
+totalwin/images/bigray
+	bounds: 2, 2, 720, 1280
+totalwin/images/coin_000
+	bounds: 1608, 58, 154, 154
+	offsets: 23, 23, 200, 200
+totalwin/images/coin_001
+	bounds: 1576, 964, 149, 156
+	offsets: 32, 22, 200, 200
+totalwin/images/coin_002
+	bounds: 1576, 642, 133, 156
+	offsets: 46, 22, 200, 200
+totalwin/images/coin_003
+	bounds: 1727, 960, 104, 158
+	offsets: 63, 21, 200, 200
+totalwin/images/coin_004
+	bounds: 1764, 52, 64, 160
+	offsets: 81, 20, 200, 200
+totalwin/images/coin_005
+	bounds: 1773, 795, 14, 163
+	offsets: 100, 18, 200, 200
+totalwin/images/coin_006
+	bounds: 1712, 796, 59, 162
+	offsets: 68, 19, 200, 200
+totalwin/images/coin_007
+	bounds: 1732, 1120, 103, 162
+	offsets: 42, 19, 200, 200
+totalwin/images/coin_008
+	bounds: 1576, 800, 134, 162
+	offsets: 26, 19, 200, 200
+totalwin/images/coin_009
+	bounds: 1576, 1122, 154, 160
+	offsets: 19, 20, 200, 200
+totalwin/images/coin_010
+	bounds: 1446, 52, 160, 160
+	offsets: 20, 20, 200, 200
+totalwin/images/light
+	bounds: 1446, 214, 392, 392
+	offsets: 4, 4, 400, 400
+totalwin/images/pic
+	bounds: 724, 2, 720, 1280
+totalwin/images/smallsparkle
+	bounds: 1711, 648, 63, 63
+	offsets: 3, 3, 69, 70
+totalwin/images/sparklebubble
+	bounds: 1711, 713, 74, 80
+totalwin/images/totalfont
+	bounds: 1446, 608, 674, 128
+	rotate: 90

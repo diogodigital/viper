@@ -1,0 +1,16 @@
+.game-rules-sprite {
+    overflow: hidden;
+    display: inline-block;
+    background-image: url(5e115141-e823-4ebb-9231-d5f8db6cfa2d.png);
+    background-repeat: no-repeat;
+    background-size: 422px 502px;
+}
+
+.rules_img {
+    display: inline-block;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: 148px 74px;
+    background-image: url(10.png);
+
+}

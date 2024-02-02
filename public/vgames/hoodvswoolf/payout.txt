@@ -1,0 +1,172 @@
+/* paytable-asset-css */
+
+.paytable_symbols {
+    display:inline-block;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: 374px 238px;
+    background-image: url(cd04cda5-3af4-4b99-969f-f4bceb218cb5.png);
+    
+}
+
+
+.paytable_symbols.h_ingot {
+    width: 116px;
+    min-width: 116px;
+    height: 120px;
+    min-height: 120px;
+    background-position: -1px -1px;
+}
+
+.paytable_symbols.h_pendant {
+    width: 91px;
+    min-width: 91px;
+    height: 112px;
+    min-height: 112px;
+    background-position: -105px -123px;
+}
+
+.paytable_symbols.h_ruyi {
+    width: 102px;
+    min-width: 102px;
+    height: 114px;
+    min-height: 114px;
+    background-position: -1px -123px;
+}
+
+.paytable_symbols.h_scroll {
+    width: 91px;
+    min-width: 91px;
+    height: 106px;
+    min-height: 106px;
+    background-position: -119px -1px;
+}
+
+.paytable_symbols.l_a {
+    width: 90px;
+    min-width: 90px;
+    height: 98px;
+    min-height: 98px;
+    background-position: -198px -109px;
+}
+
+.paytable_symbols.l_j {
+    width: 78px;
+    min-width: 78px;
+    height: 103px;
+    min-height: 103px;
+    background-position: -290px -101px;
+}
+
+.paytable_symbols.l_k {
+    width: 84px;
+    min-width: 84px;
+    height: 98px;
+    min-height: 98px;
+    background-position: -212px -1px;
+}
+
+.paytable_symbols.l_q {
+    width: 75px;
+    min-width: 75px;
+    height: 93px;
+    min-height: 93px;
+    background-position: -298px -1px;
+}
+
+
+
+.paytable_payways {
+    display:inline-block;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: 560px 122px;
+    background-image: url(0116699c-0411-4cb4-83c5-02627628b86e.png);
+    
+}
+
+
+.paytable_payways.cross-243 {
+    width: 40px;
+    min-width: 40px;
+    height: 40px;
+    min-height: 40px;
+    background-position: -511px -1px;
+}
+
+.paytable_payways.diagram-1 {
+    width: 192px;
+    min-width: 192px;
+    height: 120px;
+    min-height: 120px;
+    background-position: -1px -1px;
+}
+
+.paytable_payways.diagram-2 {
+    width: 192px;
+    min-width: 192px;
+    height: 120px;
+    min-height: 120px;
+    background-position: -195px -1px;
+}
+
+.paytable_payways.questionmark {
+    width: 120px;
+    min-width: 120px;
+    height: 120px;
+    min-height: 120px;
+    background-position: -389px -1px;
+}
+
+.paytable_payways.tick-243 {
+    width: 48px;
+    min-width: 48px;
+    height: 36px;
+    min-height: 36px;
+    background-position: -511px -43px;
+}
+
+
+
+.paytable_features {
+    display:inline-block;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: 602px 757px;
+    background-image: url(df1e8875-354c-4075-8760-4eb4ffb0bafa.png);
+    
+    width: 600px;
+    min-width: 600px;
+    height: 755px;
+    min-height: 755px;
+    background-position: -1px -1px;
+    
+}
+
+
+.paytable_special_symbols {
+    display:inline-block;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: 284px 146px;
+    background-image: url(07d8474f-3866-4d44-b093-bd5530a9144e.png);
+    
+}
+
+
+.paytable_special_symbols.s_freespins {
+    width: 136px;
+    min-width: 136px;
+    height: 144px;
+    min-height: 144px;
+    background-position: -1px -1px;
+}
+
+.paytable_special_symbols.s_wild {
+    width: 144px;
+    min-width: 144px;
+    height: 141px;
+    min-height: 141px;
+    background-position: -139px -1px;
+}
+

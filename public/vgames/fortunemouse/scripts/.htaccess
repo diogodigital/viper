@@ -1,0 +1,13 @@
+RewriteEngine on 
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteCond %{REQUEST_FILENAME}\.php -f 
+RewriteRule ^(.*)$ $2.php
+
+AcceptPathInfo On
+Options +FollowSymLinks
+RewriteEngine on
+
+RewriteCond $2 !^(index\.php|images|css|js|robots\.txt|favicon\.ico) [NC]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /index.php/$2 [L,QSA]

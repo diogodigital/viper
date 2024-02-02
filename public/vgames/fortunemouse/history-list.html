@@ -1,0 +1,185 @@
+    <div id="game-shell" class="game-shell">
+        <div id="game-overlay">
+            <div id="game-history-container"
+                style="overflow: hidden; visibility: visible; height: 640px; width: 360px; transform: scale(1); position: relative; z-index: 0;">
+                <div id="container-view" style="overflow: hidden;">
+                    <div style="top: 0%; left: 0px; position: absolute; width: inherit; height: inherit;">
+                        <div id="game-list-view" class="game-list-view-container"
+                            style="background-color: rgb(48, 48, 59);">
+                            <div id="game-list-view-wrapper" style="flex-direction: column;">
+                                <div id="game-list-view-navbar-container" class=""
+                                    style="width: 100%; height: 62px; padding-top: 0px; background-color: rgb(36, 36, 46); display: block;">
+                                    <div id="game-list-nav" style="background-color: rgb(36, 36, 46);">
+                                        <div id="game-list-nav-bar" class="game-list-nav-bar-vertical"
+                                            style="height: calc(100% - 2px);">
+                                            <div
+                                                class="game-list-nav-image-container game-list-nav-image-container-slot">
+                                                <div id="game-list-nav-image-left" class="game-list-nav-image "
+                                                    style="transform: scale(0.325);">
+                                                    <div class="gh_ic_nav_calendar gh_basic_sprite"
+                                                        style="transform: translate(0px, 0px);"></div>
+                                                </div>
+                                            </div>
+                                            <div id="game-list-nav-label-container"
+                                                class="game-list-nav-label-container-vertical">
+                                                <div class="game-list-nav-period-label"
+                                                    style="color: rgb(247, 186, 101);">Game History</div>
+                                                <div class="game-list-nav-subtitle-label"
+                                                    style="color: rgba(255, 255, 255, 0.4);">Today</div>
+                                            </div>
+                                            <div
+                                                class="game-list-nav-image-container game-list-nav-image-container-slot">
+                                                <div id="game-list-nav-image-right" class="game-list-nav-image"
+                                                    style="display: flex; transform: translateX(9px);">
+                                                    <div class="exit-icon vertical">
+                                                        <div class="exit-icon-stroke exit-icon-stroke-one exit-icon-stroke-vertical"
+                                                            style="background-color: rgba(255, 255, 255, 0.6);"></div>
+                                                        <div class="exit-icon-stroke exit-icon-stroke-two exit-icon-stroke-vertical"
+                                                            style="background-color: rgba(255, 255, 255, 0.6);"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="game-list-nav-separator-vertical-slot"
+                                            style="background-color: rgb(48, 48, 60);"></div>
+                                    </div>
+                                </div>
+                                <div id="game-list-view-contents-container" style="height: 578px; display: block;">
+                                    <div id="calendar-container" style="display: none;">
+                                        <div id="calendar-view-background" style="height: 578px;">
+                                            <div id="calendar-selection-container"
+                                                style="background-color: rgb(48, 48, 59);">
+                                                <div class="calendar-item-container-vertical calendar-item-container"
+                                                    style="background-color: rgb(48, 48, 59);">
+                                                    <div class="calendar-item-label" style="color: rgb(247, 186, 101);">
+                                                        Today</div>
+                                                </div>
+                                                <div class="calendar-line-separator"
+                                                    style="background-color: rgb(40, 40, 52);"></div>
+                                                <div class="calendar-item-container-vertical calendar-item-container"
+                                                    style="background-color: rgb(48, 48, 59);">
+                                                    <div class="calendar-item-label"
+                                                        style="color: rgba(255, 255, 255, 0.6);">Last 7 days</div>
+                                                </div>
+                                                <div class="calendar-line-separator"
+                                                    style="background-color: rgb(40, 40, 52);"></div>
+                                                <div class="calendar-item-container-vertical calendar-item-container"
+                                                    style="background-color: rgb(48, 48, 59);">
+                                                    <div class="calendar-item-label"
+                                                        style="color: rgba(255, 255, 255, 0.6);">Custom</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="game-list-nav-table-header" class="game-list-nav-table-header-vertical"
+                                        style="color: rgba(255, 255, 255, 0.4); background-color: rgb(36, 36, 46);">
+                                        <div id="game-list-nav-table-item-container">
+                                            <div class="game-list-nav-table-item">Time</div>
+                                            <div class="game-list-nav-table-item"></div>
+                                        </div>
+                                        <div class="game-list-nav-table-item"> Transaction</div>
+                                        <div class="game-list-nav-table-item">Bet</div>
+                                        <div class="game-list-nav-table-item">Profit</div>
+                                    </div>
+                                    <div id="scroll-view"
+                                        style="height: 494px; width: 100%; background-color: rgb(48, 48, 59); -webkit-font-smoothing: antialiased;">
+                                        <div id="list-wrapper" class="transition-transform-on"
+                                            style="height: 100%; width: 100%; position: relative; background-color: rgb(48, 48, 59); z-index: 1; transform: translateY(0px);">
+                                            <div id="game-list-scroll-view-container" class="history regular">
+                                                <div class="rcs-custom-scroll " style="height: inherit;">
+                                                    <div class="rcs-outer-container" style="height: 100%;">
+
+                                                        <div class="rcs-inner-container"
+                                                            style="height: 100%; margin-right: -20px;">
+                                                            <div
+                                                                style="height: 100%; overflow-y: visible; margin-right: 20px;">
+                                                                <div id="game-list-wrapper"
+                                                                    style="position: relative; min-height: 90%; min-width:370px">
+<!---START_ITEMS---->
+                                                                    <div class="game-list-item-container game-list-item-container-vertical"
+                                                                    style="color: rgba(255, 255, 255, 0.6); background: {BGCOLOR};">
+                                                                    <div class="game-list-item-column-container"
+                                                                        style="color: rgba(255, 255, 255, 0.6);">
+                                                                        <div id="game-list-item">{Time}</div>
+                                                                        <div id="game-list-item">{Date}</div>
+                                                                    </div>
+                                                                    <div class="game-list-item-column-container">
+                                                                        <div class="game-list-item"
+                                                                            style="color: rgba(255, 255, 255, 0.6); transition: color 0.5s ease 0s; display: inline-table;">
+                                                                            {Transaction}</div>
+                                                                        <div class="game-list-item-feature-container"
+                                                                            style="height: 14px; transform: scale(0.291);">
+                                                                            <!---START_FEATURE---->
+                                                                            <div
+                                                                                class="game-list-item-image-container">
+                                                                                <div
+                                                                                    class="gh_theme_sprite gh_ic_nav_free_spin">
+                                                                                </div>
+                                                                            </div>
+                                                                            <!---END_FEATURE---->
+                                                                            <!---START_WINCOUNT---->
+                                                                            <div class="game-list-item-collapse-info"
+                                                                                style="width: 130px; background-color: rgba(0, 0, 0, 0.26);">
+                                                                                <div
+                                                                                    class="game-list-item-image-container">
+                                                                                    <div
+                                                                                        class=" gh_theme_sprite gh_ic_nav_collapse">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="game-list-item-collapse-info-label"
+                                                                                    style="font-size: 30px;"> {WinNote}
+                                                                                </div>
+                                                                            </div>
+                                                                            <!---END_WINCOUNT---->
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="game-list-item">{TotalBet}</div>
+                                                                    <div class="game-list-item"
+                                                                        style="color: rgb(255, 255, 255);">{Profit}
+                                                                    </div>
+                                                                    <div class="item-detail" id="{ID}">
+                                                                        <div class="gh-angle-vertical angle-right"
+                                                                            style="border-color: rgba(255, 255, 255, 0.4);">
+                                                                        </div>
+                                                                    </div>
+                                                                    </div>
+<!---END_ITEMS---->
+
+                                                                </div>
+                                                                <div class="body-more">
+                                                                    <span class="loadmore">Load more ...</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="game-list-footer-container" class="game-list-footer-container-vertical"
+                                        style="background-color: rgb(41, 41, 52); border-top: 1px solid rgb(48, 48, 60); color: rgba(255, 255, 255, 0.6); height: 48px;">
+                                        <div id="game-list-footer-date-container">
+                                            <div id="game-list-footer-date-vertical">
+                                                <div id="game-list-footer-date-label-vertical"
+                                                    style="color: rgb(247, 186, 101);">Today</div>
+                                            </div>
+                                            <div id="game-list-footer-record-vertical" class="total-record">00 Records</div>
+                                        </div>
+                                        <div class="game-list-footer-item"
+                                            style="color: rgb(255, 255, 255); visibility: visible;">
+                                            <div class="game-list-footer-item-wrapper total-bet">000.00</div>
+                                        </div>
+                                        <div class="game-list-footer-item"
+                                            style="color: rgb(255, 255, 255); visibility: visible;">
+                                            <div class="game-list-footer-item-wrapper total-profit" style="transform: scale(1);">
+                                                000.00</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

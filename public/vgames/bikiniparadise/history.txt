@@ -1,0 +1,606 @@
+/* $CSS-Game-1 */
+.payline_atlas {
+    display: inline-block;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-image: url(21.png)
+}
+
+.payline_1 {
+    width: 76px;
+    height: 62px;
+    background-position: -1px -1px
+}
+
+.payline_2 {
+    width: 76px;
+    height: 62px;
+    background-position: -79px -1px
+}
+
+.payline_3 {
+    width: 76px;
+    height: 62px;
+    background-position: -157px -1px
+}
+
+.payline_4 {
+    width: 76px;
+    height: 62px;
+    background-position: -235px -1px
+}
+
+.payline_5 {
+    width: 76px;
+    height: 62px;
+    background-position: -313px -1px
+}
+
+.payline_6 {
+    width: 76px;
+    height: 62px;
+    background-position: -391px -1px
+}
+
+.payline_7 {
+    width: 76px;
+    height: 62px;
+    background-position: -469px -1px
+}
+
+.payline_8 {
+    width: 76px;
+    height: 62px;
+    background-position: -547px -1px
+}
+
+.payline_9 {
+    width: 76px;
+    height: 62px;
+    background-position: -625px -1px
+}
+
+.payline_10 {
+    width: 76px;
+    height: 62px;
+    background-position: -703px -1px
+}
+
+.payline_11 {
+    width: 76px;
+    height: 62px;
+    background-position: -781px -1px
+}
+
+.payline_12 {
+    width: 76px;
+    height: 62px;
+    background-position: -859px -1px
+}
+
+.payline_13 {
+    width: 76px;
+    height: 62px;
+    background-position: -937px -1px
+}
+
+.payline_14 {
+    width: 76px;
+    height: 62px;
+    background-position: -1015px -1px
+}
+
+.payline_15 {
+    width: 76px;
+    height: 62px;
+    background-position: -1093px -1px
+}
+
+.payline_16 {
+    width: 76px;
+    height: 62px;
+    background-position: -1171px -1px
+}
+
+.payline_17 {
+    width: 76px;
+    height: 62px;
+    background-position: -1249px -1px
+}
+
+.payline_18 {
+    width: 76px;
+    height: 62px;
+    background-position: -1327px -1px
+}
+
+.payline_19 {
+    width: 76px;
+    height: 62px;
+    background-position: -1405px -1px
+}
+
+.payline_20 {
+    width: 76px;
+    height: 62px;
+    background-position: -1483px -1px
+}
+
+.payline_21 {
+    width: 76px;
+    height: 62px;
+    background-position: -1561px -1px
+}
+
+.payline_22 {
+    width: 76px;
+    height: 62px;
+    background-position: -1639px -1px
+}
+
+.payline_23 {
+    width: 76px;
+    height: 62px;
+    background-position: -1717px -1px
+}
+
+.payline_24 {
+    width: 76px;
+    height: 62px;
+    background-position: -1795px -1px
+}
+
+.payline_25 {
+    width: 76px;
+    height: 62px;
+    background-position: -1873px -1px
+}
+
+/* $CSS-Game-2 */
+
+.special_symbol {
+    display: inline-block;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-image: url(0.png)
+}
+
+.s_Symbol_1 {
+	background-size: 1570px 1109px;
+    background-position: -385px 10px
+}
+
+.s_Symbol_1,
+.s_wild {
+    width: 156px;
+    height: 156px
+}
+
+.s_wild {
+    background-position: -159px -1px
+}
+
+/* $CSS-Game-3 */
+
+.cb2_number_sprite {
+    display: inline-block;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-image: url(23.png)
+}
+
+.yellow_1 {
+    background-position: -1199px -276px
+}
+
+.yellow_1,
+.yellow_2 {
+    width: 60px;
+    height: 60px
+}
+
+.yellow_2 {
+    background-position: -1199px -342px
+}
+
+.yellow_3 {
+    background-position: -1199px -404px
+}
+
+.yellow_3,
+.yellow_4 {
+    width: 60px;
+    height: 60px
+}
+
+.yellow_4 {
+    background-position: -1258px -278px
+}
+
+.yellow_5 {
+    width: 60px;
+    height: 60px;
+    background-position: -1258px -339px
+}
+
+.grey_1 {
+    width: 60px;
+    height: 60px;
+    background-position: -1252px -396px;
+}
+
+.grey_2 {
+    width: 60px;
+    height: 60px;
+    background-position: -1314px -274px;
+}
+
+.grey_3 {
+    width: 60px;
+    height: 60px;
+    background-position: -1316px -336px;
+}
+
+.grey_4 {
+    width: 60px;
+    height: 60px;
+    background-position: -1314px -401px;
+}
+
+.grey_5 {
+    width: 60px;
+    height: 60px;
+    background-position: -1348px -1px;
+}
+
+.grey_x {
+    width: 60px;
+    height: 60px;
+    background-position: -1359px -63px
+}
+
+.yellow_x {
+    width: 60px;
+    height: 60px;
+    background-position: -1356px -129px
+}
+
+.ui_atlas {
+    display: inline-block;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-image: url(23.png)
+}
+
+
+
+.multiplie_base {
+    width: 156px;
+    height: 136px;
+    background-position: -1200px -3px
+}
+
+.multiplie_base_bonus {
+    width: 156px;
+    height: 136px;
+    background-position: -1201px -139px
+}
+
+.reel {
+    width: 600px;
+    height: 502px;
+    background-position: 1px 8px;
+	background-size: 1417px 518px;
+}
+
+.reel_b {
+    width: 600px;
+    height: 12px;
+    background-position: -1px -493px
+}
+
+.reel_bonus {
+    width: 598px;
+    height: 490px;
+    background-position: -601px -1px
+}
+
+
+
+
+
+
+.symbol_atlas {
+    display: inline-block;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-image: url(27.png)
+}
+
+.s_Symbol_0.l_1.r_3.f_bottom {
+    background-position: -1553px 257px;
+	width: 156px;
+    height: 134px;
+}
+
+.s_Symbol_0.l_2.r_3.f_bottom {
+    background-position: -1387px 139px;
+	width: 156px;
+    height: 254px;
+}
+
+.s_Symbol_0.l_3.r_3.f_bottom {
+    background-position: -1224px 27px;
+	width: 156px;
+    height: 374px;
+}
+
+.s_Symbol_0.l_4.r_3.f_bottom {
+    background-position: -272px -1px;
+	width: 156px;
+    height: 496px;
+}
+
+.s_Symbol_0.l_1.r_3.f_top {
+    background-position: -273px -381px;
+	width: 156px;
+    height: 134px;
+}
+
+.s_Symbol_0.l_2.r_3.f_top {
+    background-position: -273px -258px;
+	width: 156px;
+    height: 249px;
+}
+
+.s_Symbol_0.l_3.r_3.f_top {
+    background-position: -273px -143px;
+	width: 156px;
+    height: 371px;
+}
+
+.s_Symbol_0.l_4.r_3.f_top {
+    background-position: -273px -16px;
+	width: 156px;
+    height: 496px;
+}
+
+.s_Symbol_0.l_1.r_2.f_bottom {
+    background-position: -894px -440px;
+	width: 156px;
+    height: 134px;
+}
+
+.s_Symbol_0.l_2.r_2.f_bottom {
+    background-position: -728px -555px;
+	width: 156px;
+    height: 254px;
+}
+
+.s_Symbol_0.l_3.r_2.f_bottom {
+    background-position: -564px -669px;
+	width: 156px;
+    height: 371px;
+}
+
+.s_Symbol_0.l_4.r_2.f_bottom {
+    background-position: -134px -1px;
+	width: 156px;
+    height: 496px;
+}
+
+.s_Symbol_0.l_1.r_2.f_top {
+    background-position: 4px -905px;
+	width: 156px;
+    height: 134px;
+}
+
+.s_Symbol_0.l_2.r_2.f_top {
+    background-position: 4px -788px;
+	width: 156px;
+    height: 249px;
+}
+
+.s_Symbol_0.l_3.r_2.f_top {
+    background-position: 4px -662px;
+	width: 156px;
+    height: 371px;
+}
+
+.s_Symbol_0.l_4.r_2.f_top {
+    background-position: 4px -534px;
+	width: 156px;
+    height: 496px;
+}
+
+.s_Symbol_0.l_1.r_1.f_bottom {
+    background-position: -1553px -436px;
+	width: 156px;
+    height: 134px;
+}
+
+.s_Symbol_0.l_2.r_1.f_bottom {
+    background-position: -1388px -554px;
+	width: 156px;
+    height: 254px;
+}
+
+.s_Symbol_0.l_3.r_1.f_bottom {
+    background-position: -1223px -673px;
+	width: 156px;
+    height: 371px;
+}
+
+
+
+.s_Symbol_0.l_4.r_1.f_top {
+    background-position: -135px -530px;
+	width: 156px;
+    height: 496px;
+}
+
+.s_Symbol_0.l_1.r_4.f_bottom {
+    background-position: -894px 22px;
+	width: 156px;
+    height: 134px;
+}
+
+.s_Symbol_0.l_2.r_4.f_bottom {
+    background-position: -728px -94px;
+	width: 156px;
+    height: 254px;
+}
+
+.s_Symbol_0.l_3.r_4.f_bottom {
+    background-position: -564px -214px;
+	width: 156px;
+    height: 371px;
+}
+
+.s_Symbol_0.l_4.r_4.f_bottom {
+    background-position: 10px -519px;
+	width: 156px;
+    height: 496px;
+}
+
+.s_Symbol_0.l_1.r_4.f_top {
+    background-position: -139px -385px;
+	width: 150px;
+    height: 134px;
+}
+
+.s_Symbol_0.l_2.r_4.f_top {
+    background-position: -139px -266px;
+	width: 150px;
+    height: 249px;
+}
+
+.s_Symbol_0.l_3.r_4.f_top {
+    background-position: -139px -144px;
+	width: 150px;
+    height: 371px;
+}
+
+.s_Symbol_0.l_4.r_4.f_top {
+    background-position: -139px -13px;
+	width: 150px;
+    height: 496px;
+}
+
+
+.s_Symbol_0.l_1.r_5.f_bottom {
+    background-position: -894px -896px;
+	width: 150px;
+    height: 134px;
+}
+
+.s_Symbol_0.l_2.r_5.f_bottom {
+    background-position: -730px -1012px;
+	width: 1560x;
+    height: 254px;
+}
+
+.s_Symbol_0.l_3.r_5.f_bottom {
+    background-position: -565px -1130px;
+	width: 150px;
+    height: 371px;
+}
+
+.s_Symbol_0.l_4.r_5.f_bottom {
+    background-position: -139px -519px;
+	width: 150px;
+    height: 496px;
+}
+
+.s_Symbol_0.l_1.r_5.f_top {
+    background-position: 2px -382px;
+	width: 156px;
+    height: 134px;
+}
+
+.s_Symbol_0.l_2.r_5.f_top {
+    background-position: 2px -264px;
+	width: 156px;
+    height: 254px;
+}
+
+.s_Symbol_0.l_3.r_5.f_top {
+    background-position: 2px -144px;
+	width: 156px;
+    height: 371px;
+}
+
+.s_Symbol_0.l_4.r_5.f_top {
+    background-position: 2px -12px;
+	width: 156px;
+    height: 496px;
+}
+
+.s_Symbol_2 {
+    width: 156px;
+    height: 156px;
+    background-position: 2px -1193px
+}
+
+.s_Symbol_3 {
+    background-position: -273px -670px
+}
+
+.s_Symbol_3,
+.s_Symbol_4 {
+    width: 156px;
+    height: 156px
+}
+
+.s_Symbol_4 {
+    background-position: -273px -1155px
+}
+
+.s_Symbol_5 {
+    background-position: -272px -535px
+}
+
+.s_Symbol_5,
+.s_Symbol_6 {
+    width: 156px;
+    height: 156px;
+}
+
+.s_Symbol_6 {
+    background-position: -136px -1190px
+}
+
+.s_Symbol_7 {
+    background-position: -282px -1315px;
+}
+
+.s_Symbol_7,
+.s_Symbol_8 {
+    width: 156px;
+    height: 145px
+}
+
+.s_Symbol_8 {
+    background-position: -272px -829px
+}
+
+.s_Symbol_9 {
+    background-position: 4px -1043px
+}
+
+.s_Symbol_9,
+.s_Symbol_10 {
+    width: 156px;
+    height: 156px
+}
+
+.s_Symbol_10 {
+    background-position: -134px -1043px
+}
+
+.s_Symbol_11 {
+    width: 156px;
+    height: 156px;
+    background-position: -317px -1307px
+}
+

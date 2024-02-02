@@ -1,0 +1,422 @@
+<div id="game-shell" class="game-shell">
+    <div id="game-overlay">
+        <div id="game-header-holder"
+            style="z-index: 99; pointer-events: none; position: absolute; height: 640px; width: 360px; visibility: hidden;">
+            <div id="game-title" class="game-title"
+                style="visibility: hidden; justify-content: flex-start; width: 360px; height: 18px; font-size: 11.5px;">
+                <div style="padding-left: 12px; display: flex; align-items: center;">Fortune Mouse</div>
+            </div>
+            <div id="time-stamp" class="time_stamp"
+                style="justify-content: flex-end; height: 18px; font-size: 11.5px; visibility: hidden; width: 360px;">
+                <div style="padding-right: 12px; display: flex; align-items: center;">11:59:49</div>
+            </div>
+        </div>
+        <div id="widget-manager-container"
+            style="height: 0px; width: 0px; position: absolute; visibility: hidden; z-index: 0;">
+        </div>
+        <div id="paytable-container"
+            style="overflow: hidden; color: rgb(136, 136, 136); height: 640px; width: 360px; z-index: 0;">
+            <div class="paytable" style="width: 100%; height: 100%;">
+                <div id="paytable-container"
+                    style="transform: translateY(0%); width: 100%; height: 100%; background-color: rgb(48, 48, 60); display: inline-flex; flex-direction: column-reverse;">
+                    <div style="overflow: hidden; height: 100%; transform: translateZ(0px);">
+                        <div class="rcs-custom-scroll ">
+                            <div class="rcs-outer-container">
+                                <div class="rcs-positioning">
+                                    <div class="rcs-custom-scrollbar ">
+                                    </div>
+                                </div>
+                                <div class="rcs-inner-container" style="margin-right: -17px;">
+                                    <div style="overflow-y: scroll; margin-right: 0px;">
+                                        <div id="paytable-content" style="color: rgb(204, 204, 204); height: 577px;">
+                                            <div class="segment" id="symbol_payout" align="center"
+                                                style="display: inline-block; width: 100%; border-bottom: 1px solid rgb(40, 40, 52); margin-bottom: 12px; margin-top: 12px;">
+                                                <div class="paytable"
+                                                    style="font-size: 14px; color: rgb(255, 255, 255); font-weight: normal; margin-bottom: 16px; line-height: 145%; padding: 0px 20px;">
+                                                    Symbol Payout Values</div>
+                                                <div id="symbol_payout_table" class="topdown_table"
+                                                    style="color: rgb(204, 204, 204); font-size: 11px; padding-bottom: 9px;">
+                                                    <table style="border-collapse: collapse;">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td align="center" colspan="3" rowspan="1"
+                                                                    style="padding-bottom: 20px; vertical-align: middle;">
+                                                                    <div
+                                                                        style="display: block; width: auto; height: fit-content;">
+                                                                        <div
+                                                                            style="display: block; width: fit-content;">
+                                                                            <div id="symbol_icon"
+                                                                                style="display: table-cell; vertical-align: middle; height: 55px; padding-bottom: 8px;">
+                                                                                <div align="center"
+                                                                                    style="width: 80px;">
+                                                                                    <div
+                                                                                        style="min-width: 71.7px; width: 71.7px; min-height: 84.3px; height: 84.3px;">
+                                                                                        <div class="s_wild_1x1"
+                                                                                            style="display: block; transform: scale(0.3); position: relative; right: 83.65px; bottom: 98.35px; min-width: 239px; width: 239px; min-height: 281px; height: 281px; background-position: -1px -1px;">
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div id="symbol_payout_data"
+                                                                                style="text-align: center; vertical-align: middle;">
+                                                                                300</div>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center" colspan="1" rowspan="1"
+                                                                    style="padding-bottom: 20px; vertical-align: middle; padding-right: 24px;">
+                                                                    <div
+                                                                        style="display: block; width: 100%; height: fit-content;">
+                                                                        <div id="symbol_icon"
+                                                                            style="display: table-cell; vertical-align: middle; height: 55px; padding-bottom: 6px;">
+                                                                            <div align="center" style="width: 70px;">
+                                                                                <div
+                                                                                    style="min-width: 67.8px; width: 67.8px; min-height: 67.8px; height: 67.8px;">
+                                                                                    <div class="paytable_symbol h_fu_1x1"
+                                                                                        style="display: block; transform: scale(0.3); position: relative; right: 79.1px; bottom: 79.1px; min-width: 226px; width: 226px; min-height: 226px; height: 226px; background-position: -1px -1px;">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div id="symbol_payout_data"
+                                                                            style="text-align: center; vertical-align: middle;">
+                                                                            100</div>
+                                                                    </div>
+                                                                </td>
+                                                                <td align="center" colspan="1" rowspan="1"
+                                                                    style="padding-bottom: 20px; vertical-align: middle; padding-right: 24px;">
+                                                                    <div
+                                                                        style="display: block; width: 100%; height: fit-content;">
+                                                                        <div id="symbol_icon"
+                                                                            style="display: table-cell; vertical-align: middle; height: 55px; padding-bottom: 6px;">
+                                                                            <div align="center" style="width: 70px;">
+                                                                                <div
+                                                                                    style="min-width: 62.7px; width: 62.7px; min-height: 65.4px; height: 65.4px;">
+                                                                                    <div class="paytable_symbol h_angpow_1x1"
+                                                                                        style="display: block; transform: scale(0.3); position: relative; right: 73.15px; bottom: 76.3px; min-width: 209px; width: 209px; min-height: 218px; height: 218px; background-position: -229px -1px;">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div id="symbol_payout_data"
+                                                                            style="text-align: center; vertical-align: middle;">
+                                                                            50</div>
+                                                                    </div>
+                                                                </td>
+                                                                <td align="center" colspan="1" rowspan="1"
+                                                                    style="padding-bottom: 20px; vertical-align: middle;">
+                                                                    <div
+                                                                        style="display: block; width: 100%; height: fit-content;">
+                                                                        <div id="symbol_icon"
+                                                                            style="display: table-cell; vertical-align: middle; height: 55px; padding-bottom: 6px;">
+                                                                            <div align="center" style="width: 70px;">
+                                                                                <div
+                                                                                    style="min-width: 66.3px; width: 66.3px; min-height: 61.5px; height: 61.5px;">
+                                                                                    <div class="paytable_symbol h_coinpouch_1x1"
+                                                                                        style="display: block; transform: scale(0.3); position: relative; right: 77.35px; bottom: 71.75px; min-width: 221px; width: 221px; min-height: 205px; height: 205px; background-position: -1px -229px;">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div id="symbol_payout_data"
+                                                                            style="text-align: center; vertical-align: middle;">
+                                                                            30</div>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center" colspan="1" rowspan="1"
+                                                                    style="padding-bottom: 0px; vertical-align: middle; padding-right: 24px;">
+                                                                    <div
+                                                                        style="display: block; width: 100%; height: fit-content;">
+                                                                        <div id="symbol_icon"
+                                                                            style="display: table-cell; vertical-align: middle; height: 55px; padding-bottom: 6px;">
+                                                                            <div align="center" style="width: 70px;">
+                                                                                <div
+                                                                                    style="min-width: 56.7px; width: 56.7px; min-height: 57px; height: 57px;">
+                                                                                    <div class="paytable_symbol h_fcracker_1x1"
+                                                                                        style="display: block; transform: scale(0.3); position: relative; right: 66.15px; bottom: 66.5px; min-width: 189px; width: 189px; min-height: 190px; height: 190px; background-position: -224px -407px;">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div id="symbol_payout_data"
+                                                                            style="text-align: center; vertical-align: middle;">
+                                                                            15</div>
+                                                                    </div>
+                                                                </td>
+                                                                <td align="center" colspan="1" rowspan="1"
+                                                                    style="padding-bottom: 0px; vertical-align: middle; padding-right: 24px;">
+                                                                    <div
+                                                                        style="display: block; width: 100%; height: fit-content;">
+                                                                        <div id="symbol_icon"
+                                                                            style="display: table-cell; vertical-align: middle; height: 55px; padding-bottom: 6px;">
+                                                                            <div align="center" style="width: 70px;">
+                                                                                <div
+                                                                                    style="min-width: 59.7px; width: 59.7px; min-height: 55.2px; height: 55.2px;">
+                                                                                    <div class="paytable_symbol h_orange_1x1"
+                                                                                        style="display: block; transform: scale(0.3); position: relative; right: 69.65px; bottom: 64.4px; min-width: 199px; width: 199px; min-height: 184px; height: 184px; background-position: -229px -221px;">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div id="symbol_payout_data"
+                                                                            style="text-align: center; vertical-align: middle;">
+                                                                            5</div>
+                                                                    </div>
+                                                                </td>
+                                                                <td align="center" colspan="1" rowspan="1"
+                                                                    style="padding-bottom: 0px; vertical-align: middle;">
+                                                                    <div
+                                                                        style="display: block; width: 100%; height: fit-content;">
+                                                                        <div id="symbol_icon"
+                                                                            style="display: table-cell; vertical-align: middle; height: 55px; padding-bottom: 6px;">
+                                                                            <div align="center" style="width: 70px;">
+                                                                                <div
+                                                                                    style="min-width: 57px; width: 57px; min-height: 50.4px; height: 50.4px;">
+                                                                                    <div class="paytable_symbol h_peanuts_1x1"
+                                                                                        style="display: block; transform: scale(0.3); position: relative; right: 66.5px; bottom: 58.8px; min-width: 190px; width: 190px; min-height: 168px; height: 168px; background-position: -1px -436px;">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div id="symbol_payout_data"
+                                                                            style="text-align: center; vertical-align: middle;">
+                                                                            3</div>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div id="symbol_payout_desc" class="list"
+                                                    style="font-size: 12px; color: rgb(204, 204, 204); padding: 0px; margin: 20px 20px 20px 32px; line-height: normal; text-align: left; list-style-position: outside;">
+                                                    <div
+                                                        style="list-style: none; position: relative; margin-bottom: 0px;">
+                                                        <div
+                                                            style="position: absolute; top: 7px; left: -12px; width: 4px; height: 4px; background-color: rgb(204, 204, 204);">
+                                                        </div>Wild symbol substitutes for all symbols.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="segment" id="fm_feature_01" align="center"
+                                                style="display: inline-block; width: 100%; border-bottom: 1px solid rgb(40, 40, 52); margin-bottom: 12px;">
+                                                <div class="paytable"
+                                                    style="font-size: 14px; color: rgb(255, 255, 255); font-weight: normal; margin-bottom: 16px; line-height: 145%; padding: 0px 20px;">
+                                                    Fortune Mouse Feature</div>
+                                                <div id="fm_feature_01" class="image_segment">
+                                                    <table style="border-collapse: collapse;">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td align="center" colspan="1" rowspan="1"
+                                                                    style="padding-bottom: 0px; vertical-align: middle;">
+                                                                    <div>
+                                                                        <div
+                                                                            style="min-width: 276.65px; width: 276.65px; min-height: 253px; height: 253px;">
+                                                                            <div class="fortunemouse_feat"
+                                                                                style="display: block; transform: scale(0.55); position: relative; right: 113.175px; bottom: 103.5px; min-width: 503px; width: 503px; min-height: 460px; height: 460px; background-position: -1px -1px;">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div id="fm_feature_01_desc" class="list"
+                                                    style="font-size: 12px; color: rgb(204, 204, 204); padding: 0px; margin: 20px 20px 20px 32px; line-height: normal; text-align: left; list-style-position: outside;">
+                                                    <div
+                                                        style="list-style: none; position: relative; margin-bottom: 12px;">
+                                                        <div
+                                                            style="position: absolute; top: 7px; left: -12px; width: 4px; height: 4px; background-color: rgb(204, 204, 204);">
+                                                        </div>During any spin, 3 Wild symbols may be added to the middle
+                                                        reel while the reels are spinning.
+                                                    </div>
+                                                    <div
+                                                        style="list-style: none; position: relative; margin-bottom: 0px;">
+                                                        <div
+                                                            style="position: absolute; top: 7px; left: -12px; width: 4px; height: 4px; background-color: rgb(204, 204, 204);">
+                                                        </div>The first and third reel will respin until there is a win.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="segment" id="fm_feature_02" align="center"
+                                                style="display: inline-block; width: 100%; border-bottom: 1px solid rgb(40, 40, 52); margin-bottom: 12px;">
+                                                <div class="paytable"
+                                                    style="font-size: 14px; color: rgb(255, 255, 255); font-weight: normal; margin-bottom: 16px; line-height: 145%; padding: 0px 20px;">
+                                                    Maximum Win</div>
+                                                <div id="fm_feature_02_desc" class="list"
+                                                    style="font-size: 12px; color: rgb(204, 204, 204); padding: 0px; margin: 20px 20px 20px 32px; line-height: normal; text-align: left; list-style-position: outside;">
+                                                    <div
+                                                        style="list-style: none; position: relative; margin-bottom: 0px;">
+                                                        <div
+                                                            style="position: absolute; top: 7px; left: -12px; width: 4px; height: 4px; background-color: rgb(204, 204, 204);">
+                                                        </div>When Wild symbols occupy all of the reels, 1000x of the
+                                                        total bet amount is awarded.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="segment" id="payline" align="center"
+                                                style="display: inline-block; width: 100%; margin-bottom: 60px;">
+                                                <div class="paytable"
+                                                    style="font-size: 14px; color: rgb(255, 255, 255); font-weight: normal; margin-bottom: 16px; line-height: 145%; padding: 0px 20px;">
+                                                    Winning Bet Lines</div>
+                                                <div id="payline_table" class="payline_segment"
+                                                    style="height: fit-content; width: fit-content; align-items: center; font-size: 10px; color: rgb(255, 255, 255); padding-right: 7px;">
+                                                    <table style="border-collapse: collapse;">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td align="center" colspan="1" rowspan="1"
+                                                                    style="padding-bottom: 0px; vertical-align: middle; padding-right: 17px;">
+                                                                    <div
+                                                                        style="display: table; border-collapse: collapse;">
+                                                                        <div
+                                                                            style="width: 14px; display: table-cell; vertical-align: top; padding-right: 3px;">
+                                                                            01</div>
+                                                                        <div
+                                                                            style="display: table-cell; vertical-align: middle;">
+                                                                            <div
+                                                                                style="min-width: 24px; width: 24px; min-height: 24px; height: 24px;">
+                                                                                <div class="paytable_payline payline_01"
+                                                                                    style="display: block; transform: scale(0.5); position: relative; right: 12px; bottom: 12px; min-width: 48px; width: 48px; min-height: 48px; height: 48px; background-position: -1px -1px;">
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                                <td align="center" colspan="1" rowspan="1"
+                                                                    style="padding-bottom: 0px; vertical-align: middle; padding-right: 17px;">
+                                                                    <div
+                                                                        style="display: table; border-collapse: collapse;">
+                                                                        <div
+                                                                            style="width: 14px; display: table-cell; vertical-align: top; padding-right: 3px;">
+                                                                            02</div>
+                                                                        <div
+                                                                            style="display: table-cell; vertical-align: middle;">
+                                                                            <div
+                                                                                style="min-width: 24px; width: 24px; min-height: 24px; height: 24px;">
+                                                                                <div class="paytable_payline payline_02"
+                                                                                    style="display: block; transform: scale(0.5); position: relative; right: 12px; bottom: 12px; min-width: 48px; width: 48px; min-height: 48px; height: 48px; background-position: -51px -1px;">
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                                <td align="center" colspan="1" rowspan="1"
+                                                                    style="padding-bottom: 0px; vertical-align: middle; padding-right: 17px;">
+                                                                    <div
+                                                                        style="display: table; border-collapse: collapse;">
+                                                                        <div
+                                                                            style="width: 14px; display: table-cell; vertical-align: top; padding-right: 3px;">
+                                                                            03</div>
+                                                                        <div
+                                                                            style="display: table-cell; vertical-align: middle;">
+                                                                            <div
+                                                                                style="min-width: 24px; width: 24px; min-height: 24px; height: 24px;">
+                                                                                <div class="paytable_payline payline_03"
+                                                                                    style="display: block; transform: scale(0.5); position: relative; right: 12px; bottom: 12px; min-width: 48px; width: 48px; min-height: 48px; height: 48px; background-position: -101px -1px;">
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                                <td align="center" colspan="1" rowspan="1"
+                                                                    style="padding-bottom: 0px; vertical-align: middle; padding-right: 17px;">
+                                                                    <div
+                                                                        style="display: table; border-collapse: collapse;">
+                                                                        <div
+                                                                            style="width: 14px; display: table-cell; vertical-align: top; padding-right: 3px;">
+                                                                            04</div>
+                                                                        <div
+                                                                            style="display: table-cell; vertical-align: middle;">
+                                                                            <div
+                                                                                style="min-width: 24px; width: 24px; min-height: 24px; height: 24px;">
+                                                                                <div class="paytable_payline payline_04"
+                                                                                    style="display: block; transform: scale(0.5); position: relative; right: 12px; bottom: 12px; min-width: 48px; width: 48px; min-height: 48px; height: 48px; background-position: -151px -1px;">
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                                <td align="center" colspan="1" rowspan="1"
+                                                                    style="padding-bottom: 0px; vertical-align: middle;">
+                                                                    <div
+                                                                        style="display: table; border-collapse: collapse;">
+                                                                        <div
+                                                                            style="width: 14px; display: table-cell; vertical-align: top; padding-right: 3px;">
+                                                                            05</div>
+                                                                        <div
+                                                                            style="display: table-cell; vertical-align: middle;">
+                                                                            <div
+                                                                                style="min-width: 24px; width: 24px; min-height: 24px; height: 24px;">
+                                                                                <div class="paytable_payline payline_05"
+                                                                                    style="display: block; transform: scale(0.5); position: relative; right: 12px; bottom: 12px; min-width: 48px; width: 48px; min-height: 48px; height: 48px; background-position: -201px -1px;">
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div id="payline_desc" class="list"
+                                                    style="font-size: 12px; color: rgb(204, 204, 204); padding: 0px; margin: 20px 20px 20px 32px; line-height: normal; text-align: left; list-style-position: outside;">
+                                                    <div
+                                                        style="list-style: none; position: relative; margin-bottom: 12px;">
+                                                        <div
+                                                            style="position: absolute; top: 7px; left: -12px; width: 4px; height: 4px; background-color: rgb(204, 204, 204);">
+                                                        </div>Only the highest win per bet line is paid.
+                                                    </div>
+                                                    <div
+                                                        style="list-style: none; position: relative; margin-bottom: 12px;">
+                                                        <div
+                                                            style="position: absolute; top: 7px; left: -12px; width: 4px; height: 4px; background-color: rgb(204, 204, 204);">
+                                                        </div>Bet lines win if the winning symbols are in succession
+                                                        from the leftmost reel to the right.
+                                                    </div>
+                                                    <div
+                                                        style="list-style: none; position: relative; margin-bottom: 0px;">
+                                                        <div
+                                                            style="position: absolute; top: 7px; left: -12px; width: 4px; height: 4px; background-color: rgb(204, 204, 204);">
+                                                        </div>All wins shown in cash.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="width: inherit;">
+                        <div
+                            style="display: flex; flex-direction: row; justify-content: space-between; align-items: center; padding: 10px 11px; height: 43px; background-color: rgb(40, 40, 52); color: rgb(255, 200, 36);">
+                            <div class="paytable-rules-button-container" style="width: 25px; height: 25px;"></div>
+                            <div
+                                style="white-space: nowrap; text-overflow: ellipsis; overflow: hidden; max-width: 70%; text-align: center; font-size: 18px; padding-top: 0px;">
+                                Paytable</div>
+                            <div class="paytable-rules-button-container"
+                                style="width: 25px; height: 25px; padding-top: 0px;">
+                                <div class="paytable-rules-dismiss-button" tabindex="-1"
+                                    style="display: flex; flex-direction: column; place-content: center; width: inherit; height: inherit;">
+                                    <div class="cross-stroke left"
+                                        style="position: absolute; width: inherit; height: 1px; background-color: rgb(150, 150, 150); transition: all 0.3s ease 0s; transform: rotate(45deg);">
+                                    </div>
+                                    <div class="cross-stroke right"
+                                        style="position: absolute; width: inherit; height: 1px; background-color: rgb(150, 150, 150); transition: all 0.3s ease 0s; transform: rotate(135deg);">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            style="width: inherit; height: 2px; opacity: 0.25; background-image: linear-gradient(black, transparent);">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,233 @@
+    .game-rules-tinted-sprite {
+        background-image: url(4.png);
+        background-repeat: no-repeat;
+        background-size: 422px 502px;
+        display: inline-block;
+        overflow: hidden
+    }
+
+    .game-rules-btn_add {
+        background-position: -1px -1px;
+        height: 108px;
+        min-height: 108px;
+        min-width: 108px;
+        width: 108px
+    }
+
+    .game-rules-btn_close {
+        background-position: -331px -167px;
+        height: 60px;
+        min-height: 60px;
+        min-width: 60px;
+        width: 60px
+    }
+
+    .game-rules-btn_menu {
+        background-position: -331px -1px;
+        height: 90px;
+        min-height: 90px;
+        min-width: 90px;
+        width: 90px
+    }
+
+    .game-rules-btn_minus {
+        background-position: -1px -111px
+    }
+
+    .game-rules-btn_minus,
+    .game-rules-center_autoplay {
+        height: 108px;
+        min-height: 108px;
+        min-width: 108px;
+        width: 108px
+    }
+
+    .game-rules-center_autoplay {
+        background-position: -1px -221px
+    }
+
+    .game-rules-center_turbo_on {
+        background-position: -1px -331px;
+        height: 108px;
+        min-height: 108px;
+        min-width: 108px;
+        width: 108px
+    }
+
+    .game-rules-ic_chip {
+        background-position: -331px -229px;
+        height: 60px;
+        min-height: 60px;
+        min-width: 60px;
+        width: 60px
+    }
+
+    .game-rules-ic_close {
+        background-position: -111px -1px;
+        height: 108px;
+        min-height: 108px;
+        min-width: 108px;
+        width: 108px
+    }
+
+    .game-rules-ic_coupon {
+        background-position: -331px -291px
+    }
+
+    .game-rules-ic_coupon,
+    .game-rules-ic_free_game {
+        height: 60px;
+        min-height: 60px;
+        min-width: 60px;
+        width: 60px
+    }
+
+    .game-rules-ic_free_game {
+        background-position: -331px -353px
+    }
+
+    .game-rules-ic_hist {
+        background-position: -111px -111px
+    }
+
+    .game-rules-ic_hist,
+    .game-rules-ic_nav_calender {
+        height: 108px;
+        min-height: 108px;
+        min-width: 108px;
+        width: 108px
+    }
+
+    .game-rules-ic_nav_calender {
+        background-position: -111px -221px
+    }
+
+    .game-rules-ic_nav_maxbet {
+        background-position: -331px -415px;
+        height: 60px;
+        min-height: 60px;
+        min-width: 60px;
+        width: 60px
+    }
+
+    .game-rules-ic_paytable {
+        background-position: -111px -331px;
+        height: 108px;
+        min-height: 108px;
+        min-width: 108px;
+        width: 108px
+    }
+
+    .game-rules-ic_rollover {
+        background-position: -1px -441px;
+        height: 60px;
+        min-height: 60px;
+        min-width: 60px;
+        width: 60px
+    }
+
+    .game-rules-ic_rule {
+        background-position: -221px -1px;
+        height: 108px;
+        min-height: 108px;
+        min-width: 108px;
+        width: 108px
+    }
+
+    .game-rules-ic_sound {
+        background-position: -63px -441px;
+        height: 60px;
+        min-height: 60px;
+        min-width: 60px;
+        width: 60px
+    }
+
+    .game-rules-ic_soundon {
+        background-position: -221px -111px;
+        height: 108px;
+        min-height: 108px;
+        min-width: 108px;
+        width: 108px
+    }
+
+    .game-rules-ic_spin {
+        background-position: -125px -441px
+    }
+
+    .game-rules-ic_spin,
+    .game-rules-ic_wallet_open {
+        height: 60px;
+        min-height: 60px;
+        min-width: 60px;
+        width: 60px
+    }
+
+    .game-rules-ic_wallet_open {
+        background-position: -187px -441px
+    }
+
+    .game-rules-ic_win {
+        background-position: -249px -441px;
+        height: 60px;
+        min-height: 60px;
+        min-width: 60px;
+        width: 60px
+    }
+
+    .game-rules-menu_close_button {
+        background-position: -331px -93px;
+        height: 72px;
+        min-height: 72px;
+        min-width: 72px;
+        width: 72px
+    }
+
+    .game-rules-txt_auto {
+        background-position: -221px -221px
+    }
+
+    .game-rules-txt_auto,
+    .game-rules-txt_turbo_on {
+        height: 108px;
+        left: 0;
+        min-height: 108px;
+        min-width: 108px;
+        position: absolute;
+        width: 108px
+    }
+
+    .game-rules-txt_turbo_on {
+        background-position: -221px -331px
+    }
+
+    .game-rules-sprite {
+        overflow: hidden;
+        display: inline-block;
+        background-image: url(3.png);
+        background-repeat: no-repeat;
+        background-size: 422px 502px;
+    }
+
+    .rules_img {
+        background-image: url(1.png);
+        background-repeat: no-repeat;
+        background-size: 220px 110px;
+        display: inline-block;
+        overflow: hidden
+    }
+
+    .btn_start {
+        background-position: -1px -1px;
+        height: 108px;
+        min-height: 108px;
+        min-width: 108px;
+        width: 108px
+    }
+
+    .btn_stop {
+        background-position: -111px -1px;
+        height: 108px;
+        min-height: 108px;
+        min-width: 108px;
+        width: 108px
+    }

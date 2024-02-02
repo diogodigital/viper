@@ -1,0 +1,245 @@
+{
+    "success": true,
+    "data": {
+        "credit": 622947.6,
+        "freemode": false,
+        "jackpot": 0,
+        "free_spin": 0,
+        "free_num": 0,
+        "scaler": 0,
+        "num_line": 20,
+        "bet_amount": 10,
+        "pull": {
+            "WinAmount": 100,
+            "WinOnDrop": 2500,
+            "TotalWay": 243,
+            "FreeSpin": 0,
+            "LastMultiply": 3,
+            "WildFixedIcons": [],
+            "HasJackpot": false,
+            "HasScatter": false,
+            "CountScatter": 0,
+            "WildColumIcon": "",
+            "MultipyScatter": 0,
+            "MultiplyCount": 2,
+            "SlotIcons": [
+                "Symbol_4",
+                "Symbol_7",
+                "Symbol_4",
+                "Symbol_6",
+                "Symbol_6",
+                "Symbol_5",
+                "Symbol_5",
+                "Symbol_5",
+                "Symbol_0",
+                "Symbol_6",
+                "Symbol_3",
+                "Symbol_7",
+                "Symbol_4",
+                "Symbol_5",
+                "Symbol_2"
+            ],
+            "ActiveIcons": [
+                6,
+                7,
+                8,
+                9
+            ],
+            "ActiveLines": [
+                {
+                    "index": 1,
+                    "name": "Symbol_5",
+                    "combine": 4,
+                    "way_243": 1,
+                    "payout": 25,
+                    "multiply": 1,
+                    "win_amount": 2500,
+                    "active_icon": [
+                        6,
+                        7,
+                        8,
+                        9
+                    ]
+                }
+            ],
+            "WinLogs": [
+                "[BET] betLevel: 10, betSize:10, baseBet:20.00 => 2000",
+                "[WIN] line 1: 4[Symbol_5] payout: 25 (*multipy:1) x 10 x 10 => 2500"
+            ],
+            "DropLine": 3,
+            "DropLineData": [
+                {
+                    "WinOnDrop": 1600,
+                    "TotalWay": 1,
+                    "SlotIcons": [
+                        "Symbol_7",
+                        "Symbol_5",
+                        "Symbol_0",
+                        "Symbol_0",
+                        "Symbol_6",
+                        "Symbol_4",
+                        "Symbol_7",
+                        "Symbol_4",
+                        "Symbol_6",
+                        "Symbol_6",
+                        "Symbol_3",
+                        "Symbol_7",
+                        "Symbol_4",
+                        "Symbol_5",
+                        "Symbol_2"
+                    ],
+                    "ActiveIcons": [
+                        1,
+                        7,
+                        3,
+                        12
+                    ],
+                    "ActiveLines": [
+                        {
+                            "index": 16,
+                            "name": "Symbol_7",
+                            "combine": 3,
+                            "way_243": 1,
+                            "payout": 4,
+                            "multiply": 2,
+                            "win_amount": 800,
+                            "active_icon": [
+                                1,
+                                7,
+                                3
+                            ]
+                        },
+                        {
+                            "index": 20,
+                            "name": "Symbol_7",
+                            "combine": 3,
+                            "way_243": 1,
+                            "payout": 4,
+                            "multiply": 2,
+                            "win_amount": 800,
+                            "active_icon": [
+                                1,
+                                12,
+                                3
+                            ]
+                        }
+                    ],
+                    "WinLogs": [
+                        "DROP[1] [WIN] line 16: 3[Symbol_7] payout: 4 (*multipy:2) x 10 x 10 => 800",
+                        "DROP[1] [WIN] line 20: 3[Symbol_7] payout: 4 (*multipy:2) x 10 x 10 => 800"
+                    ]
+                },
+                {
+                    "WinOnDrop": 34500,
+                    "TotalWay": 1,
+                    "SlotIcons": [
+                        "Symbol_4",
+                        "Symbol_4",
+                        "Symbol_6",
+                        "Symbol_0",
+                        "Symbol_6",
+                        "Symbol_4",
+                        "Symbol_6",
+                        "Symbol_4",
+                        "Symbol_6",
+                        "Symbol_6",
+                        "Symbol_3",
+                        "Symbol_5",
+                        "Symbol_4",
+                        "Symbol_5",
+                        "Symbol_2"
+                    ],
+                    "ActiveIcons": [
+                        1,
+                        2,
+                        8,
+                        4,
+                        6
+                    ],
+                    "ActiveLines": [
+                        {
+                            "index": 6,
+                            "name": "Symbol_4",
+                            "combine": 4,
+                            "way_243": 1,
+                            "payout": 50,
+                            "multiply": 3,
+                            "win_amount": 15000,
+                            "active_icon": [
+                                1,
+                                2,
+                                8,
+                                4
+                            ]
+                        },
+                        {
+                            "index": 14,
+                            "name": "Symbol_4",
+                            "combine": 4,
+                            "way_243": 1,
+                            "payout": 50,
+                            "multiply": 3,
+                            "win_amount": 15000,
+                            "active_icon": [
+                                6,
+                                2,
+                                8,
+                                4
+                            ]
+                        },
+                        {
+                            "index": 18,
+                            "name": "Symbol_4",
+                            "combine": 3,
+                            "way_243": 1,
+                            "payout": 15,
+                            "multiply": 3,
+                            "win_amount": 4500,
+                            "active_icon": [
+                                1,
+                                2,
+                                8
+                            ]
+                        }
+                    ],
+                    "WinLogs": [
+                        "DROP[2] [WIN] line 6: 4[Symbol_4] payout: 50 (*multipy:3) x 10 x 10 => 15000",
+                        "DROP[2] [WIN] line 14: 4[Symbol_4] payout: 50 (*multipy:3) x 10 x 10 => 15000",
+                        "DROP[2] [WIN] line 18: 3[Symbol_4] payout: 15 (*multipy:3) x 10 x 10 => 4500"
+                    ]
+                },
+                {
+                    "WinOnDrop": 0,
+                    "TotalWay": 1,
+                    "SlotIcons": [
+                        "Symbol_5",
+                        "Symbol_5",
+                        "Symbol_8",
+                        "Symbol_6",
+                        "Symbol_6",
+                        "Symbol_3",
+                        "Symbol_6",
+                        "Symbol_6",
+                        "Symbol_6",
+                        "Symbol_6",
+                        "Symbol_3",
+                        "Symbol_5",
+                        "Symbol_4",
+                        "Symbol_5",
+                        "Symbol_2"
+                    ],
+                    "ActiveIcons": [],
+                    "ActiveLines": [],
+                    "WinLogs": []
+                }
+            ],
+            "MultipleList": [
+                1,
+                2,
+                3,
+                5
+            ]
+        }
+    },
+    "message": "Spin success"
+}

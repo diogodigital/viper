@@ -1,0 +1,478 @@
+/* id="$CSS-Game-5 */
+.cb2_symbol_sprite {
+    background-image: url(15.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    overflow: hidden
+}
+.s_Symbol_2,
+.compass {
+    height: 144px;
+    width: 144px;
+    background-position: -729px -1px
+}
+
+.s_Symbol_3 {
+    background-position: -294px -1px
+}
+
+.s_Symbol_3,
+.compass {
+    height: 144px;
+    width: 144px
+}
+
+.s_Symbol_4,
+.compass {
+    height: 144px;
+    width: 144px;
+    background-position: -146px -1px
+}
+
+.s_Symbol_5 {
+    background-position: -585px -1px
+}
+
+.s_Symbol_5,
+.s_Symbol_6 {
+    height: 144px;
+    width: 144px
+}
+
+.s_Symbol_6 {
+    background-position: -1px -1px
+}
+
+.s_Symbol_7,
+.compass {
+    height: 144px;
+    width: 144px;
+    background-position: -441px -1px
+}
+
+.s_Symbol_8,
+.pirate {
+    height: 144px;
+    width: 144px
+}
+
+.s_Symbol_8 {
+    background-position: -870px -1px
+}
+
+.s_Symbol_9 {
+    background-position: -877px -1px;
+    height: 144px;
+    width: 144px
+}
+
+
+/* id="$CSS-Game-4 */
+.cb2_number_sprite {
+    background-image: url(32.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    overflow: hidden
+}
+
+.grey_0 {
+    background-position: -522px -1px;
+    height: 51px;
+    width: 35px
+}
+
+.grey_1 {
+    background-position: -738px -1px;
+    height: 49px;
+    width: 22px
+}
+
+.grey_2 {
+    background-position: -559px -1px;
+    height: 51px;
+    width: 34px
+}
+
+.grey_3 {
+    background-position: -700px -1px;
+    height: 49px;
+    width: 36px
+}
+
+.grey_4 {
+    background-position: -408px -1px;
+    height: 51px;
+    width: 36px
+}
+
+.grey_5 {
+    background-position: -667px -1px;
+    height: 51px;
+    width: 31px
+}
+
+.grey_6 {
+    background-position: -446px -1px
+}
+
+.grey_6,
+.grey_7 {
+    height: 51px;
+    width: 36px
+}
+
+.grey_7 {
+    background-position: -484px -1px
+}
+
+.grey_8 {
+    background-position: -595px -1px
+}
+
+.grey_8,
+.grey_9 {
+    height: 51px;
+    width: 34px
+}
+
+.grey_9 {
+    background-position: -631px -1px
+}
+
+.grey_12 {
+    height: 58px;
+    width: 50px
+}
+
+.grey_12 {
+    background-position: -796px 8px
+}
+
+.grey_18 {
+    height: 58px;
+    width: 50px
+}
+
+.grey_18 {
+    background-position: -850px 6px
+}
+
+.grey_20 {
+    height: 51px;
+    width: 60px
+}
+
+.grey_20 {
+    background-position: -900px -1px
+}
+.grey_40 {
+    height: 58px;
+    width: 60px
+}
+
+.grey_40 {
+    background-position: -968px -1px
+}
+
+.grey_x {
+    background-position: -762px -35px;
+    height: 22px;
+    width: 23px
+}
+
+.yellow_0 {
+    background-position: -169px -1px;
+    height: 56px;
+    width: 40px
+}
+
+.yellow_1 {
+    background-position: -376px -1px;
+    height: 56px;
+    width: 30px
+}
+
+.yellow_2 {
+    background-position: -1px -1px;
+    height: 58px;
+    width: 40px
+}
+
+.yellow_3 {
+    background-position: -211px -1px
+}
+
+.yellow_3,
+.yellow_4 {
+    height: 56px;
+    width: 40px
+}
+
+.yellow_4 {
+    background-position: -253px -1px
+}
+
+.yellow_5 {
+    background-position: -336px -1px;
+    height: 56px;
+    width: 38px
+}
+
+.yellow_6 {
+    background-position: -127px -1px;
+    height: 57px;
+    width: 40px
+}
+
+.yellow_7 {
+    background-position: -295px -1px;
+    height: 56px;
+    width: 39px
+}
+
+.yellow_8 {
+    background-position: -43px -1px
+}
+
+.yellow_8,
+.yellow_9 {
+    height: 58px;
+    width: 40px
+}
+
+.yellow_9 {
+    background-position: -85px -1px
+}
+
+.yellow_12 {
+    height: 58px;
+    width: 50px
+}
+
+.yellow_12 {
+    background-position: -1030px 8px
+}
+
+.yellow_18 {
+    height: 58px;
+    width: 50px
+}
+
+.yellow_18 {
+    background-position: -1084px 6px
+}
+
+.yellow_20 {
+    height: 58px;
+    width: 60px
+}
+
+.yellow_20 {
+    background-position: -1136px -1px
+}
+.yellow_40 {
+    height: 58px;
+    width: 60px
+}
+
+.yellow_40 {
+    background-position: -1198px -1px
+}
+
+.yellow_x {
+    background-position: -762px -1px;
+    height: 32px;
+    width: 31px
+}
+
+
+/* id="$CSS-Game-3 */
+.cb2_general_sprite {
+    background-image: url(13.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    overflow: hidden
+}
+
+.bonus_multi_bar {
+    background-position: -63px -1px;
+    height: 76px;
+    width: 243px
+}
+
+.multi_bar {
+    background-position: -1px -79px;
+    height: 76px;
+    width: 243px
+}
+
+.red_highlight {
+    background-position: -1px -1px;
+    height: 60px;
+    width: 60px
+}
+
+.reel {
+    background-position: -1px -157px;
+    height: 181px;
+    width: 300px
+}
+
+/* id="$CSS-Game-2 */
+.cb2_symbol_lang_sprite {
+    background-image: url(11.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    overflow: hidden
+}
+
+.s_Symbol_1 {
+    background-position: -1px -1px
+}
+
+.s_Symbol_1,
+.s_Symbol_0 {
+    height: 144px;
+    width: 144px
+}
+
+.s_Symbol_0 {
+    background-position: -147px -1px
+}
+
+/* id="$CSS-Game-1 */
+
+.cb2_payline_sprite {
+    background-image: url(10.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    overflow: hidden
+}
+
+.payline_1 {
+    background-position: -1px -1px;
+    height: 48px;
+    width: 76px
+}
+
+.payline_2 {
+    background-position: -79px -1px;
+    height: 48px;
+    width: 76px
+}
+
+.payline_3 {
+    background-position: -157px -1px;
+    height: 48px;
+    width: 76px
+}
+
+.payline_4 {
+    background-position: -235px -1px;
+    height: 48px;
+    width: 76px
+}
+
+.payline_5 {
+    background-position: -313px -1px;
+    height: 48px;
+    width: 76px
+}
+
+.payline_6 {
+    background-position: -391px -1px;
+    height: 48px;
+    width: 76px
+}
+
+.payline_7 {
+    background-position: -469px -1px;
+    height: 48px;
+    width: 76px
+}
+
+.payline_8 {
+    background-position: -547px -1px;
+    height: 48px;
+    width: 76px
+}
+
+.payline_9 {
+    background-position: -625px -1px;
+    height: 48px;
+    width: 76px
+}
+
+.payline_10 {
+    background-position: -703px -1px;
+    height: 48px;
+    width: 76px
+}
+
+.payline_11 {
+    background-position: -781px -1px;
+    height: 48px;
+    width: 76px
+}
+
+.payline_12 {
+    background-position: -859px -1px;
+    height: 48px;
+    width: 76px
+}
+
+.payline_13 {
+    background-position: -937px -1px;
+    height: 48px;
+    width: 76px
+}
+
+.payline_14 {
+    background-position: -1015px -1px;
+    height: 48px;
+    width: 76px
+}
+
+.payline_15 {
+    background-position: -1093px -1px;
+    height: 48px;
+    width: 76px
+}
+
+.payline_16 {
+    background-position: -1171px -1px;
+    height: 48px;
+    width: 76px
+}
+
+.payline_17 {
+    background-position: -1249px -1px;
+    height: 48px;
+    width: 76px
+}
+
+.payline_18 {
+    background-position: -1327px -1px;
+    height: 48px;
+    width: 76px
+}
+
+.payline_19 {
+    background-position: -1405px -1px;
+    height: 48px;
+    width: 76px
+}
+
+.payline_20 {
+    background-position: -1483px -1px;
+    height: 48px;
+    width: 76px
+}
+
+[id=tooltip]{
+visibility: hidden;
+}
+
+div[data-descr]:focus + [id="tooltip"] {
+	visibility: visible;
+}

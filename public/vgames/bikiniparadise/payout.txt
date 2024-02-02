@@ -1,0 +1,353 @@
+.paytable_feature_03 {
+    background-image: url(2.png);
+    background-position: -1px -1px;
+    background-repeat: no-repeat;
+    background-size: 462px 326px;
+    display: inline-block;
+    height: 324px;
+    min-height: 324px;
+    min-width: 460px;
+    overflow: hidden;
+    width: 460px
+}
+
+.paytable_special_symbol {
+    background-image: url(0.png);
+    background-position: -1px -1px;
+    background-repeat: no-repeat;
+    background-size: 168px 199px;
+    display: inline-block;
+    height: 197px;
+    min-height: 197px;
+    min-width: 166px;
+    overflow: hidden;
+    width: 166px
+}
+
+.paytable_normal_symbol {
+    background-image: url(7.png);
+    background-repeat: no-repeat;
+    background-size: 1060px 424px;
+    display: inline-block;
+    overflow: hidden
+}
+
+.paytable_normal_symbol.h_cocktail {
+    background-position: -1px -1px;
+    height: 210px;
+    min-height: 210px;
+    min-width: 210px;
+    width: 210px
+}
+
+.paytable_normal_symbol.h_starfish {
+    background-position: -1px -213px;
+    height: 210px;
+    min-height: 210px;
+    min-width: 210px;
+    width: 210px
+}
+
+.paytable_normal_symbol.h_sunglasses {
+    background-position: -213px -1px;
+    height: 210px;
+    min-height: 210px;
+    min-width: 210px;
+    width: 210px
+}
+
+.paytable_normal_symbol.h_surfboard {
+    background-position: -213px -213px;
+    height: 210px;
+    min-height: 210px;
+    min-width: 210px;
+    width: 210px
+}
+
+.paytable_normal_symbol.h_towel {
+    background-position: -425px -1px;
+    height: 210px;
+    min-height: 210px;
+    min-width: 210px;
+    width: 210px
+}
+
+.paytable_normal_symbol.l_10 {
+    background-position: -425px -213px;
+    height: 210px;
+    min-height: 210px;
+    min-width: 210px;
+    width: 210px
+}
+
+.paytable_normal_symbol.l_a {
+    background-position: -637px -1px;
+    height: 210px;
+    min-height: 210px;
+    min-width: 210px;
+    width: 210px
+}
+
+.paytable_normal_symbol.l_j {
+    background-position: -637px -213px;
+    height: 210px;
+    min-height: 210px;
+    min-width: 210px;
+    width: 210px
+}
+
+.paytable_normal_symbol.l_k {
+    background-position: -849px -1px;
+    height: 210px;
+    min-height: 210px;
+    min-width: 210px;
+    width: 210px
+}
+
+.paytable_normal_symbol.l_q {
+    background-position: -849px -213px;
+    height: 210px;
+    min-height: 210px;
+    min-width: 210px;
+    width: 210px
+}
+
+.paytable_feature {
+    background-image: url(10.png);
+    background-repeat: no-repeat;
+    background-size: 1308px 495px;
+    display: inline-block;
+    overflow: hidden
+}
+
+.paytable_feature_01 {
+    background-position: -763px -1px;
+    height: 366px;
+    min-height: 366px;
+    min-width: 544px;
+    width: 544px
+}
+
+.paytable_feature_02 {
+    background-position: -1px -1px;
+    height: 493px;
+    min-height: 493px;
+    min-width: 460px;
+    width: 460px
+}
+
+.paytable_feature_04 {
+    background-position: -463px -1px;
+    height: 458px;
+    min-height: 458px;
+    min-width: 298px;
+    width: 298px
+}
+
+.paytable_payline {
+    background-image: url(6.png);
+    background-repeat: no-repeat;
+    background-size: 1000px 33px;
+    display: inline-block;
+    overflow: hidden
+}
+
+.paytable_payline.payline_01 {
+    background-position: -1px -1px;
+    height: 31px;
+    min-height: 31px;
+    min-width: 38px;
+    width: 38px
+}
+
+.paytable_payline.payline_02 {
+    background-position: -41px -1px;
+    height: 31px;
+    min-height: 31px;
+    min-width: 38px;
+    width: 38px
+}
+
+.paytable_payline.payline_03 {
+    background-position: -81px -1px;
+    height: 31px;
+    min-height: 31px;
+    min-width: 38px;
+    width: 38px
+}
+
+.paytable_payline.payline_04 {
+    background-position: -121px -1px;
+    height: 31px;
+    min-height: 31px;
+    min-width: 38px;
+    width: 38px
+}
+
+.paytable_payline.payline_05 {
+    background-position: -161px -1px;
+    height: 31px;
+    min-height: 31px;
+    min-width: 38px;
+    width: 38px
+}
+
+.paytable_payline.payline_06 {
+    background-position: -201px -1px;
+    height: 31px;
+    min-height: 31px;
+    min-width: 38px;
+    width: 38px
+}
+
+.paytable_payline.payline_07 {
+    background-position: -241px -1px;
+    height: 31px;
+    min-height: 31px;
+    min-width: 38px;
+    width: 38px
+}
+
+.paytable_payline.payline_08 {
+    background-position: -281px -1px;
+    height: 31px;
+    min-height: 31px;
+    min-width: 38px;
+    width: 38px
+}
+
+.paytable_payline.payline_09 {
+    background-position: -321px -1px;
+    height: 31px;
+    min-height: 31px;
+    min-width: 38px;
+    width: 38px
+}
+
+.paytable_payline.payline_10 {
+    background-position: -361px -1px;
+    height: 31px;
+    min-height: 31px;
+    min-width: 38px;
+    width: 38px
+}
+
+.paytable_payline.payline_11 {
+    background-position: -401px -1px;
+    height: 31px;
+    min-height: 31px;
+    min-width: 38px;
+    width: 38px
+}
+
+.paytable_payline.payline_12 {
+    background-position: -441px -1px;
+    height: 31px;
+    min-height: 31px;
+    min-width: 38px;
+    width: 38px
+}
+
+.paytable_payline.payline_13 {
+    background-position: -481px -1px;
+    height: 31px;
+    min-height: 31px;
+    min-width: 38px;
+    width: 38px
+}
+
+.paytable_payline.payline_14 {
+    background-position: -521px -1px;
+    height: 31px;
+    min-height: 31px;
+    min-width: 38px;
+    width: 38px
+}
+
+.paytable_payline.payline_15 {
+    background-position: -561px -1px;
+    height: 31px;
+    min-height: 31px;
+    min-width: 38px;
+    width: 38px
+}
+
+.paytable_payline.payline_16 {
+    background-position: -601px -1px;
+    height: 31px;
+    min-height: 31px;
+    min-width: 38px;
+    width: 38px
+}
+
+.paytable_payline.payline_17 {
+    background-position: -641px -1px;
+    height: 31px;
+    min-height: 31px;
+    min-width: 38px;
+    width: 38px
+}
+
+.paytable_payline.payline_18 {
+    background-position: -681px -1px;
+    height: 31px;
+    min-height: 31px;
+    min-width: 38px;
+    width: 38px
+}
+
+.paytable_payline.payline_19 {
+    background-position: -721px -1px;
+    height: 31px;
+    min-height: 31px;
+    min-width: 38px;
+    width: 38px
+}
+
+.paytable_payline.payline_20 {
+    background-position: -761px -1px;
+    height: 31px;
+    min-height: 31px;
+    min-width: 38px;
+    width: 38px
+}
+
+.paytable_payline.payline_21 {
+    background-position: -801px -1px;
+    height: 31px;
+    min-height: 31px;
+    min-width: 38px;
+    width: 38px
+}
+
+.paytable_payline.payline_22 {
+    background-position: -841px -1px;
+    height: 31px;
+    min-height: 31px;
+    min-width: 38px;
+    width: 38px
+}
+
+.paytable_payline.payline_23 {
+    background-position: -881px -1px;
+    height: 31px;
+    min-height: 31px;
+    min-width: 38px;
+    width: 38px
+}
+
+.paytable_payline.payline_24 {
+    background-position: -921px -1px;
+    height: 31px;
+    min-height: 31px;
+    min-width: 38px;
+    width: 38px
+}
+
+.paytable_payline.payline_25 {
+    background-position: -961px -1px;
+    height: 31px;
+    min-height: 31px;
+    min-width: 38px;
+    width: 38px
+}

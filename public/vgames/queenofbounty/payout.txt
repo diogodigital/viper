@@ -1,0 +1,259 @@
+/* paytable-asset-css */
+.paytable_feature {
+    display:inline-block;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: 602px 386px;
+    background-image: url(59.png);
+    
+}
+
+
+.paytable_feature.feat_freespins {
+    width: 600px;
+    min-width: 600px;
+    height: 246px;
+    min-height: 246px;
+    background-position: -1px -1px;
+}
+
+.paytable_feature.feat_multiplier {
+    width: 600px;
+    min-width: 600px;
+    height: 136px;
+    min-height: 136px;
+    background-position: -1px -249px;
+}
+
+
+
+.paytable_feature_localized {
+    display:inline-block;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: 602px 750px;
+    background-image: url(84e5c48f-c0e9-4bdf-9bae-8047a431834f.png);
+    
+}
+
+
+.paytable_feature_localized.feat_wildsontheway {
+    width: 600px;
+    min-width: 600px;
+    height: 488px;
+    min-height: 488px;
+    background-position: -1px -1px;
+}
+
+.paytable_feature_localized.feat_wildsontheway2 {
+    width: 600px;
+    min-width: 600px;
+    height: 258px;
+    min-height: 258px;
+    background-position: -1px -491px;
+}
+
+
+
+
+
+
+.paytable_ways.cross-243 {
+    width: 40px;
+    min-width: 40px;
+    height: 40px;
+    min-height: 40px;
+    background-position: -485px -183px;
+}
+
+.paytable_ways.megaways-pic1 {
+    width: 400px;
+    min-width: 240px;
+    height: 242px;
+    min-height: 242px;
+    background-position: -1px -1px;
+}
+
+.paytable_ways.megaways-pic2 {
+    width: 240px;
+    min-width: 240px;
+    height: 242px;
+    min-height: 242px;
+    background-position: -243px -1px;
+}
+
+.paytable_ways.questionmark {
+    width: 156px;
+    min-width: 156px;
+    height: 180px;
+    min-height: 180px;
+    background-position: -485px -1px;
+}
+
+.paytable_ways.tick-243 {
+    width: 48px;
+    min-width: 48px;
+    height: 36px;
+    min-height: 36px;
+    background-position: -527px -183px;
+}
+
+
+
+.paytable_special_symbols {
+    display:inline-block;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: 260px 130px;
+    background-image: url(2.png);
+    
+}
+
+
+.paytable_special_symbols.s_scatter {
+    width: 128px;
+    min-width: 128px;
+    height: 128px;
+    min-height: 128px;
+    background-position: -1px -1px;
+}
+
+.paytable_special_symbols.s_wild {
+    width: 128px;
+    min-width: 128px;
+    height: 128px;
+    min-height: 128px;
+    background-position: -131px -1px;
+}
+
+
+
+.paytable_symbols {
+    display:inline-block;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: 1430px 130px;
+    background-image: url(39.png);
+    
+}
+
+
+.paytable_symbols.h_brown_mask {
+    width: 128px;
+    min-width: 128px;
+    height: 128px;
+    min-height: 128px;
+    background-position: -1298px 7px;
+}
+
+.paytable_symbols.h_flower {
+    width: 128px;
+    min-width: 128px;
+    height: 128px;
+    min-height: 128px;
+    background-position: -316px 7px;
+}
+
+.paytable_symbols.h_grass {
+    width: 128px;
+    min-width: 128px;
+    height: 128px;
+    min-height: 128px;
+    background-position: -484px 7px;
+}
+
+.paytable_symbols.h_purple {
+    width: 128px;
+    min-width: 128px;
+    height: 128px;
+    min-height: 128px;
+    background-position: -167px 7px;
+}
+
+.paytable_symbols.h_red_mask {
+    width: 128px;
+    min-width: 128px;
+    height: 128px;
+    min-height: 128px;
+    background-position: -1138px 4px;
+}
+
+.paytable_symbols.h_redviolet {
+    width: 128px;
+    min-width: 128px;
+    height: 128px;
+    min-height: 128px;
+    background-position: 0px 0px;
+}
+
+.paytable_symbols.l_10 {
+    width: 128px;
+    min-width: 128px;
+    height: 128px;
+    min-height: 128px;
+    background-position: -781px -1px;
+}
+
+.paytable_symbols.l_a {
+    width: 128px;
+    min-width: 128px;
+    height: 128px;
+    min-height: 128px;
+    background-position: -796px 7px;
+}
+
+.paytable_symbols.l_j {
+    width: 128px;
+    min-width: 128px;
+    height: 128px;
+    min-height: 128px;
+    background-position: -1041px -1px;
+}
+
+.paytable_symbols.l_k {
+    width: 128px;
+    min-width: 128px;
+    height: 128px;
+    min-height: 128px;
+    background-position: -1171px -1px;
+}
+
+.paytable_symbols.l_q {
+    width: 128px;
+    min-width: 128px;
+    height: 128px;
+    min-height: 128px;
+    background-position: -1301px -1px;
+}
+
+
+
+.paytable_feature_featurebuy {
+    display:inline-block;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: 602px 132px;
+    background-image: url(21ae1d43-b79b-47d9-b541-f10e450c4bda.png);
+    
+    width: 600px;
+    min-width: 600px;
+    height: 130px;
+    min-height: 130px;
+    background-position: -1px -1px;
+    
+}
+
+.paytable_ways {
+    display:inline-block;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: 642px 244px;
+    background-image: url(66.png);
+
+    width: 600px;
+    min-width: 600px;
+    height: 130px;
+    min-height: 130px;
+    background-position: -1px -1px;
+    
+}
