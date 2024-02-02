@@ -1,5 +1,6 @@
-<p align="center"><a href="https://viperpro.casino/" target="_blank"><img src="https://uploaddeimagens.com.br/images/004/730/257/full/logo-viper.png?1706895516" width="400" alt="Viper Logo"></a></p>
+<p align="center"><a href="https://viper.casino/" target="_blank"><img src="https://uploaddeimagens.com.br/images/004/730/516/original/77HurxHeGIwbNfvJYzR4BTuQiNVEBlVIPdNGKYij.png?1706910392" width="400" alt="Viper Logo"></a></p>
 
+<p align="center"><a href="https://viper.casino/" target="_blank"><img src="https://uploaddeimagens.com.br/images/004/730/515/full/viper2.png?1706910312" width="600" alt="Viper Logo"></a></p>
 
 ## Sobre a Viper
 
